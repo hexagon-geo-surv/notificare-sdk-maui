@@ -1,0 +1,2777 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareKit",
+        "printedName": "NotificareKit",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificareInbox",
+        "printedName": "NotificareInbox",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any NotificareInboxKit.NotificareInboxDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificareInboxDelegate",
+                    "printedName": "any NotificareInboxKit.NotificareInboxDelegate",
+                    "usr": "s:18NotificareInboxKit0aB8DelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18NotificareInboxKit0aB0P8delegateAA0aB8Delegate_pSgvp",
+            "mangledName": "$s18NotificareInboxKit0aB0P8delegateAA0aB8Delegate_pSgvp",
+            "moduleName": "NotificareInboxKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any NotificareInboxKit.NotificareInboxDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotificareInboxDelegate",
+                        "printedName": "any NotificareInboxKit.NotificareInboxDelegate",
+                        "usr": "s:18NotificareInboxKit0aB8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18NotificareInboxKit0aB0P8delegateAA0aB8Delegate_pSgvg",
+                "mangledName": "$s18NotificareInboxKit0aB0P8delegateAA0aB8Delegate_pSgvg",
+                "moduleName": "NotificareInboxKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : NotificareInboxKit.NotificareInbox>",
+                "sugared_genericSig": "<Self where Self : NotificareInboxKit.NotificareInbox>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any NotificareInboxKit.NotificareInboxDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotificareInboxDelegate",
+                        "printedName": "any NotificareInboxKit.NotificareInboxDelegate",
+                        "usr": "s:18NotificareInboxKit0aB8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18NotificareInboxKit0aB0P8delegateAA0aB8Delegate_pSgvs",
+                "mangledName": "$s18NotificareInboxKit0aB0P8delegateAA0aB8Delegate_pSgvs",
+                "moduleName": "NotificareInboxKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : NotificareInboxKit.NotificareInbox>",
+                "sugared_genericSig": "<Self where Self : NotificareInboxKit.NotificareInbox>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18NotificareInboxKit0aB0P8delegateAA0aB8Delegate_pSgvM",
+                "mangledName": "$s18NotificareInboxKit0aB0P8delegateAA0aB8Delegate_pSgvM",
+                "moduleName": "NotificareInboxKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : NotificareInboxKit.NotificareInbox>",
+                "sugared_genericSig": "<Self where Self : NotificareInboxKit.NotificareInbox>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "items",
+            "printedName": "items",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[NotificareInboxKit.NotificareInboxItem]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificareInboxItem",
+                    "printedName": "NotificareInboxKit.NotificareInboxItem",
+                    "usr": "s:18NotificareInboxKit0aB4ItemV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18NotificareInboxKit0aB0P5itemsSayAA0aB4ItemVGvp",
+            "mangledName": "$s18NotificareInboxKit0aB0P5itemsSayAA0aB4ItemVGvp",
+            "moduleName": "NotificareInboxKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[NotificareInboxKit.NotificareInboxItem]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotificareInboxItem",
+                        "printedName": "NotificareInboxKit.NotificareInboxItem",
+                        "usr": "s:18NotificareInboxKit0aB4ItemV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18NotificareInboxKit0aB0P5itemsSayAA0aB4ItemVGvg",
+                "mangledName": "$s18NotificareInboxKit0aB0P5itemsSayAA0aB4ItemVGvg",
+                "moduleName": "NotificareInboxKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : NotificareInboxKit.NotificareInbox>",
+                "sugared_genericSig": "<Self where Self : NotificareInboxKit.NotificareInbox>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "badge",
+            "printedName": "badge",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18NotificareInboxKit0aB0P5badgeSivp",
+            "mangledName": "$s18NotificareInboxKit0aB0P5badgeSivp",
+            "moduleName": "NotificareInboxKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18NotificareInboxKit0aB0P5badgeSivg",
+                "mangledName": "$s18NotificareInboxKit0aB0P5badgeSivg",
+                "moduleName": "NotificareInboxKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : NotificareInboxKit.NotificareInbox>",
+                "sugared_genericSig": "<Self where Self : NotificareInboxKit.NotificareInbox>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "refresh",
+            "printedName": "refresh()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NotificareInboxKit0aB0P7refreshyyF",
+            "mangledName": "$s18NotificareInboxKit0aB0P7refreshyyF",
+            "moduleName": "NotificareInboxKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificareInboxKit.NotificareInbox>",
+            "sugared_genericSig": "<Self where Self : NotificareInboxKit.NotificareInbox>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "refreshBadge",
+            "printedName": "refreshBadge(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Int, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Int, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NotificareInboxKit0aB0P12refreshBadgeyyys6ResultOySis5Error_pGcF",
+            "mangledName": "$s18NotificareInboxKit0aB0P12refreshBadgeyyys6ResultOySis5Error_pGcF",
+            "moduleName": "NotificareInboxKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificareInboxKit.NotificareInbox>",
+            "sugared_genericSig": "<Self where Self : NotificareInboxKit.NotificareInbox>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "refreshBadge",
+            "printedName": "refreshBadge()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NotificareInboxKit0aB0P12refreshBadgeSiyYaKF",
+            "mangledName": "$s18NotificareInboxKit0aB0P12refreshBadgeSiyYaKF",
+            "moduleName": "NotificareInboxKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificareInboxKit.NotificareInbox>",
+            "sugared_genericSig": "<Self where Self : NotificareInboxKit.NotificareInbox>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "open",
+            "printedName": "open(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareInboxItem",
+                "printedName": "NotificareInboxKit.NotificareInboxItem",
+                "usr": "s:18NotificareInboxKit0aB4ItemV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<NotificareKit.NotificareNotification, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<NotificareKit.NotificareNotification, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotificareNotification",
+                        "printedName": "NotificareKit.NotificareNotification",
+                        "usr": "s:13NotificareKit0A12NotificationV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NotificareInboxKit0aB0P4openyyAA0aB4ItemV_ys6ResultOy0aC00A12NotificationVs5Error_pGctF",
+            "mangledName": "$s18NotificareInboxKit0aB0P4openyyAA0aB4ItemV_ys6ResultOy0aC00A12NotificationVs5Error_pGctF",
+            "moduleName": "NotificareInboxKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificareInboxKit.NotificareInbox>",
+            "sugared_genericSig": "<Self where Self : NotificareInboxKit.NotificareInbox>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "open",
+            "printedName": "open(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareNotification",
+                "printedName": "NotificareKit.NotificareNotification",
+                "usr": "s:13NotificareKit0A12NotificationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareInboxItem",
+                "printedName": "NotificareInboxKit.NotificareInboxItem",
+                "usr": "s:18NotificareInboxKit0aB4ItemV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NotificareInboxKit0aB0P4openy0aC00A12NotificationVAA0aB4ItemVYaKF",
+            "mangledName": "$s18NotificareInboxKit0aB0P4openy0aC00A12NotificationVAA0aB4ItemVYaKF",
+            "moduleName": "NotificareInboxKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificareInboxKit.NotificareInbox>",
+            "sugared_genericSig": "<Self where Self : NotificareInboxKit.NotificareInbox>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "markAsRead",
+            "printedName": "markAsRead(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareInboxItem",
+                "printedName": "NotificareInboxKit.NotificareInboxItem",
+                "usr": "s:18NotificareInboxKit0aB4ItemV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NotificareInboxKit0aB0P10markAsReadyyAA0aB4ItemV_ys6ResultOyyts5Error_pGctF",
+            "mangledName": "$s18NotificareInboxKit0aB0P10markAsReadyyAA0aB4ItemV_ys6ResultOyyts5Error_pGctF",
+            "moduleName": "NotificareInboxKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificareInboxKit.NotificareInbox>",
+            "sugared_genericSig": "<Self where Self : NotificareInboxKit.NotificareInbox>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "markAsRead",
+            "printedName": "markAsRead(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareInboxItem",
+                "printedName": "NotificareInboxKit.NotificareInboxItem",
+                "usr": "s:18NotificareInboxKit0aB4ItemV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NotificareInboxKit0aB0P10markAsReadyyAA0aB4ItemVYaKF",
+            "mangledName": "$s18NotificareInboxKit0aB0P10markAsReadyyAA0aB4ItemVYaKF",
+            "moduleName": "NotificareInboxKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificareInboxKit.NotificareInbox>",
+            "sugared_genericSig": "<Self where Self : NotificareInboxKit.NotificareInbox>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "markAllAsRead",
+            "printedName": "markAllAsRead(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NotificareInboxKit0aB0P13markAllAsReadyyys6ResultOyyts5Error_pGcF",
+            "mangledName": "$s18NotificareInboxKit0aB0P13markAllAsReadyyys6ResultOyyts5Error_pGcF",
+            "moduleName": "NotificareInboxKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificareInboxKit.NotificareInbox>",
+            "sugared_genericSig": "<Self where Self : NotificareInboxKit.NotificareInbox>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "markAllAsRead",
+            "printedName": "markAllAsRead()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NotificareInboxKit0aB0P13markAllAsReadyyYaKF",
+            "mangledName": "$s18NotificareInboxKit0aB0P13markAllAsReadyyYaKF",
+            "moduleName": "NotificareInboxKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificareInboxKit.NotificareInbox>",
+            "sugared_genericSig": "<Self where Self : NotificareInboxKit.NotificareInbox>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remove",
+            "printedName": "remove(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareInboxItem",
+                "printedName": "NotificareInboxKit.NotificareInboxItem",
+                "usr": "s:18NotificareInboxKit0aB4ItemV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NotificareInboxKit0aB0P6removeyyAA0aB4ItemV_ys6ResultOyyts5Error_pGctF",
+            "mangledName": "$s18NotificareInboxKit0aB0P6removeyyAA0aB4ItemV_ys6ResultOyyts5Error_pGctF",
+            "moduleName": "NotificareInboxKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificareInboxKit.NotificareInbox>",
+            "sugared_genericSig": "<Self where Self : NotificareInboxKit.NotificareInbox>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remove",
+            "printedName": "remove(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareInboxItem",
+                "printedName": "NotificareInboxKit.NotificareInboxItem",
+                "usr": "s:18NotificareInboxKit0aB4ItemV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NotificareInboxKit0aB0P6removeyyAA0aB4ItemVYaKF",
+            "mangledName": "$s18NotificareInboxKit0aB0P6removeyyAA0aB4ItemVYaKF",
+            "moduleName": "NotificareInboxKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificareInboxKit.NotificareInbox>",
+            "sugared_genericSig": "<Self where Self : NotificareInboxKit.NotificareInbox>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clear",
+            "printedName": "clear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NotificareInboxKit0aB0P5clearyyys6ResultOyyts5Error_pGcF",
+            "mangledName": "$s18NotificareInboxKit0aB0P5clearyyys6ResultOyyts5Error_pGcF",
+            "moduleName": "NotificareInboxKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificareInboxKit.NotificareInbox>",
+            "sugared_genericSig": "<Self where Self : NotificareInboxKit.NotificareInbox>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clear",
+            "printedName": "clear()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NotificareInboxKit0aB0P5clearyyYaKF",
+            "mangledName": "$s18NotificareInboxKit0aB0P5clearyyYaKF",
+            "moduleName": "NotificareInboxKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificareInboxKit.NotificareInbox>",
+            "sugared_genericSig": "<Self where Self : NotificareInboxKit.NotificareInbox>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18NotificareInboxKit0aB0P",
+        "mangledName": "$s18NotificareInboxKit0aB0P",
+        "moduleName": "NotificareInboxKit",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareKit",
+        "printedName": "NotificareKit",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificareInboxItem",
+        "printedName": "NotificareInboxItem",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18NotificareInboxKit0aB4ItemV2idSSvp",
+            "mangledName": "$s18NotificareInboxKit0aB4ItemV2idSSvp",
+            "moduleName": "NotificareInboxKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18NotificareInboxKit0aB4ItemV2idSSvg",
+                "mangledName": "$s18NotificareInboxKit0aB4ItemV2idSSvg",
+                "moduleName": "NotificareInboxKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notification",
+            "printedName": "notification",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareNotification",
+                "printedName": "NotificareKit.NotificareNotification",
+                "usr": "s:13NotificareKit0A12NotificationV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18NotificareInboxKit0aB4ItemV12notification0aC00A12NotificationVvp",
+            "mangledName": "$s18NotificareInboxKit0aB4ItemV12notification0aC00A12NotificationVvp",
+            "moduleName": "NotificareInboxKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificareNotification",
+                    "printedName": "NotificareKit.NotificareNotification",
+                    "usr": "s:13NotificareKit0A12NotificationV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18NotificareInboxKit0aB4ItemV12notification0aC00A12NotificationVvg",
+                "mangledName": "$s18NotificareInboxKit0aB4ItemV12notification0aC00A12NotificationVvg",
+                "moduleName": "NotificareInboxKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "time",
+            "printedName": "time",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18NotificareInboxKit0aB4ItemV4time10Foundation4DateVvp",
+            "mangledName": "$s18NotificareInboxKit0aB4ItemV4time10Foundation4DateVvp",
+            "moduleName": "NotificareInboxKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18NotificareInboxKit0aB4ItemV4time10Foundation4DateVvg",
+                "mangledName": "$s18NotificareInboxKit0aB4ItemV4time10Foundation4DateVvg",
+                "moduleName": "NotificareInboxKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "opened",
+            "printedName": "opened",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18NotificareInboxKit0aB4ItemV6openedSbvp",
+            "mangledName": "$s18NotificareInboxKit0aB4ItemV6openedSbvp",
+            "moduleName": "NotificareInboxKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18NotificareInboxKit0aB4ItemV6openedSbvg",
+                "mangledName": "$s18NotificareInboxKit0aB4ItemV6openedSbvg",
+                "moduleName": "NotificareInboxKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expires",
+            "printedName": "expires",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18NotificareInboxKit0aB4ItemV7expires10Foundation4DateVSgvp",
+            "mangledName": "$s18NotificareInboxKit0aB4ItemV7expires10Foundation4DateVSgvp",
+            "moduleName": "NotificareInboxKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18NotificareInboxKit0aB4ItemV7expires10Foundation4DateVSgvg",
+                "mangledName": "$s18NotificareInboxKit0aB4ItemV7expires10Foundation4DateVSgvg",
+                "moduleName": "NotificareInboxKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:notification:time:opened:expires:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareInboxItem",
+                "printedName": "NotificareInboxKit.NotificareInboxItem",
+                "usr": "s:18NotificareInboxKit0aB4ItemV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareNotification",
+                "printedName": "NotificareKit.NotificareNotification",
+                "usr": "s:13NotificareKit0A12NotificationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18NotificareInboxKit0aB4ItemV2id12notification4time6opened7expiresACSS_0aC00A12NotificationV10Foundation4DateVSbANSgtcfc",
+            "mangledName": "$s18NotificareInboxKit0aB4ItemV2id12notification4time6opened7expiresACSS_0aC00A12NotificationV10Foundation4DateVSbANSgtcfc",
+            "moduleName": "NotificareInboxKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareInboxItem",
+                "printedName": "NotificareInboxKit.NotificareInboxItem",
+                "usr": "s:18NotificareInboxKit0aB4ItemV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18NotificareInboxKit0aB4ItemV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s18NotificareInboxKit0aB4ItemV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "NotificareInboxKit",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NotificareInboxKit0aB4ItemV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s18NotificareInboxKit0aB4ItemV6encode2toys7Encoder_p_tKF",
+            "moduleName": "NotificareInboxKit",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toJson",
+            "printedName": "toJson()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NotificareInboxKit0aB4ItemV6toJsonSDySSypGyKF",
+            "mangledName": "$s18NotificareInboxKit0aB4ItemV6toJsonSDySSypGyKF",
+            "moduleName": "NotificareInboxKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fromJson",
+            "printedName": "fromJson(json:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareInboxItem",
+                "printedName": "NotificareInboxKit.NotificareInboxItem",
+                "usr": "s:18NotificareInboxKit0aB4ItemV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NotificareInboxKit0aB4ItemV8fromJson4jsonACSDySSypG_tKFZ",
+            "mangledName": "$s18NotificareInboxKit0aB4ItemV8fromJson4jsonACSDySSypG_tKFZ",
+            "moduleName": "NotificareInboxKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18NotificareInboxKit0aB4ItemV",
+        "mangledName": "$s18NotificareInboxKit0aB4ItemV",
+        "moduleName": "NotificareInboxKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareKit",
+        "printedName": "NotificareKit",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareKit",
+        "printedName": "NotificareKit",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit"
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareKit",
+        "printedName": "NotificareKit",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit"
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareKit",
+        "printedName": "NotificareKit",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificareInboxDelegate",
+        "printedName": "NotificareInboxDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "notificare",
+            "printedName": "notificare(_:didUpdateInbox:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareInbox",
+                "printedName": "any NotificareInboxKit.NotificareInbox",
+                "usr": "s:18NotificareInboxKit0aB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[NotificareInboxKit.NotificareInboxItem]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificareInboxItem",
+                    "printedName": "NotificareInboxKit.NotificareInboxItem",
+                    "usr": "s:18NotificareInboxKit0aB4ItemV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NotificareInboxKit0aB8DelegateP10notificare_09didUpdateB0yAA0aB0_p_SayAA0aB4ItemVGtF",
+            "mangledName": "$s18NotificareInboxKit0aB8DelegateP10notificare_09didUpdateB0yAA0aB0_p_SayAA0aB4ItemVGtF",
+            "moduleName": "NotificareInboxKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificareInboxKit.NotificareInboxDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificareInboxKit.NotificareInboxDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificare",
+            "printedName": "notificare(_:didUpdateBadge:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareInbox",
+                "printedName": "any NotificareInboxKit.NotificareInbox",
+                "usr": "s:18NotificareInboxKit0aB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NotificareInboxKit0aB8DelegateP10notificare_14didUpdateBadgeyAA0aB0_p_SitF",
+            "mangledName": "$s18NotificareInboxKit0aB8DelegateP10notificare_14didUpdateBadgeyAA0aB0_p_SitF",
+            "moduleName": "NotificareInboxKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificareInboxKit.NotificareInboxDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificareInboxKit.NotificareInboxDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificare",
+            "printedName": "notificare(_:didUpdateInbox:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareInbox",
+                "printedName": "any NotificareInboxKit.NotificareInbox",
+                "usr": "s:18NotificareInboxKit0aB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[NotificareInboxKit.NotificareInboxItem]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificareInboxItem",
+                    "printedName": "NotificareInboxKit.NotificareInboxItem",
+                    "usr": "s:18NotificareInboxKit0aB4ItemV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NotificareInboxKit0aB8DelegatePAAE10notificare_09didUpdateB0yAA0aB0_p_SayAA0aB4ItemVGtF",
+            "mangledName": "$s18NotificareInboxKit0aB8DelegatePAAE10notificare_09didUpdateB0yAA0aB0_p_SayAA0aB4ItemVGtF",
+            "moduleName": "NotificareInboxKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificareInboxKit.NotificareInboxDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificareInboxKit.NotificareInboxDelegate>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificare",
+            "printedName": "notificare(_:didUpdateBadge:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareInbox",
+                "printedName": "any NotificareInboxKit.NotificareInbox",
+                "usr": "s:18NotificareInboxKit0aB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NotificareInboxKit0aB8DelegatePAAE10notificare_14didUpdateBadgeyAA0aB0_p_SitF",
+            "mangledName": "$s18NotificareInboxKit0aB8DelegatePAAE10notificare_14didUpdateBadgeyAA0aB0_p_SitF",
+            "moduleName": "NotificareInboxKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificareInboxKit.NotificareInboxDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificareInboxKit.NotificareInboxDelegate>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18NotificareInboxKit0aB8DelegateP",
+        "mangledName": "$s18NotificareInboxKit0aB8DelegateP",
+        "moduleName": "NotificareInboxKit",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareKit",
+        "printedName": "NotificareKit",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificareInboxError",
+        "printedName": "NotificareInboxError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "autoBadgeUnavailable",
+            "printedName": "autoBadgeUnavailable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NotificareInboxKit.NotificareInboxError.Type) -> NotificareInboxKit.NotificareInboxError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificareInboxError",
+                    "printedName": "NotificareInboxKit.NotificareInboxError",
+                    "usr": "s:18NotificareInboxKit0aB5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NotificareInboxKit.NotificareInboxError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotificareInboxError",
+                        "printedName": "NotificareInboxKit.NotificareInboxError",
+                        "usr": "s:18NotificareInboxKit0aB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18NotificareInboxKit0aB5ErrorO20autoBadgeUnavailableyA2CmF",
+            "mangledName": "$s18NotificareInboxKit0aB5ErrorO20autoBadgeUnavailableyA2CmF",
+            "moduleName": "NotificareInboxKit"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareInboxError",
+                "printedName": "NotificareInboxKit.NotificareInboxError",
+                "usr": "s:18NotificareInboxKit0aB5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareInboxError",
+                "printedName": "NotificareInboxKit.NotificareInboxError",
+                "usr": "s:18NotificareInboxKit0aB5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NotificareInboxKit0aB5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s18NotificareInboxKit0aB5ErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "NotificareInboxKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18NotificareInboxKit0aB5ErrorO9hashValueSivp",
+            "mangledName": "$s18NotificareInboxKit0aB5ErrorO9hashValueSivp",
+            "moduleName": "NotificareInboxKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18NotificareInboxKit0aB5ErrorO9hashValueSivg",
+                "mangledName": "$s18NotificareInboxKit0aB5ErrorO9hashValueSivg",
+                "moduleName": "NotificareInboxKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NotificareInboxKit0aB5ErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s18NotificareInboxKit0aB5ErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "NotificareInboxKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18NotificareInboxKit0aB5ErrorO",
+        "mangledName": "$s18NotificareInboxKit0aB5ErrorO",
+        "moduleName": "NotificareInboxKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit"
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareKit",
+        "printedName": "NotificareKit",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InboxItemEntity",
+        "printedName": "InboxItemEntity",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(entity:insertInto:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InboxItemEntity",
+                "printedName": "NotificareInboxKit.InboxItemEntity",
+                "usr": "c:@M@NotificareInboxKit@objc(cs)InboxItemEntity"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSEntityDescription",
+                "printedName": "CoreData.NSEntityDescription",
+                "usr": "c:objc(cs)NSEntityDescription"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreData.NSManagedObjectContext?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSManagedObjectContext",
+                    "printedName": "CoreData.NSManagedObjectContext",
+                    "usr": "c:objc(cs)NSManagedObjectContext"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NotificareInboxKit@objc(cs)InboxItemEntity(im)initWithEntity:insertIntoManagedObjectContext:",
+            "mangledName": "$s18NotificareInboxKit0B10ItemEntityC6entity10insertIntoACSo19NSEntityDescriptionC_So22NSManagedObjectContextCSgtcfc",
+            "moduleName": "NotificareInboxKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithEntity:insertIntoManagedObjectContext:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchRequest",
+            "printedName": "fetchRequest()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSFetchRequest",
+                "printedName": "CoreData.NSFetchRequest<NotificareInboxKit.InboxItemEntity>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InboxItemEntity",
+                    "printedName": "NotificareInboxKit.InboxItemEntity",
+                    "usr": "c:@M@NotificareInboxKit@objc(cs)InboxItemEntity"
+                  }
+                ],
+                "usr": "c:objc(cs)NSFetchRequest"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NotificareInboxKit0B10ItemEntityC12fetchRequestSo07NSFetchG0CyACGyFZ",
+            "mangledName": "$s18NotificareInboxKit0B10ItemEntityC12fetchRequestSo07NSFetchG0CyACGyFZ",
+            "moduleName": "NotificareInboxKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "NonObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "expires",
+            "printedName": "expires",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@NotificareInboxKit@objc(cs)InboxItemEntity(py)expires",
+            "mangledName": "$s18NotificareInboxKit0B10ItemEntityC7expires10Foundation4DateVSgvp",
+            "moduleName": "NotificareInboxKit",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NotificareInboxKit@objc(cs)InboxItemEntity(im)expires",
+                "mangledName": "$s18NotificareInboxKit0B10ItemEntityC7expires10Foundation4DateVSgvg",
+                "moduleName": "NotificareInboxKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NotificareInboxKit@objc(cs)InboxItemEntity(im)setExpires:",
+                "mangledName": "$s18NotificareInboxKit0B10ItemEntityC7expires10Foundation4DateVSgvs",
+                "moduleName": "NotificareInboxKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@NotificareInboxKit@objc(cs)InboxItemEntity(py)id",
+            "mangledName": "$s18NotificareInboxKit0B10ItemEntityC2idSSSgvp",
+            "moduleName": "NotificareInboxKit",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NotificareInboxKit@objc(cs)InboxItemEntity(im)id",
+                "mangledName": "$s18NotificareInboxKit0B10ItemEntityC2idSSSgvg",
+                "moduleName": "NotificareInboxKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NotificareInboxKit@objc(cs)InboxItemEntity(im)setId:",
+                "mangledName": "$s18NotificareInboxKit0B10ItemEntityC2idSSSgvs",
+                "moduleName": "NotificareInboxKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notification",
+            "printedName": "notification",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@NotificareInboxKit@objc(cs)InboxItemEntity(py)notification",
+            "mangledName": "$s18NotificareInboxKit0B10ItemEntityC12notification10Foundation4DataVSgvp",
+            "moduleName": "NotificareInboxKit",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NotificareInboxKit@objc(cs)InboxItemEntity(im)notification",
+                "mangledName": "$s18NotificareInboxKit0B10ItemEntityC12notification10Foundation4DataVSgvg",
+                "moduleName": "NotificareInboxKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NotificareInboxKit@objc(cs)InboxItemEntity(im)setNotification:",
+                "mangledName": "$s18NotificareInboxKit0B10ItemEntityC12notification10Foundation4DataVSgvs",
+                "moduleName": "NotificareInboxKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notificationId",
+            "printedName": "notificationId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@NotificareInboxKit@objc(cs)InboxItemEntity(py)notificationId",
+            "mangledName": "$s18NotificareInboxKit0B10ItemEntityC14notificationIdSSSgvp",
+            "moduleName": "NotificareInboxKit",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NotificareInboxKit@objc(cs)InboxItemEntity(im)notificationId",
+                "mangledName": "$s18NotificareInboxKit0B10ItemEntityC14notificationIdSSSgvg",
+                "moduleName": "NotificareInboxKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NotificareInboxKit@objc(cs)InboxItemEntity(im)setNotificationId:",
+                "mangledName": "$s18NotificareInboxKit0B10ItemEntityC14notificationIdSSSgvs",
+                "moduleName": "NotificareInboxKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "opened",
+            "printedName": "opened",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@NotificareInboxKit@objc(cs)InboxItemEntity(py)opened",
+            "mangledName": "$s18NotificareInboxKit0B10ItemEntityC6openedSbvp",
+            "moduleName": "NotificareInboxKit",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NotificareInboxKit@objc(cs)InboxItemEntity(im)opened",
+                "mangledName": "$s18NotificareInboxKit0B10ItemEntityC6openedSbvg",
+                "moduleName": "NotificareInboxKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NotificareInboxKit@objc(cs)InboxItemEntity(im)setOpened:",
+                "mangledName": "$s18NotificareInboxKit0B10ItemEntityC6openedSbvs",
+                "moduleName": "NotificareInboxKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "time",
+            "printedName": "time",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@NotificareInboxKit@objc(cs)InboxItemEntity(py)time",
+            "mangledName": "$s18NotificareInboxKit0B10ItemEntityC4time10Foundation4DateVSgvp",
+            "moduleName": "NotificareInboxKit",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NotificareInboxKit@objc(cs)InboxItemEntity(im)time",
+                "mangledName": "$s18NotificareInboxKit0B10ItemEntityC4time10Foundation4DateVSgvg",
+                "moduleName": "NotificareInboxKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NotificareInboxKit@objc(cs)InboxItemEntity(im)setTime:",
+                "mangledName": "$s18NotificareInboxKit0B10ItemEntityC4time10Foundation4DateVSgvs",
+                "moduleName": "NotificareInboxKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "visible",
+            "printedName": "visible",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@NotificareInboxKit@objc(cs)InboxItemEntity(py)visible",
+            "mangledName": "$s18NotificareInboxKit0B10ItemEntityC7visibleSbvp",
+            "moduleName": "NotificareInboxKit",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NotificareInboxKit@objc(cs)InboxItemEntity(im)visible",
+                "mangledName": "$s18NotificareInboxKit0B10ItemEntityC7visibleSbvg",
+                "moduleName": "NotificareInboxKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@NotificareInboxKit@objc(cs)InboxItemEntity(im)setVisible:",
+                "mangledName": "$s18NotificareInboxKit0B10ItemEntityC7visibleSbvs",
+                "moduleName": "NotificareInboxKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NotificareInboxKit@objc(cs)InboxItemEntity",
+        "mangledName": "$s18NotificareInboxKit0B10ItemEntityC",
+        "moduleName": "NotificareInboxKit",
+        "objc_name": "InboxItemEntity",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSManagedObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "CoreData.NSManagedObject",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Notificare",
+        "printedName": "Notificare",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "inbox",
+            "printedName": "inbox()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareInbox",
+                "printedName": "any NotificareInboxKit.NotificareInbox",
+                "usr": "s:18NotificareInboxKit0aB0P"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NotificareKit0A0C0a5InboxB0E5inboxAD0aC0_pyF",
+            "mangledName": "$s13NotificareKit0A0C0a5InboxB0E5inboxAD0aC0_pyF",
+            "moduleName": "NotificareInboxKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13NotificareKit0A0C",
+        "mangledName": "$s13NotificareKit0A0C",
+        "moduleName": "NotificareKit",
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInboxKit\/Sources\/Internals\/NotificareInboxImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 259,
+      "length": 33,
+      "value": "\"NotificareInboxKit.AddInboxItem\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInboxKit\/Sources\/Internals\/NotificareInboxImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 375,
+      "length": 34,
+      "value": "\"NotificareInboxKit.ReadInboxItem\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInboxKit\/Sources\/Internals\/NotificareInboxImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 491,
+      "length": 33,
+      "value": "\"NotificareInboxKit.RefreshBadge\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInboxKit\/Sources\/Internals\/NotificareInboxImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 605,
+      "length": 32,
+      "value": "\"NotificareInboxKit.ReloadInbox\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInboxKit\/Sources\/Internals\/NotificareInboxImpl.swift",
+      "kind": "Array",
+      "offset": 2251,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInboxKit\/Sources\/Internals\/NotificareInboxImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17631,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInboxKit\/Sources\/Internals\/NotificareInboxImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17647,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInboxKit\/Sources\/Internals\/NotificareInboxImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18254,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInboxKit\/Sources\/Internals\/LocalStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 170,
+      "length": 47,
+      "value": "\"re.notifica.inbox.local_storage.current_badge\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInboxKit\/Sources\/Internals\/LocalStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 170,
+      "length": 47,
+      "value": "\"re.notifica.inbox.local_storage.current_badge\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInboxKit\/Sources\/Internals\/Database\/InboxDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 133,
+      "length": 13,
+      "value": "\"NotificareInboxKit.InboxDatabase\""
+    }
+  ]
+}

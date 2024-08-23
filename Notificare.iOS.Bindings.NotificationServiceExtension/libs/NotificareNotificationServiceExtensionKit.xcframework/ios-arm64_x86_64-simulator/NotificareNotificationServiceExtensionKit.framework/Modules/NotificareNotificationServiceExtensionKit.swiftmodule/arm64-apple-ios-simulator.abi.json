@@ -1,0 +1,361 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "NotificareNotificationServiceExtensionKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificareNotificationServiceExtensionKit"
+      },
+      {
+        "kind": "Import",
+        "name": "MobileCoreServices",
+        "printedName": "MobileCoreServices",
+        "declKind": "Import",
+        "moduleName": "NotificareNotificationServiceExtensionKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "NotificareNotificationServiceExtensionKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificareNotificationServiceExtension",
+        "printedName": "NotificareNotificationServiceExtension",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "handleNotificationRequest",
+            "printedName": "handleNotificationRequest(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationRequest",
+                "printedName": "UserNotifications.UNNotificationRequest",
+                "usr": "c:objc(cs)UNNotificationRequest"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<UserNotifications.UNNotificationContent, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<UserNotifications.UNNotificationContent, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UNNotificationContent",
+                        "printedName": "UserNotifications.UNNotificationContent",
+                        "usr": "c:objc(cs)UNNotificationContent"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:41NotificareNotificationServiceExtensionKit0abcD0C06handleB7RequestyySo014UNNotificationG0C_ys6ResultOySo0H7ContentCs5Error_pGctFZ",
+            "mangledName": "$s41NotificareNotificationServiceExtensionKit0abcD0C06handleB7RequestyySo014UNNotificationG0C_ys6ResultOySo0H7ContentCs5Error_pGctFZ",
+            "moduleName": "NotificareNotificationServiceExtensionKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleNotificationRequest",
+            "printedName": "handleNotificationRequest(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationContent",
+                "printedName": "UserNotifications.UNNotificationContent",
+                "usr": "c:objc(cs)UNNotificationContent"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationRequest",
+                "printedName": "UserNotifications.UNNotificationRequest",
+                "usr": "c:objc(cs)UNNotificationRequest"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:41NotificareNotificationServiceExtensionKit0abcD0C06handleB7RequestySo21UNNotificationContentCSo0hG0CYaKFZ",
+            "mangledName": "$s41NotificareNotificationServiceExtensionKit0abcD0C06handleB7RequestySo21UNNotificationContentCSo0hG0CYaKFZ",
+            "moduleName": "NotificareNotificationServiceExtensionKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Error",
+            "printedName": "Error",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "invalidUrl",
+                "printedName": "invalidUrl",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NotificareNotificationServiceExtensionKit.NotificareNotificationServiceExtension.Error.Type) -> NotificareNotificationServiceExtensionKit.NotificareNotificationServiceExtension.Error",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "NotificareNotificationServiceExtensionKit.NotificareNotificationServiceExtension.Error",
+                        "usr": "s:41NotificareNotificationServiceExtensionKit0abcD0C5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NotificareNotificationServiceExtensionKit.NotificareNotificationServiceExtension.Error.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "NotificareNotificationServiceExtensionKit.NotificareNotificationServiceExtension.Error",
+                            "usr": "s:41NotificareNotificationServiceExtensionKit0abcD0C5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:41NotificareNotificationServiceExtensionKit0abcD0C5ErrorO10invalidUrlyA2EmF",
+                "mangledName": "$s41NotificareNotificationServiceExtensionKit0abcD0C5ErrorO10invalidUrlyA2EmF",
+                "moduleName": "NotificareNotificationServiceExtensionKit"
+              },
+              {
+                "kind": "Var",
+                "name": "downloadFailed",
+                "printedName": "downloadFailed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NotificareNotificationServiceExtensionKit.NotificareNotificationServiceExtension.Error.Type) -> NotificareNotificationServiceExtensionKit.NotificareNotificationServiceExtension.Error",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "NotificareNotificationServiceExtensionKit.NotificareNotificationServiceExtension.Error",
+                        "usr": "s:41NotificareNotificationServiceExtensionKit0abcD0C5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NotificareNotificationServiceExtensionKit.NotificareNotificationServiceExtension.Error.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "NotificareNotificationServiceExtensionKit.NotificareNotificationServiceExtension.Error",
+                            "usr": "s:41NotificareNotificationServiceExtensionKit0abcD0C5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:41NotificareNotificationServiceExtensionKit0abcD0C5ErrorO14downloadFailedyA2EmF",
+                "mangledName": "$s41NotificareNotificationServiceExtensionKit0abcD0C5ErrorO14downloadFailedyA2EmF",
+                "moduleName": "NotificareNotificationServiceExtensionKit"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "NotificareNotificationServiceExtensionKit.NotificareNotificationServiceExtension.Error",
+                    "usr": "s:41NotificareNotificationServiceExtensionKit0abcD0C5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "NotificareNotificationServiceExtensionKit.NotificareNotificationServiceExtension.Error",
+                    "usr": "s:41NotificareNotificationServiceExtensionKit0abcD0C5ErrorO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:41NotificareNotificationServiceExtensionKit0abcD0C5ErrorO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s41NotificareNotificationServiceExtensionKit0abcD0C5ErrorO2eeoiySbAE_AEtFZ",
+                "moduleName": "NotificareNotificationServiceExtensionKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:41NotificareNotificationServiceExtensionKit0abcD0C5ErrorO9hashValueSivp",
+                "mangledName": "$s41NotificareNotificationServiceExtensionKit0abcD0C5ErrorO9hashValueSivp",
+                "moduleName": "NotificareNotificationServiceExtensionKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:41NotificareNotificationServiceExtensionKit0abcD0C5ErrorO9hashValueSivg",
+                    "mangledName": "$s41NotificareNotificationServiceExtensionKit0abcD0C5ErrorO9hashValueSivg",
+                    "moduleName": "NotificareNotificationServiceExtensionKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:41NotificareNotificationServiceExtensionKit0abcD0C5ErrorO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s41NotificareNotificationServiceExtensionKit0abcD0C5ErrorO4hash4intoys6HasherVz_tF",
+                "moduleName": "NotificareNotificationServiceExtensionKit",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:41NotificareNotificationServiceExtensionKit0abcD0C5ErrorO",
+            "mangledName": "$s41NotificareNotificationServiceExtensionKit0abcD0C5ErrorO",
+            "moduleName": "NotificareNotificationServiceExtensionKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:41NotificareNotificationServiceExtensionKit0abcD0C",
+        "mangledName": "$s41NotificareNotificationServiceExtensionKit0abcD0C",
+        "moduleName": "NotificareNotificationServiceExtensionKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

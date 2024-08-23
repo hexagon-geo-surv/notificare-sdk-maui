@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<ItemGroup>
+		<AndroidLibrary Remove="lib\*.aar" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="Xamarin.AndroidX.CardView" Version="1.0.0.29" />
+	  <PackageReference Include="Xamarin.AndroidX.ConstraintLayout" Version="2.1.4.14" />
+	  <PackageReference Include="Xamarin.AndroidX.DataBinding.ViewBinding" Version="8.2.2.1" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Notificare.Android.Bindings.Core\Notificare.Android.Bindings.Core.csproj" />
+	</ItemGroup>
+</Project>

@@ -1,0 +1,186 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NotificareInAppMessagingKit
+import Foundation
+@_exported import NotificareInAppMessagingKit
+import NotificareKit
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class NotificareImageCache {
+  public var portraitImage: UIKit.UIImage? {
+    get
+  }
+  public var landscapeImage: UIKit.UIImage? {
+    get
+  }
+  public var orientationConstrainedImage: UIKit.UIImage? {
+    get
+  }
+  public enum Error : Swift.Error {
+    case invalidImage
+    public static func == (a: NotificareInAppMessagingKit.NotificareImageCache.Error, b: NotificareInAppMessagingKit.NotificareImageCache.Error) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @objc deinit
+}
+public struct NotificareInAppMessage : Swift.Codable {
+  public let id: Swift.String
+  public let name: Swift.String
+  public let type: Swift.String
+  public let context: [Swift.String]
+  public let title: Swift.String?
+  public let message: Swift.String?
+  public let image: Swift.String?
+  public let landscapeImage: Swift.String?
+  public let delaySeconds: Swift.Int
+  public let primaryAction: NotificareInAppMessagingKit.NotificareInAppMessage.Action?
+  public let secondaryAction: NotificareInAppMessagingKit.NotificareInAppMessage.Action?
+  public init(id: Swift.String, name: Swift.String, type: Swift.String, context: [Swift.String], title: Swift.String?, message: Swift.String?, image: Swift.String?, landscapeImage: Swift.String?, delaySeconds: Swift.Int, primaryAction: NotificareInAppMessagingKit.NotificareInAppMessage.Action?, secondaryAction: NotificareInAppMessagingKit.NotificareInAppMessage.Action?)
+  public struct Action : Swift.Codable {
+    public let label: Swift.String?
+    public let destructive: Swift.Bool
+    public let url: Swift.String?
+    public init(label: Swift.String?, destructive: Swift.Bool, url: Swift.String?)
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public enum MessageType : Swift.String {
+    case banner
+    case card
+    case fullscreen
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public enum ContextType : Swift.String {
+    case launch
+    case foreground
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public enum ActionType : Swift.String {
+    case primary
+    case secondary
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@available(macOS 10.15, iOS 13.0, watchOS 6.0, tvOS 13.0, *)
+extension NotificareInAppMessagingKit.NotificareInAppMessage : Swift.Identifiable {
+  public typealias ID = Swift.String
+}
+extension NotificareInAppMessagingKit.NotificareInAppMessage {
+  public func toJson() throws -> [Swift.String : Any]
+  public static func fromJson(json: [Swift.String : Any]) throws -> NotificareInAppMessagingKit.NotificareInAppMessage
+}
+extension NotificareInAppMessagingKit.NotificareInAppMessage.Action {
+  public func toJson() throws -> [Swift.String : Any]
+  public static func fromJson(json: [Swift.String : Any]) throws -> NotificareInAppMessagingKit.NotificareInAppMessage.Action
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class NotificareInAppMessagingBannerView : UIKit.UIView, NotificareInAppMessagingKit.NotificareInAppMessagingView {
+  @_Concurrency.MainActor(unsafe) final public let message: NotificareInAppMessagingKit.NotificareInAppMessage
+  @_Concurrency.MainActor(unsafe) final public let cache: NotificareInAppMessagingKit.NotificareImageCache
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any NotificareInAppMessagingKit.NotificareInAppMessagingViewDelegate)?
+  @_Concurrency.MainActor(unsafe) public init(message: NotificareInAppMessagingKit.NotificareInAppMessage, cache: NotificareInAppMessagingKit.NotificareImageCache)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) public func animate(transition: NotificareInAppMessagingKit.NotificareInAppMessagingViewTransition, _ completion: @escaping () -> Swift.Void)
+  @objc deinit
+}
+public protocol NotificareInAppMessagingDelegate : AnyObject {
+  func notificare(_ notificare: any NotificareInAppMessagingKit.NotificareInAppMessaging, didPresentMessage message: NotificareInAppMessagingKit.NotificareInAppMessage)
+  func notificare(_ notificare: any NotificareInAppMessagingKit.NotificareInAppMessaging, didFinishPresentingMessage message: NotificareInAppMessagingKit.NotificareInAppMessage)
+  func notificare(_ notificare: any NotificareInAppMessagingKit.NotificareInAppMessaging, didFailToPresentMessage message: NotificareInAppMessagingKit.NotificareInAppMessage)
+  func notificare(_ notificare: any NotificareInAppMessagingKit.NotificareInAppMessaging, didExecuteAction action: NotificareInAppMessagingKit.NotificareInAppMessage.Action, for message: NotificareInAppMessagingKit.NotificareInAppMessage)
+  func notificare(_ notificare: any NotificareInAppMessagingKit.NotificareInAppMessaging, didFailToExecuteAction action: NotificareInAppMessagingKit.NotificareInAppMessage.Action, for message: NotificareInAppMessagingKit.NotificareInAppMessage, error: (any Swift.Error)?)
+}
+extension NotificareInAppMessagingKit.NotificareInAppMessagingDelegate {
+  public func notificare(_: any NotificareInAppMessagingKit.NotificareInAppMessaging, didPresentMessage _: NotificareInAppMessagingKit.NotificareInAppMessage)
+  public func notificare(_: any NotificareInAppMessagingKit.NotificareInAppMessaging, didFinishPresentingMessage _: NotificareInAppMessagingKit.NotificareInAppMessage)
+  public func notificare(_: any NotificareInAppMessagingKit.NotificareInAppMessaging, didFailToPresentMessage _: NotificareInAppMessagingKit.NotificareInAppMessage)
+  public func notificare(_: any NotificareInAppMessagingKit.NotificareInAppMessaging, didExecuteAction _: NotificareInAppMessagingKit.NotificareInAppMessage.Action, for _: NotificareInAppMessagingKit.NotificareInAppMessage)
+  public func notificare(_: any NotificareInAppMessagingKit.NotificareInAppMessaging, didFailToExecuteAction _: NotificareInAppMessagingKit.NotificareInAppMessage.Action, for _: NotificareInAppMessagingKit.NotificareInAppMessage, error _: (any Swift.Error)?)
+}
+public protocol NotificareInAppMessaging : AnyObject {
+  var delegate: (any NotificareInAppMessagingKit.NotificareInAppMessagingDelegate)? { get set }
+  var hasMessagesSuppressed: Swift.Bool { get set }
+  func setMessagesSuppressed(_ suppressed: Swift.Bool, evaluateContext: Swift.Bool)
+}
+public protocol NotificareInAppMessagingView : UIKit.UIView {
+  var message: NotificareInAppMessagingKit.NotificareInAppMessage { get }
+  var delegate: (any NotificareInAppMessagingKit.NotificareInAppMessagingViewDelegate)? { get set }
+  func present(in parentView: UIKit.UIView)
+  func animate(transition: NotificareInAppMessagingKit.NotificareInAppMessagingViewTransition)
+  func animate(transition: NotificareInAppMessagingKit.NotificareInAppMessagingViewTransition, _ completion: @escaping () -> Swift.Void)
+  func dismiss()
+  func handleActionClicked(_ actionType: NotificareInAppMessagingKit.NotificareInAppMessage.ActionType)
+}
+extension NotificareInAppMessagingKit.NotificareInAppMessagingView {
+  public func present(in parentView: UIKit.UIView)
+  public func animate(transition: NotificareInAppMessagingKit.NotificareInAppMessagingViewTransition)
+  public func dismiss()
+  public func handleActionClicked(_ actionType: NotificareInAppMessagingKit.NotificareInAppMessage.ActionType)
+}
+public protocol NotificareInAppMessagingViewDelegate : AnyObject {
+  func onViewDismissed()
+}
+public enum NotificareInAppMessagingViewTransition {
+  case enter
+  case exit
+  public static func == (a: NotificareInAppMessagingKit.NotificareInAppMessagingViewTransition, b: NotificareInAppMessagingKit.NotificareInAppMessagingViewTransition) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class NotificareInAppMessagingCardView : UIKit.UIView, NotificareInAppMessagingKit.NotificareInAppMessagingView {
+  @_Concurrency.MainActor(unsafe) final public let message: NotificareInAppMessagingKit.NotificareInAppMessage
+  @_Concurrency.MainActor(unsafe) final public let cache: NotificareInAppMessagingKit.NotificareImageCache
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any NotificareInAppMessagingKit.NotificareInAppMessagingViewDelegate)?
+  @_Concurrency.MainActor(unsafe) public init(message: NotificareInAppMessagingKit.NotificareInAppMessage, cache: NotificareInAppMessagingKit.NotificareImageCache)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) public func animate(transition: NotificareInAppMessagingKit.NotificareInAppMessagingViewTransition, _ completion: @escaping () -> Swift.Void)
+  @objc deinit
+}
+extension NotificareKit.Notificare {
+  public func inAppMessaging() -> any NotificareInAppMessagingKit.NotificareInAppMessaging
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class NotificareInAppMessagingFullscreenView : UIKit.UIView, NotificareInAppMessagingKit.NotificareInAppMessagingView {
+  @_Concurrency.MainActor(unsafe) final public let message: NotificareInAppMessagingKit.NotificareInAppMessage
+  @_Concurrency.MainActor(unsafe) final public let cache: NotificareInAppMessagingKit.NotificareImageCache
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any NotificareInAppMessagingKit.NotificareInAppMessagingViewDelegate)?
+  @_Concurrency.MainActor(unsafe) public init(message: NotificareInAppMessagingKit.NotificareInAppMessage, cache: NotificareInAppMessagingKit.NotificareImageCache)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSublayers(of layer: QuartzCore.CALayer)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
+  @_Concurrency.MainActor(unsafe) public func animate(transition: NotificareInAppMessagingKit.NotificareInAppMessagingViewTransition, _ completion: @escaping () -> Swift.Void)
+  @objc deinit
+}
+extension NotificareInAppMessagingKit.NotificareImageCache.Error : Swift.Equatable {}
+extension NotificareInAppMessagingKit.NotificareImageCache.Error : Swift.Hashable {}
+extension NotificareInAppMessagingKit.NotificareInAppMessage.MessageType : Swift.Equatable {}
+extension NotificareInAppMessagingKit.NotificareInAppMessage.MessageType : Swift.Hashable {}
+extension NotificareInAppMessagingKit.NotificareInAppMessage.MessageType : Swift.RawRepresentable {}
+extension NotificareInAppMessagingKit.NotificareInAppMessage.ContextType : Swift.Equatable {}
+extension NotificareInAppMessagingKit.NotificareInAppMessage.ContextType : Swift.Hashable {}
+extension NotificareInAppMessagingKit.NotificareInAppMessage.ContextType : Swift.RawRepresentable {}
+extension NotificareInAppMessagingKit.NotificareInAppMessage.ActionType : Swift.Equatable {}
+extension NotificareInAppMessagingKit.NotificareInAppMessage.ActionType : Swift.Hashable {}
+extension NotificareInAppMessagingKit.NotificareInAppMessage.ActionType : Swift.RawRepresentable {}
+extension NotificareInAppMessagingKit.NotificareInAppMessagingViewTransition : Swift.Equatable {}
+extension NotificareInAppMessagingKit.NotificareInAppMessagingViewTransition : Swift.Hashable {}

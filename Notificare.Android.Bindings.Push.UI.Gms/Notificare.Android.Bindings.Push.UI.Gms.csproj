@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<ItemGroup>
+		<AndroidLibrary Remove="lib\*.aar" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Xamarin.AndroidX.DataBinding.ViewBinding" Version="8.2.2.1" />
+		<PackageReference Include="Xamarin.GooglePlayServices.Maps" Version="118.2.0.4" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Notificare.Android.Bindings.Push.UI\Notificare.Android.Bindings.Push.UI.csproj" />
+	  <ProjectReference Include="..\Notificare.Android.Bindings.Push\Notificare.Android.Bindings.Push.csproj" />
+	</ItemGroup>
+</Project>

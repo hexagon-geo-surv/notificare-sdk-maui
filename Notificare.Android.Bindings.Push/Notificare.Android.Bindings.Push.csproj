@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<ItemGroup>
+		<AndroidLibrary Remove="lib\*.aar" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Notificare.Android.Bindings.Core\Notificare.Android.Bindings.Core.csproj" />
+	</ItemGroup>
+</Project>

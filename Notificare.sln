@@ -1,0 +1,125 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notificare.Android.Bindings.Core", "Notificare.Android.Bindings.Core\Notificare.Android.Bindings.Core.csproj", "{0F29F59E-2405-483D-B545-1F7DD7685600}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notificare.Android.Bindings.InAppMessaging", "Notificare.Android.Bindings.InAppMessaging\Notificare.Android.Bindings.InAppMessaging.csproj", "{CAAA60BD-8FA0-46B4-BDCE-DB7855DE190C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notificare.Android.Bindings.Inbox", "Notificare.Android.Bindings.Inbox\Notificare.Android.Bindings.Inbox.csproj", "{CB645DFC-3BCE-404B-A5AC-DE73ABF87866}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notificare.Android.Bindings.Push", "Notificare.Android.Bindings.Push\Notificare.Android.Bindings.Push.csproj", "{A66B702E-4780-4836-91C1-057F3F68AA16}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notificare.Android.Bindings.Push.Gms", "Notificare.Android.Bindings.Push.Gms\Notificare.Android.Bindings.Push.Gms.csproj", "{DD47CDC3-9A80-49FD-BBA7-E42948333189}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notificare.Android.Bindings.Push.UI", "Notificare.Android.Bindings.Push.UI\Notificare.Android.Bindings.Push.UI.csproj", "{4816B5F5-B444-4FA0-9688-7D9E633A7F51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notificare.Android.Bindings.Push.UI.Gms", "Notificare.Android.Bindings.Push.UI.Gms\Notificare.Android.Bindings.Push.UI.Gms.csproj", "{EC1A671C-62E6-4F98-BA55-34D7868653BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Android", "Android", "{BFA5C159-3416-4C38-BB0E-F22303EC27CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "iOS", "iOS", "{109B78A7-7239-42A5-8C8F-D2196560681A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notificare.iOS.Bindings.Core", "Notificare.iOS.Bindings.Core\Notificare.iOS.Bindings.Core.csproj", "{89D5D54C-0E5F-41C8-9B9D-D5E9D02BF609}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notificare.iOS.Bindings.InAppMessaging", "Notificare.iOS.Bindings.InAppMessaging\Notificare.iOS.Bindings.InAppMessaging.csproj", "{E479ACA7-05E3-446E-A639-87170D02454F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notificare.iOS.Bindings.Inbox", "Notificare.iOS.Bindings.Inbox\Notificare.iOS.Bindings.Inbox.csproj", "{4AD3B8F9-1F12-4428-A926-1C1E22EB73FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notificare.iOS.Bindings.NotificationServiceExtension", "Notificare.iOS.Bindings.NotificationServiceExtension\Notificare.iOS.Bindings.NotificationServiceExtension.csproj", "{1E867D4D-96BD-4FFB-812F-F345EC36CF26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notificare.iOS.Bindings.Push", "Notificare.iOS.Bindings.Push\Notificare.iOS.Bindings.Push.csproj", "{8D53CC67-A2E4-4CEF-8FF1-58A2C315BE75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notificare.iOS.Bindings.Push.UI", "Notificare.iOS.Bindings.Push.UI\Notificare.iOS.Bindings.Push.UI.csproj", "{D3E1894B-D97E-4346-B99B-0D38BC2A6CF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tool", "Tool", "{E375C043-C175-4164-8F59-9F06F7772B93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cocoapods", "tools\cocoapods\cocoapods.csproj", "{0861F9A8-B4D7-42EF-8008-940477A9A676}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F29F59E-2405-483D-B545-1F7DD7685600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F29F59E-2405-483D-B545-1F7DD7685600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F29F59E-2405-483D-B545-1F7DD7685600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F29F59E-2405-483D-B545-1F7DD7685600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAAA60BD-8FA0-46B4-BDCE-DB7855DE190C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAAA60BD-8FA0-46B4-BDCE-DB7855DE190C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAAA60BD-8FA0-46B4-BDCE-DB7855DE190C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAAA60BD-8FA0-46B4-BDCE-DB7855DE190C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB645DFC-3BCE-404B-A5AC-DE73ABF87866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB645DFC-3BCE-404B-A5AC-DE73ABF87866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB645DFC-3BCE-404B-A5AC-DE73ABF87866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB645DFC-3BCE-404B-A5AC-DE73ABF87866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A66B702E-4780-4836-91C1-057F3F68AA16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A66B702E-4780-4836-91C1-057F3F68AA16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A66B702E-4780-4836-91C1-057F3F68AA16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A66B702E-4780-4836-91C1-057F3F68AA16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD47CDC3-9A80-49FD-BBA7-E42948333189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD47CDC3-9A80-49FD-BBA7-E42948333189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD47CDC3-9A80-49FD-BBA7-E42948333189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD47CDC3-9A80-49FD-BBA7-E42948333189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4816B5F5-B444-4FA0-9688-7D9E633A7F51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4816B5F5-B444-4FA0-9688-7D9E633A7F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4816B5F5-B444-4FA0-9688-7D9E633A7F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4816B5F5-B444-4FA0-9688-7D9E633A7F51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC1A671C-62E6-4F98-BA55-34D7868653BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC1A671C-62E6-4F98-BA55-34D7868653BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC1A671C-62E6-4F98-BA55-34D7868653BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC1A671C-62E6-4F98-BA55-34D7868653BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89D5D54C-0E5F-41C8-9B9D-D5E9D02BF609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89D5D54C-0E5F-41C8-9B9D-D5E9D02BF609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89D5D54C-0E5F-41C8-9B9D-D5E9D02BF609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89D5D54C-0E5F-41C8-9B9D-D5E9D02BF609}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E479ACA7-05E3-446E-A639-87170D02454F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E479ACA7-05E3-446E-A639-87170D02454F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E479ACA7-05E3-446E-A639-87170D02454F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E479ACA7-05E3-446E-A639-87170D02454F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AD3B8F9-1F12-4428-A926-1C1E22EB73FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AD3B8F9-1F12-4428-A926-1C1E22EB73FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AD3B8F9-1F12-4428-A926-1C1E22EB73FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AD3B8F9-1F12-4428-A926-1C1E22EB73FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E867D4D-96BD-4FFB-812F-F345EC36CF26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E867D4D-96BD-4FFB-812F-F345EC36CF26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E867D4D-96BD-4FFB-812F-F345EC36CF26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E867D4D-96BD-4FFB-812F-F345EC36CF26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D53CC67-A2E4-4CEF-8FF1-58A2C315BE75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D53CC67-A2E4-4CEF-8FF1-58A2C315BE75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D53CC67-A2E4-4CEF-8FF1-58A2C315BE75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D53CC67-A2E4-4CEF-8FF1-58A2C315BE75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3E1894B-D97E-4346-B99B-0D38BC2A6CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3E1894B-D97E-4346-B99B-0D38BC2A6CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3E1894B-D97E-4346-B99B-0D38BC2A6CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3E1894B-D97E-4346-B99B-0D38BC2A6CF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0861F9A8-B4D7-42EF-8008-940477A9A676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0861F9A8-B4D7-42EF-8008-940477A9A676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0861F9A8-B4D7-42EF-8008-940477A9A676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0861F9A8-B4D7-42EF-8008-940477A9A676}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F29F59E-2405-483D-B545-1F7DD7685600} = {BFA5C159-3416-4C38-BB0E-F22303EC27CF}
+		{CAAA60BD-8FA0-46B4-BDCE-DB7855DE190C} = {BFA5C159-3416-4C38-BB0E-F22303EC27CF}
+		{CB645DFC-3BCE-404B-A5AC-DE73ABF87866} = {BFA5C159-3416-4C38-BB0E-F22303EC27CF}
+		{A66B702E-4780-4836-91C1-057F3F68AA16} = {BFA5C159-3416-4C38-BB0E-F22303EC27CF}
+		{DD47CDC3-9A80-49FD-BBA7-E42948333189} = {BFA5C159-3416-4C38-BB0E-F22303EC27CF}
+		{4816B5F5-B444-4FA0-9688-7D9E633A7F51} = {BFA5C159-3416-4C38-BB0E-F22303EC27CF}
+		{EC1A671C-62E6-4F98-BA55-34D7868653BB} = {BFA5C159-3416-4C38-BB0E-F22303EC27CF}
+		{89D5D54C-0E5F-41C8-9B9D-D5E9D02BF609} = {109B78A7-7239-42A5-8C8F-D2196560681A}
+		{E479ACA7-05E3-446E-A639-87170D02454F} = {109B78A7-7239-42A5-8C8F-D2196560681A}
+		{4AD3B8F9-1F12-4428-A926-1C1E22EB73FC} = {109B78A7-7239-42A5-8C8F-D2196560681A}
+		{1E867D4D-96BD-4FFB-812F-F345EC36CF26} = {109B78A7-7239-42A5-8C8F-D2196560681A}
+		{8D53CC67-A2E4-4CEF-8FF1-58A2C315BE75} = {109B78A7-7239-42A5-8C8F-D2196560681A}
+		{D3E1894B-D97E-4346-B99B-0D38BC2A6CF3} = {109B78A7-7239-42A5-8C8F-D2196560681A}
+		{0861F9A8-B4D7-42EF-8008-940477A9A676} = {E375C043-C175-4164-8F59-9F06F7772B93}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC7C5F83-5AE5-4604-881F-2DEAD73E9FCE}
+	EndGlobalSection
+EndGlobal

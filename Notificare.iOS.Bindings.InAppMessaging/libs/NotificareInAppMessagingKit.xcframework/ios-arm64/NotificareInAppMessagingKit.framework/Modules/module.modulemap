@@ -1,0 +1,11 @@
+framework module NotificareInAppMessagingKit {
+  umbrella header "NotificareInAppMessagingKit.h"
+  export *
+
+  module * { export * }
+}
+
+module NotificareInAppMessagingKit.Swift {
+  header "NotificareInAppMessagingKit-Swift.h"
+  requires objc
+}

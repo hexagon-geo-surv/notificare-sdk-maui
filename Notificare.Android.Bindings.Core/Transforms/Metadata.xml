@@ -1,0 +1,7 @@
+﻿<metadata>
+  <remove-node path="/api/package[starts-with(@name, 're.notifica.internal.')]" />
+  <remove-node path="/api/package[starts-with(@name, 're.notifica')]/class[contains(@name, 'JsonAdapter')]" />
+  <remove-node path="/api/package[starts-with(@name, 're.notifica')]/class[contains(@name, '.Creator')]" />
+  <remove-node path="/api/package[starts-with(@name, 're.notifica')]/class[contains(@name, '.Companion')]" />
+  <remove-node path="/api/package[starts-with(@name, 're.notifica')]/class/field[contains(@type, '.Companion')]" />
+</metadata>

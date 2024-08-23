@@ -1,0 +1,4086 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareKit",
+        "printedName": "NotificareKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MobileCoreServices",
+        "printedName": "MobileCoreServices",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit"
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareKit",
+        "printedName": "NotificareKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareKit",
+        "printedName": "NotificareKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificarePush",
+        "printedName": "NotificarePush",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any NotificarePushKit.NotificarePushDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificarePushDelegate",
+                    "printedName": "any NotificarePushKit.NotificarePushDelegate",
+                    "usr": "s:17NotificarePushKit0aB8DelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17NotificarePushKit0aB0P8delegateAA0aB8Delegate_pSgvp",
+            "mangledName": "$s17NotificarePushKit0aB0P8delegateAA0aB8Delegate_pSgvp",
+            "moduleName": "NotificarePushKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any NotificarePushKit.NotificarePushDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotificarePushDelegate",
+                        "printedName": "any NotificarePushKit.NotificarePushDelegate",
+                        "usr": "s:17NotificarePushKit0aB8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17NotificarePushKit0aB0P8delegateAA0aB8Delegate_pSgvg",
+                "mangledName": "$s17NotificarePushKit0aB0P8delegateAA0aB8Delegate_pSgvg",
+                "moduleName": "NotificarePushKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+                "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any NotificarePushKit.NotificarePushDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotificarePushDelegate",
+                        "printedName": "any NotificarePushKit.NotificarePushDelegate",
+                        "usr": "s:17NotificarePushKit0aB8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17NotificarePushKit0aB0P8delegateAA0aB8Delegate_pSgvs",
+                "mangledName": "$s17NotificarePushKit0aB0P8delegateAA0aB8Delegate_pSgvs",
+                "moduleName": "NotificarePushKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+                "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17NotificarePushKit0aB0P8delegateAA0aB8Delegate_pSgvM",
+                "mangledName": "$s17NotificarePushKit0aB0P8delegateAA0aB8Delegate_pSgvM",
+                "moduleName": "NotificarePushKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+                "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "authorizationOptions",
+            "printedName": "authorizationOptions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UNAuthorizationOptions",
+                "printedName": "UserNotifications.UNAuthorizationOptions",
+                "usr": "c:@E@UNAuthorizationOptions"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17NotificarePushKit0aB0P20authorizationOptionsSo015UNAuthorizationE0Vvp",
+            "mangledName": "$s17NotificarePushKit0aB0P20authorizationOptionsSo015UNAuthorizationE0Vvp",
+            "moduleName": "NotificarePushKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNAuthorizationOptions",
+                    "printedName": "UserNotifications.UNAuthorizationOptions",
+                    "usr": "c:@E@UNAuthorizationOptions"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17NotificarePushKit0aB0P20authorizationOptionsSo015UNAuthorizationE0Vvg",
+                "mangledName": "$s17NotificarePushKit0aB0P20authorizationOptionsSo015UNAuthorizationE0Vvg",
+                "moduleName": "NotificarePushKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+                "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNAuthorizationOptions",
+                    "printedName": "UserNotifications.UNAuthorizationOptions",
+                    "usr": "c:@E@UNAuthorizationOptions"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17NotificarePushKit0aB0P20authorizationOptionsSo015UNAuthorizationE0Vvs",
+                "mangledName": "$s17NotificarePushKit0aB0P20authorizationOptionsSo015UNAuthorizationE0Vvs",
+                "moduleName": "NotificarePushKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+                "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17NotificarePushKit0aB0P20authorizationOptionsSo015UNAuthorizationE0VvM",
+                "mangledName": "$s17NotificarePushKit0aB0P20authorizationOptionsSo015UNAuthorizationE0VvM",
+                "moduleName": "NotificarePushKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+                "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "categoryOptions",
+            "printedName": "categoryOptions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationCategoryOptions",
+                "printedName": "UserNotifications.UNNotificationCategoryOptions",
+                "usr": "c:@E@UNNotificationCategoryOptions"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17NotificarePushKit0aB0P15categoryOptionsSo022UNNotificationCategoryE0Vvp",
+            "mangledName": "$s17NotificarePushKit0aB0P15categoryOptionsSo022UNNotificationCategoryE0Vvp",
+            "moduleName": "NotificarePushKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationCategoryOptions",
+                    "printedName": "UserNotifications.UNNotificationCategoryOptions",
+                    "usr": "c:@E@UNNotificationCategoryOptions"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17NotificarePushKit0aB0P15categoryOptionsSo022UNNotificationCategoryE0Vvg",
+                "mangledName": "$s17NotificarePushKit0aB0P15categoryOptionsSo022UNNotificationCategoryE0Vvg",
+                "moduleName": "NotificarePushKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+                "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationCategoryOptions",
+                    "printedName": "UserNotifications.UNNotificationCategoryOptions",
+                    "usr": "c:@E@UNNotificationCategoryOptions"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17NotificarePushKit0aB0P15categoryOptionsSo022UNNotificationCategoryE0Vvs",
+                "mangledName": "$s17NotificarePushKit0aB0P15categoryOptionsSo022UNNotificationCategoryE0Vvs",
+                "moduleName": "NotificarePushKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+                "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17NotificarePushKit0aB0P15categoryOptionsSo022UNNotificationCategoryE0VvM",
+                "mangledName": "$s17NotificarePushKit0aB0P15categoryOptionsSo022UNNotificationCategoryE0VvM",
+                "moduleName": "NotificarePushKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+                "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "presentationOptions",
+            "printedName": "presentationOptions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationPresentationOptions",
+                "printedName": "UserNotifications.UNNotificationPresentationOptions",
+                "usr": "c:@E@UNNotificationPresentationOptions"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17NotificarePushKit0aB0P19presentationOptionsSo026UNNotificationPresentationE0Vvp",
+            "mangledName": "$s17NotificarePushKit0aB0P19presentationOptionsSo026UNNotificationPresentationE0Vvp",
+            "moduleName": "NotificarePushKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationPresentationOptions",
+                    "printedName": "UserNotifications.UNNotificationPresentationOptions",
+                    "usr": "c:@E@UNNotificationPresentationOptions"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17NotificarePushKit0aB0P19presentationOptionsSo026UNNotificationPresentationE0Vvg",
+                "mangledName": "$s17NotificarePushKit0aB0P19presentationOptionsSo026UNNotificationPresentationE0Vvg",
+                "moduleName": "NotificarePushKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+                "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationPresentationOptions",
+                    "printedName": "UserNotifications.UNNotificationPresentationOptions",
+                    "usr": "c:@E@UNNotificationPresentationOptions"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17NotificarePushKit0aB0P19presentationOptionsSo026UNNotificationPresentationE0Vvs",
+                "mangledName": "$s17NotificarePushKit0aB0P19presentationOptionsSo026UNNotificationPresentationE0Vvs",
+                "moduleName": "NotificarePushKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+                "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17NotificarePushKit0aB0P19presentationOptionsSo026UNNotificationPresentationE0VvM",
+                "mangledName": "$s17NotificarePushKit0aB0P19presentationOptionsSo026UNNotificationPresentationE0VvM",
+                "moduleName": "NotificarePushKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+                "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasRemoteNotificationsEnabled",
+            "printedName": "hasRemoteNotificationsEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17NotificarePushKit0aB0P29hasRemoteNotificationsEnabledSbvp",
+            "mangledName": "$s17NotificarePushKit0aB0P29hasRemoteNotificationsEnabledSbvp",
+            "moduleName": "NotificarePushKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17NotificarePushKit0aB0P29hasRemoteNotificationsEnabledSbvg",
+                "mangledName": "$s17NotificarePushKit0aB0P29hasRemoteNotificationsEnabledSbvg",
+                "moduleName": "NotificarePushKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+                "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "transport",
+            "printedName": "transport",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NotificarePushKit.NotificareTransport?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificareTransport",
+                    "printedName": "NotificarePushKit.NotificareTransport",
+                    "usr": "s:17NotificarePushKit0A9TransportO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17NotificarePushKit0aB0P9transportAA0A9TransportOSgvp",
+            "mangledName": "$s17NotificarePushKit0aB0P9transportAA0A9TransportOSgvp",
+            "moduleName": "NotificarePushKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "NotificarePushKit.NotificareTransport?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotificareTransport",
+                        "printedName": "NotificarePushKit.NotificareTransport",
+                        "usr": "s:17NotificarePushKit0A9TransportO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17NotificarePushKit0aB0P9transportAA0A9TransportOSgvg",
+                "mangledName": "$s17NotificarePushKit0aB0P9transportAA0A9TransportOSgvg",
+                "moduleName": "NotificarePushKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+                "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "subscriptionId",
+            "printedName": "subscriptionId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17NotificarePushKit0aB0P14subscriptionIdSSSgvp",
+            "mangledName": "$s17NotificarePushKit0aB0P14subscriptionIdSSSgvp",
+            "moduleName": "NotificarePushKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17NotificarePushKit0aB0P14subscriptionIdSSSgvg",
+                "mangledName": "$s17NotificarePushKit0aB0P14subscriptionIdSSSgvg",
+                "moduleName": "NotificarePushKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+                "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allowedUI",
+            "printedName": "allowedUI",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17NotificarePushKit0aB0P9allowedUISbvp",
+            "mangledName": "$s17NotificarePushKit0aB0P9allowedUISbvp",
+            "moduleName": "NotificarePushKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17NotificarePushKit0aB0P9allowedUISbvg",
+                "mangledName": "$s17NotificarePushKit0aB0P9allowedUISbvg",
+                "moduleName": "NotificarePushKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+                "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "enableRemoteNotifications",
+            "printedName": "enableRemoteNotifications(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB0P25enableRemoteNotificationsyyys6ResultOySbs5Error_pGcF",
+            "mangledName": "$s17NotificarePushKit0aB0P25enableRemoteNotificationsyyys6ResultOySbs5Error_pGcF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "enableRemoteNotifications",
+            "printedName": "enableRemoteNotifications()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB0P25enableRemoteNotificationsSbyYaKF",
+            "mangledName": "$s17NotificarePushKit0aB0P25enableRemoteNotificationsSbyYaKF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disableRemoteNotifications",
+            "printedName": "disableRemoteNotifications(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB0P26disableRemoteNotificationsyyys6ResultOyyts5Error_pGcF",
+            "mangledName": "$s17NotificarePushKit0aB0P26disableRemoteNotificationsyyys6ResultOyyts5Error_pGcF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disableRemoteNotifications",
+            "printedName": "disableRemoteNotifications()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB0P26disableRemoteNotificationsyyYaKF",
+            "mangledName": "$s17NotificarePushKit0aB0P26disableRemoteNotificationsyyYaKF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isNotificareNotification",
+            "printedName": "isNotificareNotification(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB0P02isA12NotificationySbSDys11AnyHashableVypGF",
+            "mangledName": "$s17NotificarePushKit0aB0P02isA12NotificationySbSDys11AnyHashableVypGF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerLiveActivity",
+            "printedName": "registerLiveActivity(_:token:topics:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB0P20registerLiveActivity_5token6topics_ySS_SSSaySSGys6ResultOyyts5Error_pGctF",
+            "mangledName": "$s17NotificarePushKit0aB0P20registerLiveActivity_5token6topics_ySS_SSSaySSGys6ResultOyyts5Error_pGctF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+            "protocolReq": true,
+            "intro_iOS": "16.1",
+            "declAttributes": [
+              "Available"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerLiveActivity",
+            "printedName": "registerLiveActivity(_:token:topics:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB0P20registerLiveActivity_5token6topicsySS_SSSaySSGtYaKF",
+            "mangledName": "$s17NotificarePushKit0aB0P20registerLiveActivity_5token6topicsySS_SSSaySSGtYaKF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+            "protocolReq": true,
+            "intro_iOS": "16.1",
+            "declAttributes": [
+              "Available"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "endLiveActivity",
+            "printedName": "endLiveActivity(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB0P15endLiveActivityyySS_ys6ResultOyyts5Error_pGctF",
+            "mangledName": "$s17NotificarePushKit0aB0P15endLiveActivityyySS_ys6ResultOyyts5Error_pGctF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+            "protocolReq": true,
+            "intro_iOS": "16.1",
+            "declAttributes": [
+              "Available"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "endLiveActivity",
+            "printedName": "endLiveActivity(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB0P15endLiveActivityyySSYaKF",
+            "mangledName": "$s17NotificarePushKit0aB0P15endLiveActivityyySSYaKF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+            "protocolReq": true,
+            "intro_iOS": "16.1",
+            "declAttributes": [
+              "Available"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerLiveActivity",
+            "printedName": "registerLiveActivity(_:token:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB0PAAE20registerLiveActivity_5token_ySS_SSys6ResultOyyts5Error_pGctF",
+            "mangledName": "$s17NotificarePushKit0aB0PAAE20registerLiveActivity_5token_ySS_SSys6ResultOyyts5Error_pGctF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+            "intro_iOS": "16.1",
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerLiveActivity",
+            "printedName": "registerLiveActivity(_:token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB0PAAE20registerLiveActivity_5tokenySS_SStYaKF",
+            "mangledName": "$s17NotificarePushKit0aB0PAAE20registerLiveActivity_5tokenySS_SStYaKF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+            "intro_iOS": "16.1",
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerLiveActivity",
+            "printedName": "registerLiveActivity(_:token:topics:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB0PAAE20registerLiveActivity_5token6topics_ySS_10Foundation4DataVSaySSGys6ResultOyyts5Error_pGctF",
+            "mangledName": "$s17NotificarePushKit0aB0PAAE20registerLiveActivity_5token6topics_ySS_10Foundation4DataVSaySSGys6ResultOyyts5Error_pGctF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+            "intro_iOS": "16.1",
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerLiveActivity",
+            "printedName": "registerLiveActivity(_:token:topics:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB0PAAE20registerLiveActivity_5token6topicsySS_10Foundation4DataVSaySSGtYaKF",
+            "mangledName": "$s17NotificarePushKit0aB0PAAE20registerLiveActivity_5token6topicsySS_10Foundation4DataVSaySSGtYaKF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
+            "intro_iOS": "16.1",
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17NotificarePushKit0aB0P",
+        "mangledName": "$s17NotificarePushKit0aB0P",
+        "moduleName": "NotificarePushKit",
+        "genericSig": "<τ_0_0 : AnyObject, τ_0_0 : NotificarePushKit.NotificarePushUIApplicationDelegate, τ_0_0 : NotificarePushKit.NotificarePushUNUserNotificationCenterDelegate>",
+        "sugared_genericSig": "<Self : AnyObject, Self : NotificarePushKit.NotificarePushUIApplicationDelegate, Self : NotificarePushKit.NotificarePushUNUserNotificationCenterDelegate>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "NotificarePushUNUserNotificationCenterDelegate",
+            "printedName": "NotificarePushUNUserNotificationCenterDelegate",
+            "usr": "s:17NotificarePushKit0aB32UNUserNotificationCenterDelegateP",
+            "mangledName": "$s17NotificarePushKit0aB32UNUserNotificationCenterDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "NotificarePushUIApplicationDelegate",
+            "printedName": "NotificarePushUIApplicationDelegate",
+            "usr": "s:17NotificarePushKit0aB21UIApplicationDelegateP",
+            "mangledName": "$s17NotificarePushKit0aB21UIApplicationDelegateP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificarePushUIApplicationDelegate",
+        "printedName": "NotificarePushUIApplicationDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "application",
+            "printedName": "application(_:didRegisterForRemoteNotificationsWithDeviceToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB21UIApplicationDelegateP11application_48didRegisterForRemoteNotificationsWithDeviceTokenySo0D0C_10Foundation4DataVtF",
+            "mangledName": "$s17NotificarePushKit0aB21UIApplicationDelegateP11application_48didRegisterForRemoteNotificationsWithDeviceTokenySo0D0C_10Foundation4DataVtF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushUIApplicationDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushUIApplicationDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "application",
+            "printedName": "application(_:didFailToRegisterForRemoteNotificationsWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB21UIApplicationDelegateP11application_48didFailToRegisterForRemoteNotificationsWithErrorySo0D0C_s0O0_ptF",
+            "mangledName": "$s17NotificarePushKit0aB21UIApplicationDelegateP11application_48didFailToRegisterForRemoteNotificationsWithErrorySo0D0C_s0O0_ptF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushUIApplicationDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushUIApplicationDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "application",
+            "printedName": "application(_:didReceiveRemoteNotification:fetchCompletionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKit.UIBackgroundFetchResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIBackgroundFetchResult",
+                    "printedName": "UIKit.UIBackgroundFetchResult",
+                    "usr": "c:@E@UIBackgroundFetchResult"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB21UIApplicationDelegateP11application_28didReceiveRemoteNotification22fetchCompletionHandlerySo0D0C_SDys11AnyHashableVypGySo23UIBackgroundFetchResultVctF",
+            "mangledName": "$s17NotificarePushKit0aB21UIApplicationDelegateP11application_28didReceiveRemoteNotification22fetchCompletionHandlerySo0D0C_SDys11AnyHashableVypGySo23UIBackgroundFetchResultVctF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushUIApplicationDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushUIApplicationDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "application",
+            "printedName": "application(_:didReceiveRemoteNotification:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIBackgroundFetchResult",
+                "printedName": "UIKit.UIBackgroundFetchResult",
+                "usr": "c:@E@UIBackgroundFetchResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB21UIApplicationDelegateP11application_28didReceiveRemoteNotificationSo23UIBackgroundFetchResultVSo0D0C_SDys11AnyHashableVypGtYaF",
+            "mangledName": "$s17NotificarePushKit0aB21UIApplicationDelegateP11application_28didReceiveRemoteNotificationSo23UIBackgroundFetchResultVSo0D0C_SDys11AnyHashableVypGtYaF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushUIApplicationDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushUIApplicationDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17NotificarePushKit0aB21UIApplicationDelegateP",
+        "mangledName": "$s17NotificarePushKit0aB21UIApplicationDelegateP",
+        "moduleName": "NotificarePushKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificarePushUNUserNotificationCenterDelegate",
+        "printedName": "NotificarePushUNUserNotificationCenterDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "userNotificationCenter",
+            "printedName": "userNotificationCenter(_:openSettingsFor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNUserNotificationCenter",
+                "printedName": "UserNotifications.UNUserNotificationCenter",
+                "usr": "c:objc(cs)UNUserNotificationCenter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UserNotifications.UNNotification?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotification",
+                    "printedName": "UserNotifications.UNNotification",
+                    "usr": "c:objc(cs)UNNotification"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB32UNUserNotificationCenterDelegateP04usereF0_15openSettingsForySo0deF0C_So14UNNotificationCSgtF",
+            "mangledName": "$s17NotificarePushKit0aB32UNUserNotificationCenterDelegateP04usereF0_15openSettingsForySo0deF0C_So14UNNotificationCSgtF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushUNUserNotificationCenterDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushUNUserNotificationCenterDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userNotificationCenter",
+            "printedName": "userNotificationCenter(_:didReceive:withCompletionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNUserNotificationCenter",
+                "printedName": "UserNotifications.UNUserNotificationCenter",
+                "usr": "c:objc(cs)UNUserNotificationCenter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationResponse",
+                "printedName": "UserNotifications.UNNotificationResponse",
+                "usr": "c:objc(cs)UNNotificationResponse"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB32UNUserNotificationCenterDelegateP04usereF0_10didReceive21withCompletionHandlerySo0deF0C_So22UNNotificationResponseCyyctF",
+            "mangledName": "$s17NotificarePushKit0aB32UNUserNotificationCenterDelegateP04usereF0_10didReceive21withCompletionHandlerySo0deF0C_So22UNNotificationResponseCyyctF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushUNUserNotificationCenterDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushUNUserNotificationCenterDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userNotificationCenter",
+            "printedName": "userNotificationCenter(_:didReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNUserNotificationCenter",
+                "printedName": "UserNotifications.UNUserNotificationCenter",
+                "usr": "c:objc(cs)UNUserNotificationCenter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationResponse",
+                "printedName": "UserNotifications.UNNotificationResponse",
+                "usr": "c:objc(cs)UNNotificationResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB32UNUserNotificationCenterDelegateP04usereF0_10didReceiveySo0deF0C_So22UNNotificationResponseCtYaF",
+            "mangledName": "$s17NotificarePushKit0aB32UNUserNotificationCenterDelegateP04usereF0_10didReceiveySo0deF0C_So22UNNotificationResponseCtYaF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushUNUserNotificationCenterDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushUNUserNotificationCenterDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userNotificationCenter",
+            "printedName": "userNotificationCenter(_:willPresent:withCompletionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNUserNotificationCenter",
+                "printedName": "UserNotifications.UNUserNotificationCenter",
+                "usr": "c:objc(cs)UNUserNotificationCenter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotification",
+                "printedName": "UserNotifications.UNNotification",
+                "usr": "c:objc(cs)UNNotification"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UserNotifications.UNNotificationPresentationOptions) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationPresentationOptions",
+                    "printedName": "UserNotifications.UNNotificationPresentationOptions",
+                    "usr": "c:@E@UNNotificationPresentationOptions"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB32UNUserNotificationCenterDelegateP04usereF0_11willPresent21withCompletionHandlerySo0deF0C_So14UNNotificationCySo0N19PresentationOptionsVctF",
+            "mangledName": "$s17NotificarePushKit0aB32UNUserNotificationCenterDelegateP04usereF0_11willPresent21withCompletionHandlerySo0deF0C_So14UNNotificationCySo0N19PresentationOptionsVctF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushUNUserNotificationCenterDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushUNUserNotificationCenterDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userNotificationCenter",
+            "printedName": "userNotificationCenter(_:willPresent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationPresentationOptions",
+                "printedName": "UserNotifications.UNNotificationPresentationOptions",
+                "usr": "c:@E@UNNotificationPresentationOptions"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNUserNotificationCenter",
+                "printedName": "UserNotifications.UNUserNotificationCenter",
+                "usr": "c:objc(cs)UNUserNotificationCenter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotification",
+                "printedName": "UserNotifications.UNNotification",
+                "usr": "c:objc(cs)UNNotification"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB32UNUserNotificationCenterDelegateP04usereF0_11willPresentSo33UNNotificationPresentationOptionsVSo0deF0C_So0K0CtYaF",
+            "mangledName": "$s17NotificarePushKit0aB32UNUserNotificationCenterDelegateP04usereF0_11willPresentSo33UNNotificationPresentationOptionsVSo0deF0C_So0K0CtYaF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushUNUserNotificationCenterDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushUNUserNotificationCenterDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17NotificarePushKit0aB32UNUserNotificationCenterDelegateP",
+        "mangledName": "$s17NotificarePushKit0aB32UNUserNotificationCenterDelegateP",
+        "moduleName": "NotificarePushKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareKit",
+        "printedName": "NotificareKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit"
+      },
+      {
+        "kind": "Import",
+        "name": "NotificationCenter",
+        "printedName": "NotificationCenter",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit"
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareKit",
+        "printedName": "NotificareKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificareSystemNotification",
+        "printedName": "NotificareSystemNotification",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17NotificarePushKit0A18SystemNotificationV2idSSvp",
+            "mangledName": "$s17NotificarePushKit0A18SystemNotificationV2idSSvp",
+            "moduleName": "NotificarePushKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17NotificarePushKit0A18SystemNotificationV2idSSvg",
+                "mangledName": "$s17NotificarePushKit0A18SystemNotificationV2idSSvg",
+                "moduleName": "NotificarePushKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17NotificarePushKit0A18SystemNotificationV4typeSSvp",
+            "mangledName": "$s17NotificarePushKit0A18SystemNotificationV4typeSSvp",
+            "moduleName": "NotificarePushKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17NotificarePushKit0A18SystemNotificationV4typeSSvg",
+                "mangledName": "$s17NotificarePushKit0A18SystemNotificationV4typeSSvg",
+                "moduleName": "NotificarePushKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "extra",
+            "printedName": "extra",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17NotificarePushKit0A18SystemNotificationV5extraSDySSypGvp",
+            "mangledName": "$s17NotificarePushKit0A18SystemNotificationV5extraSDySSypGvp",
+            "moduleName": "NotificarePushKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17NotificarePushKit0A18SystemNotificationV5extraSDySSypGvg",
+                "mangledName": "$s17NotificarePushKit0A18SystemNotificationV5extraSDySSypGvg",
+                "moduleName": "NotificarePushKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:type:extra:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareSystemNotification",
+                "printedName": "NotificarePushKit.NotificareSystemNotification",
+                "usr": "s:17NotificarePushKit0A18SystemNotificationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17NotificarePushKit0A18SystemNotificationV2id4type5extraACSS_SSSDySSypGtcfc",
+            "mangledName": "$s17NotificarePushKit0A18SystemNotificationV2id4type5extraACSS_SSSDySSypGtcfc",
+            "moduleName": "NotificarePushKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "toJson",
+            "printedName": "toJson()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0A18SystemNotificationV6toJsonSDySSypGyKF",
+            "mangledName": "$s17NotificarePushKit0A18SystemNotificationV6toJsonSDySSypGyKF",
+            "moduleName": "NotificarePushKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fromJson",
+            "printedName": "fromJson(json:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareSystemNotification",
+                "printedName": "NotificarePushKit.NotificareSystemNotification",
+                "usr": "s:17NotificarePushKit0A18SystemNotificationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0A18SystemNotificationV8fromJson4jsonACSDySSypG_tKFZ",
+            "mangledName": "$s17NotificarePushKit0A18SystemNotificationV8fromJson4jsonACSDySSypG_tKFZ",
+            "moduleName": "NotificarePushKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareSystemNotification",
+                "printedName": "NotificarePushKit.NotificareSystemNotification",
+                "usr": "s:17NotificarePushKit0A18SystemNotificationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17NotificarePushKit0A18SystemNotificationV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s17NotificarePushKit0A18SystemNotificationV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "NotificarePushKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0A18SystemNotificationV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s17NotificarePushKit0A18SystemNotificationV6encode2toys7Encoder_p_tKF",
+            "moduleName": "NotificarePushKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17NotificarePushKit0A18SystemNotificationV",
+        "mangledName": "$s17NotificarePushKit0A18SystemNotificationV",
+        "moduleName": "NotificarePushKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificareTransport",
+        "printedName": "NotificareTransport",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "notificare",
+            "printedName": "notificare",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NotificarePushKit.NotificareTransport.Type) -> NotificarePushKit.NotificareTransport",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificareTransport",
+                    "printedName": "NotificarePushKit.NotificareTransport",
+                    "usr": "s:17NotificarePushKit0A9TransportO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NotificarePushKit.NotificareTransport.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotificareTransport",
+                        "printedName": "NotificarePushKit.NotificareTransport",
+                        "usr": "s:17NotificarePushKit0A9TransportO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17NotificarePushKit0A9TransportO10notificareyA2CmF",
+            "mangledName": "$s17NotificarePushKit0A9TransportO10notificareyA2CmF",
+            "moduleName": "NotificarePushKit"
+          },
+          {
+            "kind": "Var",
+            "name": "apns",
+            "printedName": "apns",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NotificarePushKit.NotificareTransport.Type) -> NotificarePushKit.NotificareTransport",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificareTransport",
+                    "printedName": "NotificarePushKit.NotificareTransport",
+                    "usr": "s:17NotificarePushKit0A9TransportO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NotificarePushKit.NotificareTransport.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotificareTransport",
+                        "printedName": "NotificarePushKit.NotificareTransport",
+                        "usr": "s:17NotificarePushKit0A9TransportO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17NotificarePushKit0A9TransportO4apnsyA2CmF",
+            "mangledName": "$s17NotificarePushKit0A9TransportO4apnsyA2CmF",
+            "moduleName": "NotificarePushKit"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NotificarePushKit.NotificareTransport?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificareTransport",
+                    "printedName": "NotificarePushKit.NotificareTransport",
+                    "usr": "s:17NotificarePushKit0A9TransportO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17NotificarePushKit0A9TransportO8rawValueACSgSS_tcfc",
+            "mangledName": "$s17NotificarePushKit0A9TransportO8rawValueACSgSS_tcfc",
+            "moduleName": "NotificarePushKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17NotificarePushKit0A9TransportO8rawValueSSvp",
+            "mangledName": "$s17NotificarePushKit0A9TransportO8rawValueSSvp",
+            "moduleName": "NotificarePushKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17NotificarePushKit0A9TransportO8rawValueSSvg",
+                "mangledName": "$s17NotificarePushKit0A9TransportO8rawValueSSvg",
+                "moduleName": "NotificarePushKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17NotificarePushKit0A9TransportO",
+        "mangledName": "$s17NotificarePushKit0A9TransportO",
+        "moduleName": "NotificarePushKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareKit",
+        "printedName": "NotificareKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificarePushDelegate",
+        "printedName": "NotificarePushDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "notificare",
+            "printedName": "notificare(_:didFailToRegisterForRemoteNotificationsWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificarePush",
+                "printedName": "any NotificarePushKit.NotificarePush",
+                "usr": "s:17NotificarePushKit0aB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB8DelegateP10notificare_48didFailToRegisterForRemoteNotificationsWithErroryAA0aB0_p_s0N0_ptF",
+            "mangledName": "$s17NotificarePushKit0aB8DelegateP10notificare_48didFailToRegisterForRemoteNotificationsWithErroryAA0aB0_p_s0N0_ptF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificare",
+            "printedName": "notificare(_:didChangeSubscriptionId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificarePush",
+                "printedName": "any NotificarePushKit.NotificarePush",
+                "usr": "s:17NotificarePushKit0aB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB8DelegateP10notificare_23didChangeSubscriptionIdyAA0aB0_p_SSSgtF",
+            "mangledName": "$s17NotificarePushKit0aB8DelegateP10notificare_23didChangeSubscriptionIdyAA0aB0_p_SSSgtF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificare",
+            "printedName": "notificare(_:didChangeNotificationSettings:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificarePush",
+                "printedName": "any NotificarePushKit.NotificarePush",
+                "usr": "s:17NotificarePushKit0aB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB8DelegateP10notificare_29didChangeNotificationSettingsyAA0aB0_p_SbtF",
+            "mangledName": "$s17NotificarePushKit0aB8DelegateP10notificare_29didChangeNotificationSettingsyAA0aB0_p_SbtF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificare",
+            "printedName": "notificare(_:didReceiveUnknownNotification:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificarePush",
+                "printedName": "any NotificarePushKit.NotificarePush",
+                "usr": "s:17NotificarePushKit0aB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB8DelegateP10notificare_29didReceiveUnknownNotificationyAA0aB0_p_SDys11AnyHashableVypGtF",
+            "mangledName": "$s17NotificarePushKit0aB8DelegateP10notificare_29didReceiveUnknownNotificationyAA0aB0_p_SDys11AnyHashableVypGtF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificare",
+            "printedName": "notificare(_:didReceiveNotification:deliveryMechanism:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificarePush",
+                "printedName": "any NotificarePushKit.NotificarePush",
+                "usr": "s:17NotificarePushKit0aB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareNotification",
+                "printedName": "NotificareKit.NotificareNotification",
+                "usr": "s:13NotificareKit0A12NotificationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareNotificationDeliveryMechanism",
+                "printedName": "NotificarePushKit.NotificareNotificationDeliveryMechanism",
+                "usr": "s:17NotificarePushKit0A29NotificationDeliveryMechanismO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB8DelegateP10notificare_22didReceiveNotification17deliveryMechanismyAA0aB0_p_0aC00aH0VAA0ah8DeliveryJ0OtF",
+            "mangledName": "$s17NotificarePushKit0aB8DelegateP10notificare_22didReceiveNotification17deliveryMechanismyAA0aB0_p_0aC00aH0VAA0ah8DeliveryJ0OtF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificare",
+            "printedName": "notificare(_:didReceiveSystemNotification:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificarePush",
+                "printedName": "any NotificarePushKit.NotificarePush",
+                "usr": "s:17NotificarePushKit0aB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareSystemNotification",
+                "printedName": "NotificarePushKit.NotificareSystemNotification",
+                "usr": "s:17NotificarePushKit0A18SystemNotificationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB8DelegateP10notificare_28didReceiveSystemNotificationyAA0aB0_p_AA0ahI0VtF",
+            "mangledName": "$s17NotificarePushKit0aB8DelegateP10notificare_28didReceiveSystemNotificationyAA0aB0_p_AA0ahI0VtF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificare",
+            "printedName": "notificare(_:shouldOpenSettings:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificarePush",
+                "printedName": "any NotificarePushKit.NotificarePush",
+                "usr": "s:17NotificarePushKit0aB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NotificareKit.NotificareNotification?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificareNotification",
+                    "printedName": "NotificareKit.NotificareNotification",
+                    "usr": "s:13NotificareKit0A12NotificationV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB8DelegateP10notificare_18shouldOpenSettingsyAA0aB0_p_0aC00A12NotificationVSgtF",
+            "mangledName": "$s17NotificarePushKit0aB8DelegateP10notificare_18shouldOpenSettingsyAA0aB0_p_0aC00A12NotificationVSgtF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificare",
+            "printedName": "notificare(_:didOpenNotification:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificarePush",
+                "printedName": "any NotificarePushKit.NotificarePush",
+                "usr": "s:17NotificarePushKit0aB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareNotification",
+                "printedName": "NotificareKit.NotificareNotification",
+                "usr": "s:13NotificareKit0A12NotificationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB8DelegateP10notificare_19didOpenNotificationyAA0aB0_p_0aC00aH0VtF",
+            "mangledName": "$s17NotificarePushKit0aB8DelegateP10notificare_19didOpenNotificationyAA0aB0_p_0aC00aH0VtF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificare",
+            "printedName": "notificare(_:didOpenUnknownNotification:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificarePush",
+                "printedName": "any NotificarePushKit.NotificarePush",
+                "usr": "s:17NotificarePushKit0aB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB8DelegateP10notificare_26didOpenUnknownNotificationyAA0aB0_p_SDys11AnyHashableVypGtF",
+            "mangledName": "$s17NotificarePushKit0aB8DelegateP10notificare_26didOpenUnknownNotificationyAA0aB0_p_SDys11AnyHashableVypGtF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificare",
+            "printedName": "notificare(_:didOpenAction:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificarePush",
+                "printedName": "any NotificarePushKit.NotificarePush",
+                "usr": "s:17NotificarePushKit0aB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Action",
+                "printedName": "NotificareKit.NotificareNotification.Action",
+                "usr": "s:13NotificareKit0A12NotificationV6ActionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareNotification",
+                "printedName": "NotificareKit.NotificareNotification",
+                "usr": "s:13NotificareKit0A12NotificationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB8DelegateP10notificare_13didOpenAction3foryAA0aB0_p_0aC00A12NotificationV0H0VAJtF",
+            "mangledName": "$s17NotificarePushKit0aB8DelegateP10notificare_13didOpenAction3foryAA0aB0_p_0aC00A12NotificationV0H0VAJtF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificare",
+            "printedName": "notificare(_:didOpenUnknownAction:for:responseText:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificarePush",
+                "printedName": "any NotificarePushKit.NotificarePush",
+                "usr": "s:17NotificarePushKit0aB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB8DelegateP10notificare_20didOpenUnknownAction3for12responseTextyAA0aB0_p_SSSDys11AnyHashableVypGSSSgtF",
+            "mangledName": "$s17NotificarePushKit0aB8DelegateP10notificare_20didOpenUnknownAction3for12responseTextyAA0aB0_p_SSSDys11AnyHashableVypGSSSgtF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificare",
+            "printedName": "notificare(_:didFailToRegisterForRemoteNotificationsWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificarePush",
+                "printedName": "any NotificarePushKit.NotificarePush",
+                "usr": "s:17NotificarePushKit0aB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB8DelegatePAAE10notificare_48didFailToRegisterForRemoteNotificationsWithErroryAA0aB0_p_s0N0_ptF",
+            "mangledName": "$s17NotificarePushKit0aB8DelegatePAAE10notificare_48didFailToRegisterForRemoteNotificationsWithErroryAA0aB0_p_s0N0_ptF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushDelegate>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificare",
+            "printedName": "notificare(_:didChangeSubscriptionId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificarePush",
+                "printedName": "any NotificarePushKit.NotificarePush",
+                "usr": "s:17NotificarePushKit0aB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB8DelegatePAAE10notificare_23didChangeSubscriptionIdyAA0aB0_p_SSSgtF",
+            "mangledName": "$s17NotificarePushKit0aB8DelegatePAAE10notificare_23didChangeSubscriptionIdyAA0aB0_p_SSSgtF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushDelegate>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificare",
+            "printedName": "notificare(_:didChangeNotificationSettings:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificarePush",
+                "printedName": "any NotificarePushKit.NotificarePush",
+                "usr": "s:17NotificarePushKit0aB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB8DelegatePAAE10notificare_29didChangeNotificationSettingsyAA0aB0_p_SbtF",
+            "mangledName": "$s17NotificarePushKit0aB8DelegatePAAE10notificare_29didChangeNotificationSettingsyAA0aB0_p_SbtF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushDelegate>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificare",
+            "printedName": "notificare(_:didReceiveUnknownNotification:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificarePush",
+                "printedName": "any NotificarePushKit.NotificarePush",
+                "usr": "s:17NotificarePushKit0aB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB8DelegatePAAE10notificare_29didReceiveUnknownNotificationyAA0aB0_p_SDys11AnyHashableVypGtF",
+            "mangledName": "$s17NotificarePushKit0aB8DelegatePAAE10notificare_29didReceiveUnknownNotificationyAA0aB0_p_SDys11AnyHashableVypGtF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushDelegate>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificare",
+            "printedName": "notificare(_:didReceiveNotification:deliveryMechanism:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificarePush",
+                "printedName": "any NotificarePushKit.NotificarePush",
+                "usr": "s:17NotificarePushKit0aB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareNotification",
+                "printedName": "NotificareKit.NotificareNotification",
+                "usr": "s:13NotificareKit0A12NotificationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareNotificationDeliveryMechanism",
+                "printedName": "NotificarePushKit.NotificareNotificationDeliveryMechanism",
+                "usr": "s:17NotificarePushKit0A29NotificationDeliveryMechanismO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB8DelegatePAAE10notificare_22didReceiveNotification17deliveryMechanismyAA0aB0_p_0aC00aH0VAA0ah8DeliveryJ0OtF",
+            "mangledName": "$s17NotificarePushKit0aB8DelegatePAAE10notificare_22didReceiveNotification17deliveryMechanismyAA0aB0_p_0aC00aH0VAA0ah8DeliveryJ0OtF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushDelegate>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificare",
+            "printedName": "notificare(_:didReceiveSystemNotification:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificarePush",
+                "printedName": "any NotificarePushKit.NotificarePush",
+                "usr": "s:17NotificarePushKit0aB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareSystemNotification",
+                "printedName": "NotificarePushKit.NotificareSystemNotification",
+                "usr": "s:17NotificarePushKit0A18SystemNotificationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB8DelegatePAAE10notificare_28didReceiveSystemNotificationyAA0aB0_p_AA0ahI0VtF",
+            "mangledName": "$s17NotificarePushKit0aB8DelegatePAAE10notificare_28didReceiveSystemNotificationyAA0aB0_p_AA0ahI0VtF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushDelegate>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificare",
+            "printedName": "notificare(_:shouldOpenSettings:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificarePush",
+                "printedName": "any NotificarePushKit.NotificarePush",
+                "usr": "s:17NotificarePushKit0aB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NotificareKit.NotificareNotification?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificareNotification",
+                    "printedName": "NotificareKit.NotificareNotification",
+                    "usr": "s:13NotificareKit0A12NotificationV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB8DelegatePAAE10notificare_18shouldOpenSettingsyAA0aB0_p_0aC00A12NotificationVSgtF",
+            "mangledName": "$s17NotificarePushKit0aB8DelegatePAAE10notificare_18shouldOpenSettingsyAA0aB0_p_0aC00A12NotificationVSgtF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushDelegate>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificare",
+            "printedName": "notificare(_:didOpenNotification:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificarePush",
+                "printedName": "any NotificarePushKit.NotificarePush",
+                "usr": "s:17NotificarePushKit0aB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareNotification",
+                "printedName": "NotificareKit.NotificareNotification",
+                "usr": "s:13NotificareKit0A12NotificationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB8DelegatePAAE10notificare_19didOpenNotificationyAA0aB0_p_0aC00aH0VtF",
+            "mangledName": "$s17NotificarePushKit0aB8DelegatePAAE10notificare_19didOpenNotificationyAA0aB0_p_0aC00aH0VtF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushDelegate>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificare",
+            "printedName": "notificare(_:didOpenUnknownNotification:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificarePush",
+                "printedName": "any NotificarePushKit.NotificarePush",
+                "usr": "s:17NotificarePushKit0aB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB8DelegatePAAE10notificare_26didOpenUnknownNotificationyAA0aB0_p_SDys11AnyHashableVypGtF",
+            "mangledName": "$s17NotificarePushKit0aB8DelegatePAAE10notificare_26didOpenUnknownNotificationyAA0aB0_p_SDys11AnyHashableVypGtF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushDelegate>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificare",
+            "printedName": "notificare(_:didOpenAction:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificarePush",
+                "printedName": "any NotificarePushKit.NotificarePush",
+                "usr": "s:17NotificarePushKit0aB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Action",
+                "printedName": "NotificareKit.NotificareNotification.Action",
+                "usr": "s:13NotificareKit0A12NotificationV6ActionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareNotification",
+                "printedName": "NotificareKit.NotificareNotification",
+                "usr": "s:13NotificareKit0A12NotificationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB8DelegatePAAE10notificare_13didOpenAction3foryAA0aB0_p_0aC00A12NotificationV0H0VAJtF",
+            "mangledName": "$s17NotificarePushKit0aB8DelegatePAAE10notificare_13didOpenAction3foryAA0aB0_p_0aC00A12NotificationV0H0VAJtF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushDelegate>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificare",
+            "printedName": "notificare(_:didOpenUnknownAction:for:responseText:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificarePush",
+                "printedName": "any NotificarePushKit.NotificarePush",
+                "usr": "s:17NotificarePushKit0aB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB8DelegatePAAE10notificare_20didOpenUnknownAction3for12responseTextyAA0aB0_p_SSSDys11AnyHashableVypGSSSgtF",
+            "mangledName": "$s17NotificarePushKit0aB8DelegatePAAE10notificare_20didOpenUnknownAction3for12responseTextyAA0aB0_p_SSSDys11AnyHashableVypGSSSgtF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushDelegate>",
+            "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushDelegate>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17NotificarePushKit0aB8DelegateP",
+        "mangledName": "$s17NotificarePushKit0aB8DelegateP",
+        "moduleName": "NotificarePushKit",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareKit",
+        "printedName": "NotificareKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareKit",
+        "printedName": "NotificareKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit"
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareKit",
+        "printedName": "NotificareKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareKit",
+        "printedName": "NotificareKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit"
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareKit",
+        "printedName": "NotificareKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareKit",
+        "printedName": "NotificareKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificareNotificationDeliveryMechanism",
+        "printedName": "NotificareNotificationDeliveryMechanism",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "standard",
+            "printedName": "standard",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NotificarePushKit.NotificareNotificationDeliveryMechanism.Type) -> NotificarePushKit.NotificareNotificationDeliveryMechanism",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificareNotificationDeliveryMechanism",
+                    "printedName": "NotificarePushKit.NotificareNotificationDeliveryMechanism",
+                    "usr": "s:17NotificarePushKit0A29NotificationDeliveryMechanismO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NotificarePushKit.NotificareNotificationDeliveryMechanism.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotificareNotificationDeliveryMechanism",
+                        "printedName": "NotificarePushKit.NotificareNotificationDeliveryMechanism",
+                        "usr": "s:17NotificarePushKit0A29NotificationDeliveryMechanismO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17NotificarePushKit0A29NotificationDeliveryMechanismO8standardyA2CmF",
+            "mangledName": "$s17NotificarePushKit0A29NotificationDeliveryMechanismO8standardyA2CmF",
+            "moduleName": "NotificarePushKit"
+          },
+          {
+            "kind": "Var",
+            "name": "silent",
+            "printedName": "silent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NotificarePushKit.NotificareNotificationDeliveryMechanism.Type) -> NotificarePushKit.NotificareNotificationDeliveryMechanism",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificareNotificationDeliveryMechanism",
+                    "printedName": "NotificarePushKit.NotificareNotificationDeliveryMechanism",
+                    "usr": "s:17NotificarePushKit0A29NotificationDeliveryMechanismO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NotificarePushKit.NotificareNotificationDeliveryMechanism.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NotificareNotificationDeliveryMechanism",
+                        "printedName": "NotificarePushKit.NotificareNotificationDeliveryMechanism",
+                        "usr": "s:17NotificarePushKit0A29NotificationDeliveryMechanismO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17NotificarePushKit0A29NotificationDeliveryMechanismO6silentyA2CmF",
+            "mangledName": "$s17NotificarePushKit0A29NotificationDeliveryMechanismO6silentyA2CmF",
+            "moduleName": "NotificarePushKit"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NotificarePushKit.NotificareNotificationDeliveryMechanism?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificareNotificationDeliveryMechanism",
+                    "printedName": "NotificarePushKit.NotificareNotificationDeliveryMechanism",
+                    "usr": "s:17NotificarePushKit0A29NotificationDeliveryMechanismO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17NotificarePushKit0A29NotificationDeliveryMechanismO8rawValueACSgSS_tcfc",
+            "mangledName": "$s17NotificarePushKit0A29NotificationDeliveryMechanismO8rawValueACSgSS_tcfc",
+            "moduleName": "NotificarePushKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17NotificarePushKit0A29NotificationDeliveryMechanismO8rawValueSSvp",
+            "mangledName": "$s17NotificarePushKit0A29NotificationDeliveryMechanismO8rawValueSSvp",
+            "moduleName": "NotificarePushKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17NotificarePushKit0A29NotificationDeliveryMechanismO8rawValueSSvg",
+                "mangledName": "$s17NotificarePushKit0A29NotificationDeliveryMechanismO8rawValueSSvg",
+                "moduleName": "NotificarePushKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17NotificarePushKit0A29NotificationDeliveryMechanismO",
+        "mangledName": "$s17NotificarePushKit0A29NotificationDeliveryMechanismO",
+        "moduleName": "NotificarePushKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareKit",
+        "printedName": "NotificareKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareKit",
+        "printedName": "NotificareKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit"
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareKit",
+        "printedName": "NotificareKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Notificare",
+        "printedName": "Notificare",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "push",
+            "printedName": "push()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificarePush",
+                "printedName": "any NotificarePushKit.NotificarePush",
+                "usr": "s:17NotificarePushKit0aB0P"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NotificareKit0A0C0a4PushB0E4pushAD0aC0_pyF",
+            "mangledName": "$s13NotificareKit0A0C0a4PushB0E4pushAD0aC0_pyF",
+            "moduleName": "NotificarePushKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13NotificareKit0A0C",
+        "mangledName": "$s13NotificareKit0A0C",
+        "moduleName": "NotificareKit",
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificareEventsModule",
+        "printedName": "NotificareEventsModule",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "logNotificationReceived",
+            "printedName": "logNotificationReceived(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NotificareKit0A12EventsModuleP0a4PushB0E23logNotificationReceivedyySSYaKF",
+            "mangledName": "$s13NotificareKit0A12EventsModuleP0a4PushB0E23logNotificationReceivedyySSYaKF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificareKit.NotificareEventsModule>",
+            "sugared_genericSig": "<Self where Self : NotificareKit.NotificareEventsModule>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logNotificationInfluenced",
+            "printedName": "logNotificationInfluenced(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NotificareKit0A12EventsModuleP0a4PushB0E25logNotificationInfluencedyySSYaKF",
+            "mangledName": "$s13NotificareKit0A12EventsModuleP0a4PushB0E25logNotificationInfluencedyySSYaKF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificareKit.NotificareEventsModule>",
+            "sugared_genericSig": "<Self where Self : NotificareKit.NotificareEventsModule>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logPushRegistration",
+            "printedName": "logPushRegistration()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NotificareKit0A12EventsModuleP0a4PushB0E03logE12RegistrationyyYaKF",
+            "mangledName": "$s13NotificareKit0A12EventsModuleP0a4PushB0E03logE12RegistrationyyYaKF",
+            "moduleName": "NotificarePushKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificareKit.NotificareEventsModule>",
+            "sugared_genericSig": "<Self where Self : NotificareKit.NotificareEventsModule>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13NotificareKit0A12EventsModuleP",
+        "mangledName": "$s13NotificareKit0A12EventsModuleP",
+        "moduleName": "NotificareKit",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "isExternal": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/LocalStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 61,
+      "value": "\"re.notifica.push.local_storage.remote_notifications_enabled\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/LocalStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 292,
+      "length": 42,
+      "value": "\"re.notifica.push.local_storage.transport\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/LocalStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 365,
+      "length": 48,
+      "value": "\"re.notifica.push.local_storage.subscription_id\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/LocalStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 439,
+      "length": 43,
+      "value": "\"re.notifica.push.local_storage.allowed_ui\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/LocalStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 516,
+      "length": 51,
+      "value": "\"re.notifica.push.local_storage.first_registration\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/LocalStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 61,
+      "value": "\"re.notifica.push.local_storage.remote_notifications_enabled\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/LocalStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 292,
+      "length": 42,
+      "value": "\"re.notifica.push.local_storage.transport\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/LocalStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 365,
+      "length": 48,
+      "value": "\"re.notifica.push.local_storage.subscription_id\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/LocalStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 439,
+      "length": 43,
+      "value": "\"re.notifica.push.local_storage.allowed_ui\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/LocalStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 516,
+      "length": 51,
+      "value": "\"re.notifica.push.local_storage.first_registration\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/NotificarePushImpl.swift",
+      "kind": "Array",
+      "offset": 3670,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/NotificarePush.swift",
+      "kind": "Array",
+      "offset": 2211,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/NotificarePush.swift",
+      "kind": "Array",
+      "offset": 2490,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Models\/NotificareTransport.swift",
+      "kind": "StringLiteral",
+      "offset": 154,
+      "length": 12,
+      "value": "\"Notificare\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Models\/NotificareTransport.swift",
+      "kind": "StringLiteral",
+      "offset": 183,
+      "length": 6,
+      "value": "\"APNS\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Models\/NotificareTransport.swift",
+      "kind": "StringLiteral",
+      "offset": 154,
+      "length": 12,
+      "value": "\"Notificare\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Models\/NotificareTransport.swift",
+      "kind": "StringLiteral",
+      "offset": 183,
+      "length": 6,
+      "value": "\"APNS\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/InboxIntegration.swift",
+      "kind": "StringLiteral",
+      "offset": 198,
+      "length": 33,
+      "value": "\"NotificareInboxKit.AddInboxItem\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/InboxIntegration.swift",
+      "kind": "StringLiteral",
+      "offset": 314,
+      "length": 34,
+      "value": "\"NotificareInboxKit.ReadInboxItem\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/InboxIntegration.swift",
+      "kind": "StringLiteral",
+      "offset": 430,
+      "length": 33,
+      "value": "\"NotificareInboxKit.RefreshBadge\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/InboxIntegration.swift",
+      "kind": "StringLiteral",
+      "offset": 544,
+      "length": 32,
+      "value": "\"NotificareInboxKit.ReloadInbox\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/ApplicationDelegate\/PushTokenRequester.swift",
+      "kind": "IntegerLiteral",
+      "offset": 314,
+      "length": 1,
+      "value": "1"
+    }
+  ]
+}

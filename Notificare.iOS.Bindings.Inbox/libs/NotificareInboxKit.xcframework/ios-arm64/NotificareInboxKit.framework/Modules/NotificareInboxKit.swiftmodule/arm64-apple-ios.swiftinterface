@@ -1,0 +1,118 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NotificareInboxKit
+import CoreData
+import Foundation
+import NotificareKit
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol NotificareInbox : AnyObject {
+  var delegate: (any NotificareInboxKit.NotificareInboxDelegate)? { get set }
+  var items: [NotificareInboxKit.NotificareInboxItem] { get }
+  var badge: Swift.Int { get }
+  func refresh()
+  func refreshBadge(_ completion: @escaping NotificareKit.NotificareCallback<Swift.Int>)
+  #if compiler(>=5.3) && $AsyncAwait
+  func refreshBadge() async throws -> Swift.Int
+  #endif
+  func open(_ item: NotificareInboxKit.NotificareInboxItem, _ completion: @escaping NotificareKit.NotificareCallback<NotificareKit.NotificareNotification>)
+  #if compiler(>=5.3) && $AsyncAwait
+  func open(_ item: NotificareInboxKit.NotificareInboxItem) async throws -> NotificareKit.NotificareNotification
+  #endif
+  func markAsRead(_ item: NotificareInboxKit.NotificareInboxItem, _ completion: @escaping NotificareKit.NotificareCallback<Swift.Void>)
+  #if compiler(>=5.3) && $AsyncAwait
+  func markAsRead(_ item: NotificareInboxKit.NotificareInboxItem) async throws
+  #endif
+  func markAllAsRead(_ completion: @escaping NotificareKit.NotificareCallback<Swift.Void>)
+  #if compiler(>=5.3) && $AsyncAwait
+  func markAllAsRead() async throws
+  #endif
+  func remove(_ item: NotificareInboxKit.NotificareInboxItem, _ completion: @escaping NotificareKit.NotificareCallback<Swift.Void>)
+  #if compiler(>=5.3) && $AsyncAwait
+  func remove(_ item: NotificareInboxKit.NotificareInboxItem) async throws
+  #endif
+  func clear(_ completion: @escaping NotificareKit.NotificareCallback<Swift.Void>)
+  #if compiler(>=5.3) && $AsyncAwait
+  func clear() async throws
+  #endif
+}
+public struct NotificareInboxItem : Swift.Codable {
+  public let id: Swift.String
+  public let notification: NotificareKit.NotificareNotification
+  public let time: Foundation.Date
+  public let opened: Swift.Bool
+  public let expires: Foundation.Date?
+  public init(id: Swift.String, notification: NotificareKit.NotificareNotification, time: Foundation.Date, opened: Swift.Bool, expires: Foundation.Date?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@available(macOS 10.15, iOS 13.0, watchOS 6.0, tvOS 13.0, *)
+extension NotificareInboxKit.NotificareInboxItem : Swift.Identifiable {
+  public typealias ID = Swift.String
+}
+extension NotificareInboxKit.NotificareInboxItem {
+  public func toJson() throws -> [Swift.String : Any]
+  public static func fromJson(json: [Swift.String : Any]) throws -> NotificareInboxKit.NotificareInboxItem
+}
+extension NotificareKit.Notificare {
+  public func inbox() -> any NotificareInboxKit.NotificareInbox
+}
+public protocol NotificareInboxDelegate : AnyObject {
+  func notificare(_ notificareInbox: any NotificareInboxKit.NotificareInbox, didUpdateInbox items: [NotificareInboxKit.NotificareInboxItem])
+  func notificare(_ notificareInbox: any NotificareInboxKit.NotificareInbox, didUpdateBadge badge: Swift.Int)
+}
+extension NotificareInboxKit.NotificareInboxDelegate {
+  public func notificare(_: any NotificareInboxKit.NotificareInbox, didUpdateInbox _: [NotificareInboxKit.NotificareInboxItem])
+  public func notificare(_: any NotificareInboxKit.NotificareInbox, didUpdateBadge _: Swift.Int)
+}
+public enum NotificareInboxError : Swift.Error {
+  case autoBadgeUnavailable
+  public static func == (a: NotificareInboxKit.NotificareInboxError, b: NotificareInboxKit.NotificareInboxError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc(InboxItemEntity) public class InboxItemEntity : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension NotificareInboxKit.InboxItemEntity {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<NotificareInboxKit.InboxItemEntity>
+  @objc @NSManaged dynamic public var expires: Foundation.Date? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var id: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var notification: Foundation.Data? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var notificationId: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var opened: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var time: Foundation.Date? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var visible: Swift.Bool {
+    @objc get
+    @objc set
+  }
+}
+extension NotificareInboxKit.InboxItemEntity : Swift.Identifiable {
+  public typealias ID = Swift.String?
+}
+extension NotificareInboxKit.NotificareInboxError : Swift.Equatable {}
+extension NotificareInboxKit.NotificareInboxError : Swift.Hashable {}

@@ -1,0 +1,19 @@
+<Project>
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <NoWarn>$(NoWarn);0114;0108;8765</NoWarn>
+        <Version>4.0.0-beta.1</Version>
+    </PropertyGroup>
+    
+    <PropertyGroup Condition=" $(MSBuildProjectName.Contains('Android.Bindings')) ">
+        <TargetFramework>net8.0-android</TargetFramework>
+        <SupportedOSPlatformVersion>23</SupportedOSPlatformVersion>
+    </PropertyGroup>
+    
+    <PropertyGroup Condition=" $(MSBuildProjectName.Contains('iOS.Bindings')) ">
+        <TargetFramework>net8.0-ios</TargetFramework>
+        <IsBindingProject>true</IsBindingProject>
+    </PropertyGroup>
+</Project>

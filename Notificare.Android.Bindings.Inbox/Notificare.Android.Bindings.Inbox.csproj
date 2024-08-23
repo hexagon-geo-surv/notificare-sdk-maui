@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<ItemGroup>
+		<AndroidLibrary Remove="lib\*.aar" />
+	</ItemGroup>
+</Project>

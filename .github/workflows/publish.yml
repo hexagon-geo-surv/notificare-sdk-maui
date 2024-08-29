@@ -2,6 +2,11 @@ on:
   release:
     types:
       - created
+
+permissions:
+  contents: read
+  packages: write
+    
 jobs:
   release:
     name: Release
@@ -20,3 +25,4 @@ jobs:
           name: nupkgs
           path: |
             **/*.nupkg
+      - run: dotnet nuget push "**/*.nupkg" --api-key ${{ secrets.GITHUB_TOKEN }} --source https://nuget.pkg.github.com/hexagon-geo-surv/index.json

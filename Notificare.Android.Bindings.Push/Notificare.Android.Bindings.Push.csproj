@@ -3,6 +3,9 @@
 		<AndroidLibrary Remove="lib\*.aar" />
 	</ItemGroup>
 	<ItemGroup>
-	  <ProjectReference Include="..\Notificare.Android.Bindings.Core\Notificare.Android.Bindings.Core.csproj" />
+		<ProjectReference Include="..\Notificare.Android.Bindings.Core\Notificare.Android.Bindings.Core.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Xamarin.Firebase.Messaging" Version="123.4.1.2" />
 	</ItemGroup>
 </Project>

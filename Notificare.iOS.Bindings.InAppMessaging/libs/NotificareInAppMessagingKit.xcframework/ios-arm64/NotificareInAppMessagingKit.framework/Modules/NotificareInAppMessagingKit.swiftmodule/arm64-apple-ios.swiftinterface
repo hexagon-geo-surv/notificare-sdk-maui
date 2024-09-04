@@ -29,7 +29,7 @@ import _SwiftConcurrencyShims
   }
   @objc deinit
 }
-public struct NotificareInAppMessage : Swift.Codable {
+public struct NotificareInAppMessage : Swift.Codable, Swift.Equatable {
   public let id: Swift.String
   public let name: Swift.String
   public let type: Swift.String
@@ -42,11 +42,12 @@ public struct NotificareInAppMessage : Swift.Codable {
   public let primaryAction: NotificareInAppMessagingKit.NotificareInAppMessage.Action?
   public let secondaryAction: NotificareInAppMessagingKit.NotificareInAppMessage.Action?
   public init(id: Swift.String, name: Swift.String, type: Swift.String, context: [Swift.String], title: Swift.String?, message: Swift.String?, image: Swift.String?, landscapeImage: Swift.String?, delaySeconds: Swift.Int, primaryAction: NotificareInAppMessagingKit.NotificareInAppMessage.Action?, secondaryAction: NotificareInAppMessagingKit.NotificareInAppMessage.Action?)
-  public struct Action : Swift.Codable {
+  public struct Action : Swift.Codable, Swift.Equatable {
     public let label: Swift.String?
     public let destructive: Swift.Bool
     public let url: Swift.String?
     public init(label: Swift.String?, destructive: Swift.Bool, url: Swift.String?)
+    public static func == (a: NotificareInAppMessagingKit.NotificareInAppMessage.Action, b: NotificareInAppMessagingKit.NotificareInAppMessage.Action) -> Swift.Bool
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
@@ -78,6 +79,7 @@ public struct NotificareInAppMessage : Swift.Codable {
       get
     }
   }
+  public static func == (a: NotificareInAppMessagingKit.NotificareInAppMessage, b: NotificareInAppMessagingKit.NotificareInAppMessage) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }

@@ -5,7 +5,7 @@ plugins {
     id("org.jetbrains.kotlin.android")
 }
 
-val notificareVersion = "4.0.0-beta.1"
+val notificareVersion = "4.0.0-beta.2"
 
 android {
     namespace = "re.notifica"
@@ -21,9 +21,7 @@ dependencies {
     "download"("re.notifica:notificare-inbox:$notificareVersion")
     "download"("re.notifica:notificare-in-app-messaging:$notificareVersion")
     "download"("re.notifica:notificare-push:$notificareVersion")
-    "download"("re.notifica:notificare-push-gms:$notificareVersion")
     "download"("re.notifica:notificare-push-ui:$notificareVersion")
-    "download"("re.notifica:notificare-push-ui-gms:$notificareVersion")
 }
 
 task("download") {
@@ -40,9 +38,7 @@ task("download") {
         "notificare-inbox-$notificareVersion.aar" to "Notificare.Android.Bindings.Inbox",
         "notificare-in-app-messaging-$notificareVersion.aar" to "Notificare.Android.Bindings.InAppMessaging",
         "notificare-push-$notificareVersion.aar" to "Notificare.Android.Bindings.Push",
-        "notificare-push-gms-$notificareVersion.aar" to "Notificare.Android.Bindings.Push.Gms",
         "notificare-push-ui-$notificareVersion.aar" to "Notificare.Android.Bindings.Push.UI",
-        "notificare-push-ui-gms-$notificareVersion.aar" to "Notificare.Android.Bindings.Push.UI.Gms",
     )
 
     val repositoryRoot = rootProject.rootDir.resolve("../../")

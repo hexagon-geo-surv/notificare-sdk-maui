@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/NotificarePushUIKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		6wADm1XzWArCo7jvzClGXQsdUT0=
+		q9ozKjiwqR97uHfl3Rm4Vm1e2i4=
 		</data>
 		<key>Modules/NotificarePushUIKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NotificarePushUIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		A2shv1o7x5Ow7IsggrlW90kqtLg=
+		6hxXHa5UdvMEvi0xMaEoGo7n+AI=
 		</data>
 		<key>Modules/NotificarePushUIKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		6wADm1XzWArCo7jvzClGXQsdUT0=
+		q9ozKjiwqR97uHfl3Rm4Vm1e2i4=
 		</data>
 		<key>Modules/NotificarePushUIKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NotificarePushUIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mceQKEly3RS2XQuFFP7PEoBO2Kg=
+		riiRPQhV/FboImzAUIT0f51ELzE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H1++2Bq5BopAdvhvsCjFOp7Hf855IahacS+O9IIAU54=
+			h+t6rI0086YqaPh9o/BJB4ElKOWGzCKEWlYxzEzsq8Q=
 			</data>
 		</dict>
 		<key>Modules/NotificarePushUIKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -113,14 +113,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aZiuQhgVd0zEkClE+IZl5UCokqk274VmfUQMW3lqZGQ=
+			tIKP/QXN5r18fc2PNlmAtLN8s2lM3SbtUrNvT3hnIZo=
 			</data>
 		</dict>
 		<key>Modules/NotificarePushUIKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H1++2Bq5BopAdvhvsCjFOp7Hf855IahacS+O9IIAU54=
+			h+t6rI0086YqaPh9o/BJB4ElKOWGzCKEWlYxzEzsq8Q=
 			</data>
 		</dict>
 		<key>Modules/NotificarePushUIKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -148,7 +148,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oQZsOulKz42/VOirFio9g3eKjpnhhDRaw+SvMj2POd0=
+			h8xoVoU0YLiiHfp2zjPWJ7NnzAIQobEHOn7Ru2FavjU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

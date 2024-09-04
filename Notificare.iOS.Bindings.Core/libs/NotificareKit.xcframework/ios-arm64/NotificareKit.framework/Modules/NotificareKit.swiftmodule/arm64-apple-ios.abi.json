@@ -4168,6 +4168,38 @@
                             "implicit": true,
                             "throwing": true,
                             "init_kind": "Designated"
+                          },
+                          {
+                            "kind": "Function",
+                            "name": "==",
+                            "printedName": "==(_:_:)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ActionCategory",
+                                "printedName": "NotificareKit.NotificareInternals.PushAPI.Models.Application.ActionCategory",
+                                "usr": "s:13NotificareKit0A9InternalsO7PushAPIO6ModelsO11ApplicationV14ActionCategoryV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ActionCategory",
+                                "printedName": "NotificareKit.NotificareInternals.PushAPI.Models.Application.ActionCategory",
+                                "usr": "s:13NotificareKit0A9InternalsO7PushAPIO6ModelsO11ApplicationV14ActionCategoryV"
+                              }
+                            ],
+                            "declKind": "Func",
+                            "usr": "s:13NotificareKit0A9InternalsO7PushAPIO6ModelsO11ApplicationV14ActionCategoryV2eeoiySbAK_AKtFZ",
+                            "mangledName": "$s13NotificareKit0A9InternalsO7PushAPIO6ModelsO11ApplicationV14ActionCategoryV2eeoiySbAK_AKtFZ",
+                            "moduleName": "NotificareKit",
+                            "static": true,
+                            "implicit": true,
+                            "funcSelfKind": "NonMutating"
                           }
                         ],
                         "declKind": "Struct",
@@ -4184,6 +4216,13 @@
                             "printedName": "Decodable",
                             "usr": "s:Se",
                             "mangledName": "$sSe"
+                          },
+                          {
+                            "kind": "Conformance",
+                            "name": "Equatable",
+                            "printedName": "Equatable",
+                            "usr": "s:SQ",
+                            "mangledName": "$sSQ"
                           }
                         ]
                       },
@@ -4233,6 +4272,38 @@
                         "implicit": true,
                         "throwing": true,
                         "init_kind": "Designated"
+                      },
+                      {
+                        "kind": "Function",
+                        "name": "==",
+                        "printedName": "==(_:_:)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Application",
+                            "printedName": "NotificareKit.NotificareInternals.PushAPI.Models.Application",
+                            "usr": "s:13NotificareKit0A9InternalsO7PushAPIO6ModelsO11ApplicationV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Application",
+                            "printedName": "NotificareKit.NotificareInternals.PushAPI.Models.Application",
+                            "usr": "s:13NotificareKit0A9InternalsO7PushAPIO6ModelsO11ApplicationV"
+                          }
+                        ],
+                        "declKind": "Func",
+                        "usr": "s:13NotificareKit0A9InternalsO7PushAPIO6ModelsO11ApplicationV2eeoiySbAI_AItFZ",
+                        "mangledName": "$s13NotificareKit0A9InternalsO7PushAPIO6ModelsO11ApplicationV2eeoiySbAI_AItFZ",
+                        "moduleName": "NotificareKit",
+                        "static": true,
+                        "implicit": true,
+                        "funcSelfKind": "NonMutating"
                       }
                     ],
                     "declKind": "Struct",
@@ -4250,6 +4321,13 @@
                         "printedName": "Decodable",
                         "usr": "s:Se",
                         "mangledName": "$sSe"
+                      },
+                      {
+                        "kind": "Conformance",
+                        "name": "Equatable",
+                        "printedName": "Equatable",
+                        "usr": "s:SQ",
+                        "mangledName": "$sSQ"
                       }
                     ]
                   },
@@ -4764,11 +4842,10 @@
                         "mangledName": "$s13NotificareKit0A9InternalsO7PushAPIO6ModelsO12NotificationV5extraSDySSypGvp",
                         "moduleName": "NotificareKit",
                         "declAttributes": [
-                          "HasStorage",
-                          "AccessControl"
+                          "SetterAccess",
+                          "AccessControl",
+                          "Custom"
                         ],
-                        "isLet": true,
-                        "hasStorage": true,
                         "accessors": [
                           {
                             "kind": "Accessor",
@@ -4863,34 +4940,6 @@
                             "accessorKind": "get"
                           }
                         ]
-                      },
-                      {
-                        "kind": "Constructor",
-                        "name": "init",
-                        "printedName": "init(from:)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Notification",
-                            "printedName": "NotificareKit.NotificareInternals.PushAPI.Models.Notification",
-                            "usr": "s:13NotificareKit0A9InternalsO7PushAPIO6ModelsO12NotificationV"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Decoder",
-                            "printedName": "any Swift.Decoder",
-                            "usr": "s:s7DecoderP"
-                          }
-                        ],
-                        "declKind": "Constructor",
-                        "usr": "s:13NotificareKit0A9InternalsO7PushAPIO6ModelsO12NotificationV4fromAIs7Decoder_p_tKcfc",
-                        "mangledName": "$s13NotificareKit0A9InternalsO7PushAPIO6ModelsO12NotificationV4fromAIs7Decoder_p_tKcfc",
-                        "moduleName": "NotificareKit",
-                        "declAttributes": [
-                          "AccessControl"
-                        ],
-                        "throwing": true,
-                        "init_kind": "Designated"
                       },
                       {
                         "kind": "TypeDecl",
@@ -5355,6 +5404,38 @@
                             "implicit": true,
                             "throwing": true,
                             "init_kind": "Designated"
+                          },
+                          {
+                            "kind": "Function",
+                            "name": "==",
+                            "printedName": "==(_:_:)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Action",
+                                "printedName": "NotificareKit.NotificareInternals.PushAPI.Models.Notification.Action",
+                                "usr": "s:13NotificareKit0A9InternalsO7PushAPIO6ModelsO12NotificationV6ActionV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Action",
+                                "printedName": "NotificareKit.NotificareInternals.PushAPI.Models.Notification.Action",
+                                "usr": "s:13NotificareKit0A9InternalsO7PushAPIO6ModelsO12NotificationV6ActionV"
+                              }
+                            ],
+                            "declKind": "Func",
+                            "usr": "s:13NotificareKit0A9InternalsO7PushAPIO6ModelsO12NotificationV6ActionV2eeoiySbAK_AKtFZ",
+                            "mangledName": "$s13NotificareKit0A9InternalsO7PushAPIO6ModelsO12NotificationV6ActionV2eeoiySbAK_AKtFZ",
+                            "moduleName": "NotificareKit",
+                            "static": true,
+                            "implicit": true,
+                            "funcSelfKind": "NonMutating"
                           }
                         ],
                         "declKind": "Struct",
@@ -5371,6 +5452,13 @@
                             "printedName": "Decodable",
                             "usr": "s:Se",
                             "mangledName": "$sSe"
+                          },
+                          {
+                            "kind": "Conformance",
+                            "name": "Equatable",
+                            "printedName": "Equatable",
+                            "usr": "s:SQ",
+                            "mangledName": "$sSQ"
                           }
                         ]
                       },
@@ -5394,6 +5482,67 @@
                           "AccessControl"
                         ],
                         "funcSelfKind": "NonMutating"
+                      },
+                      {
+                        "kind": "Function",
+                        "name": "==",
+                        "printedName": "==(_:_:)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Notification",
+                            "printedName": "NotificareKit.NotificareInternals.PushAPI.Models.Notification",
+                            "usr": "s:13NotificareKit0A9InternalsO7PushAPIO6ModelsO12NotificationV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Notification",
+                            "printedName": "NotificareKit.NotificareInternals.PushAPI.Models.Notification",
+                            "usr": "s:13NotificareKit0A9InternalsO7PushAPIO6ModelsO12NotificationV"
+                          }
+                        ],
+                        "declKind": "Func",
+                        "usr": "s:13NotificareKit0A9InternalsO7PushAPIO6ModelsO12NotificationV2eeoiySbAI_AItFZ",
+                        "mangledName": "$s13NotificareKit0A9InternalsO7PushAPIO6ModelsO12NotificationV2eeoiySbAI_AItFZ",
+                        "moduleName": "NotificareKit",
+                        "static": true,
+                        "implicit": true,
+                        "funcSelfKind": "NonMutating"
+                      },
+                      {
+                        "kind": "Constructor",
+                        "name": "init",
+                        "printedName": "init(from:)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Notification",
+                            "printedName": "NotificareKit.NotificareInternals.PushAPI.Models.Notification",
+                            "usr": "s:13NotificareKit0A9InternalsO7PushAPIO6ModelsO12NotificationV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Decoder",
+                            "printedName": "any Swift.Decoder",
+                            "usr": "s:s7DecoderP"
+                          }
+                        ],
+                        "declKind": "Constructor",
+                        "usr": "s:13NotificareKit0A9InternalsO7PushAPIO6ModelsO12NotificationV4fromAIs7Decoder_p_tKcfc",
+                        "mangledName": "$s13NotificareKit0A9InternalsO7PushAPIO6ModelsO12NotificationV4fromAIs7Decoder_p_tKcfc",
+                        "moduleName": "NotificareKit",
+                        "declAttributes": [
+                          "AccessControl"
+                        ],
+                        "isFromExtension": true,
+                        "throwing": true,
+                        "init_kind": "Designated"
                       }
                     ],
                     "declKind": "Struct",
@@ -5405,6 +5554,13 @@
                     ],
                     "isFromExtension": true,
                     "conformances": [
+                      {
+                        "kind": "Conformance",
+                        "name": "Equatable",
+                        "printedName": "Equatable",
+                        "usr": "s:SQ",
+                        "mangledName": "$sSQ"
+                      },
                       {
                         "kind": "Conformance",
                         "name": "Decodable",
@@ -5625,6 +5781,38 @@
           },
           {
             "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareDynamicLink",
+                "printedName": "NotificareKit.NotificareDynamicLink",
+                "usr": "s:13NotificareKit0A11DynamicLinkV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareDynamicLink",
+                "printedName": "NotificareKit.NotificareDynamicLink",
+                "usr": "s:13NotificareKit0A11DynamicLinkV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NotificareKit0A11DynamicLinkV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13NotificareKit0A11DynamicLinkV2eeoiySbAC_ACtFZ",
+            "moduleName": "NotificareKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "toJson",
             "printedName": "toJson()",
             "children": [
@@ -5725,6 +5913,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
@@ -6200,6 +6395,28 @@
           },
           {
             "kind": "Function",
+            "name": "clearStorage",
+            "printedName": "clearStorage()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NotificareKit0A6ModuleP12clearStorageyyYaKF",
+            "mangledName": "$s13NotificareKit0A6ModuleP12clearStorageyyYaKF",
+            "moduleName": "NotificareKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificareKit.NotificareModule>",
+            "sugared_genericSig": "<Self where Self : NotificareKit.NotificareModule>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "launch",
             "printedName": "launch()",
             "children": [
@@ -6308,6 +6525,30 @@
               "AccessControl"
             ],
             "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearStorage",
+            "printedName": "clearStorage()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NotificareKit0A6ModulePAAE12clearStorageyyYaKF",
+            "mangledName": "$s13NotificareKit0A6ModulePAAE12clearStorageyyYaKF",
+            "moduleName": "NotificareKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : NotificareKit.NotificareModule>",
+            "sugared_genericSig": "<Self where Self : NotificareKit.NotificareModule>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -8070,6 +8311,38 @@
               },
               {
                 "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InboxConfig",
+                    "printedName": "NotificareKit.NotificareApplication.InboxConfig",
+                    "usr": "s:13NotificareKit0A11ApplicationV11InboxConfigV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InboxConfig",
+                    "printedName": "NotificareKit.NotificareApplication.InboxConfig",
+                    "usr": "s:13NotificareKit0A11ApplicationV11InboxConfigV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:13NotificareKit0A11ApplicationV11InboxConfigV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s13NotificareKit0A11ApplicationV11InboxConfigV2eeoiySbAE_AEtFZ",
+                "moduleName": "NotificareKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
                 "name": "toJson",
                 "printedName": "toJson()",
                 "children": [
@@ -8169,6 +8442,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
               }
             ]
           },
@@ -8325,6 +8605,38 @@
               },
               {
                 "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RegionConfig",
+                    "printedName": "NotificareKit.NotificareApplication.RegionConfig",
+                    "usr": "s:13NotificareKit0A11ApplicationV12RegionConfigV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RegionConfig",
+                    "printedName": "NotificareKit.NotificareApplication.RegionConfig",
+                    "usr": "s:13NotificareKit0A11ApplicationV12RegionConfigV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:13NotificareKit0A11ApplicationV12RegionConfigV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s13NotificareKit0A11ApplicationV12RegionConfigV2eeoiySbAE_AEtFZ",
+                "moduleName": "NotificareKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
                 "name": "toJson",
                 "printedName": "toJson()",
                 "children": [
@@ -8424,6 +8736,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
               }
             ]
           },
@@ -8656,6 +8975,38 @@
               },
               {
                 "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserDataField",
+                    "printedName": "NotificareKit.NotificareApplication.UserDataField",
+                    "usr": "s:13NotificareKit0A11ApplicationV13UserDataFieldV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserDataField",
+                    "printedName": "NotificareKit.NotificareApplication.UserDataField",
+                    "usr": "s:13NotificareKit0A11ApplicationV13UserDataFieldV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:13NotificareKit0A11ApplicationV13UserDataFieldV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s13NotificareKit0A11ApplicationV13UserDataFieldV2eeoiySbAE_AEtFZ",
+                "moduleName": "NotificareKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
                 "name": "toJson",
                 "printedName": "toJson()",
                 "children": [
@@ -8755,6 +9106,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
               }
             ]
           },
@@ -9085,6 +9443,38 @@
               },
               {
                 "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ActionCategory",
+                    "printedName": "NotificareKit.NotificareApplication.ActionCategory",
+                    "usr": "s:13NotificareKit0A11ApplicationV14ActionCategoryV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ActionCategory",
+                    "printedName": "NotificareKit.NotificareApplication.ActionCategory",
+                    "usr": "s:13NotificareKit0A11ApplicationV14ActionCategoryV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:13NotificareKit0A11ApplicationV14ActionCategoryV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s13NotificareKit0A11ApplicationV14ActionCategoryV2eeoiySbAE_AEtFZ",
+                "moduleName": "NotificareKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
                 "name": "toJson",
                 "printedName": "toJson()",
                 "children": [
@@ -9184,6 +9574,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
               }
             ]
           },
@@ -9236,6 +9633,38 @@
             "moduleName": "NotificareKit",
             "implicit": true,
             "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareApplication",
+                "printedName": "NotificareKit.NotificareApplication",
+                "usr": "s:13NotificareKit0A11ApplicationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareApplication",
+                "printedName": "NotificareKit.NotificareApplication",
+                "usr": "s:13NotificareKit0A11ApplicationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NotificareKit0A11ApplicationV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13NotificareKit0A11ApplicationV2eeoiySbAC_ACtFZ",
+            "moduleName": "NotificareKit",
+            "static": true,
+            "implicit": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -9340,6 +9769,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -11217,11 +11653,10 @@
             "mangledName": "$s13NotificareKit0A12NotificationV5extraSDySSypGvp",
             "moduleName": "NotificareKit",
             "declAttributes": [
-              "HasStorage",
-              "AccessControl"
+              "SetterAccess",
+              "AccessControl",
+              "Custom"
             ],
-            "isLet": true,
-            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -12142,11 +12577,10 @@
                 "mangledName": "$s13NotificareKit0A12NotificationV7ContentV4dataypvp",
                 "moduleName": "NotificareKit",
                 "declAttributes": [
-                  "HasStorage",
-                  "AccessControl"
+                  "SetterAccess",
+                  "AccessControl",
+                  "Custom"
                 ],
-                "isLet": true,
-                "hasStorage": true,
                 "accessors": [
                   {
                     "kind": "Accessor",
@@ -12199,6 +12633,38 @@
                   "AccessControl"
                 ],
                 "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Content",
+                    "printedName": "NotificareKit.NotificareNotification.Content",
+                    "usr": "s:13NotificareKit0A12NotificationV7ContentV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Content",
+                    "printedName": "NotificareKit.NotificareNotification.Content",
+                    "usr": "s:13NotificareKit0A12NotificationV7ContentV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:13NotificareKit0A12NotificationV7ContentV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s13NotificareKit0A12NotificationV7ContentV2eeoiySbAE_AEtFZ",
+                "moduleName": "NotificareKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
               },
               {
                 "kind": "Function",
@@ -12358,6 +12824,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
               }
             ]
           },
@@ -13572,6 +14045,38 @@
                   },
                   {
                     "kind": "Function",
+                    "name": "==",
+                    "printedName": "==(_:_:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Icon",
+                        "printedName": "NotificareKit.NotificareNotification.Action.Icon",
+                        "usr": "s:13NotificareKit0A12NotificationV6ActionV4IconV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Icon",
+                        "printedName": "NotificareKit.NotificareNotification.Action.Icon",
+                        "usr": "s:13NotificareKit0A12NotificationV6ActionV4IconV"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:13NotificareKit0A12NotificationV6ActionV4IconV2eeoiySbAG_AGtFZ",
+                    "mangledName": "$s13NotificareKit0A12NotificationV6ActionV4IconV2eeoiySbAG_AGtFZ",
+                    "moduleName": "NotificareKit",
+                    "static": true,
+                    "implicit": true,
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
                     "name": "toJson",
                     "printedName": "toJson()",
                     "children": [
@@ -13671,6 +14176,13 @@
                     "printedName": "Encodable",
                     "usr": "s:SE",
                     "mangledName": "$sSE"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Equatable",
+                    "printedName": "Equatable",
+                    "usr": "s:SQ",
+                    "mangledName": "$sSQ"
                   }
                 ]
               },
@@ -13723,6 +14235,38 @@
                 "moduleName": "NotificareKit",
                 "implicit": true,
                 "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Action",
+                    "printedName": "NotificareKit.NotificareNotification.Action",
+                    "usr": "s:13NotificareKit0A12NotificationV6ActionV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Action",
+                    "printedName": "NotificareKit.NotificareNotification.Action",
+                    "usr": "s:13NotificareKit0A12NotificationV6ActionV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:13NotificareKit0A12NotificationV6ActionV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s13NotificareKit0A12NotificationV6ActionV2eeoiySbAE_AEtFZ",
+                "moduleName": "NotificareKit",
+                "static": true,
+                "implicit": true,
                 "funcSelfKind": "NonMutating"
               },
               {
@@ -13826,6 +14370,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
               }
             ]
           },
@@ -14008,6 +14559,38 @@
               },
               {
                 "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Attachment",
+                    "printedName": "NotificareKit.NotificareNotification.Attachment",
+                    "usr": "s:13NotificareKit0A12NotificationV10AttachmentV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Attachment",
+                    "printedName": "NotificareKit.NotificareNotification.Attachment",
+                    "usr": "s:13NotificareKit0A12NotificationV10AttachmentV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:13NotificareKit0A12NotificationV10AttachmentV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s13NotificareKit0A12NotificationV10AttachmentV2eeoiySbAE_AEtFZ",
+                "moduleName": "NotificareKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
                 "name": "toJson",
                 "printedName": "toJson()",
                 "children": [
@@ -14107,8 +14690,47 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareNotification",
+                "printedName": "NotificareKit.NotificareNotification",
+                "usr": "s:13NotificareKit0A12NotificationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareNotification",
+                "printedName": "NotificareKit.NotificareNotification",
+                "usr": "s:13NotificareKit0A12NotificationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NotificareKit0A12NotificationV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13NotificareKit0A12NotificationV2eeoiySbAC_ACtFZ",
+            "moduleName": "NotificareKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -14269,6 +14891,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -15159,6 +15788,215 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificareKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificareExtraEquatable",
+        "printedName": "NotificareExtraEquatable",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13NotificareKit0A14ExtraEquatableV12wrappedValuexvp",
+            "mangledName": "$s13NotificareKit0A14ExtraEquatableV12wrappedValuexvp",
+            "moduleName": "NotificareKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13NotificareKit0A14ExtraEquatableV12wrappedValuexvg",
+                "mangledName": "$s13NotificareKit0A14ExtraEquatableV12wrappedValuexvg",
+                "moduleName": "NotificareKit",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13NotificareKit0A14ExtraEquatableV12wrappedValuexvs",
+                "mangledName": "$s13NotificareKit0A14ExtraEquatableV12wrappedValuexvs",
+                "moduleName": "NotificareKit",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13NotificareKit0A14ExtraEquatableV12wrappedValuexvM",
+                "mangledName": "$s13NotificareKit0A14ExtraEquatableV12wrappedValuexvM",
+                "moduleName": "NotificareKit",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(wrappedValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareExtraEquatable",
+                "printedName": "NotificareKit.NotificareExtraEquatable<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:13NotificareKit0A14ExtraEquatableV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13NotificareKit0A14ExtraEquatableV12wrappedValueACyxGx_tcfc",
+            "mangledName": "$s13NotificareKit0A14ExtraEquatableV12wrappedValueACyxGx_tcfc",
+            "moduleName": "NotificareKit",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareExtraEquatable",
+                "printedName": "NotificareKit.NotificareExtraEquatable<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:13NotificareKit0A14ExtraEquatableV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareExtraEquatable",
+                "printedName": "NotificareKit.NotificareExtraEquatable<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:13NotificareKit0A14ExtraEquatableV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NotificareKit0A14ExtraEquatableV2eeoiySbACyxG_AEtFZ",
+            "mangledName": "$s13NotificareKit0A14ExtraEquatableV2eeoiySbACyxG_AEtFZ",
+            "moduleName": "NotificareKit",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13NotificareKit0A14ExtraEquatableV",
+        "mangledName": "$s13NotificareKit0A14ExtraEquatableV",
+        "moduleName": "NotificareKit",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "AccessControl",
+          "PropertyWrapper"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "CoreData",
         "printedName": "CoreData",
         "declKind": "Import",
@@ -15361,6 +16199,38 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareTime",
+                "printedName": "NotificareKit.NotificareTime",
+                "usr": "s:13NotificareKit0A4TimeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareTime",
+                "printedName": "NotificareKit.NotificareTime",
+                "usr": "s:13NotificareKit0A4TimeV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NotificareKit0A4TimeV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13NotificareKit0A4TimeV2eeoiySbAC_ACtFZ",
+            "moduleName": "NotificareKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -15426,6 +16296,13 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -15988,6 +16865,38 @@
           },
           {
             "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareDevice",
+                "printedName": "NotificareKit.NotificareDevice",
+                "usr": "s:13NotificareKit0A6DeviceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareDevice",
+                "printedName": "NotificareKit.NotificareDevice",
+                "usr": "s:13NotificareKit0A6DeviceV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NotificareKit0A6DeviceV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13NotificareKit0A6DeviceV2eeoiySbAC_ACtFZ",
+            "moduleName": "NotificareKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "toJson",
             "printedName": "toJson()",
             "children": [
@@ -16087,6 +16996,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -17706,11 +18622,10 @@
             "mangledName": "$s13NotificareKit0A5EventV4dataSDySSypGSgvp",
             "moduleName": "NotificareKit",
             "declAttributes": [
-              "HasStorage",
-              "AccessControl"
+              "SetterAccess",
+              "AccessControl",
+              "Custom"
             ],
-            "isLet": true,
-            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -17753,6 +18668,38 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareEvent",
+                "printedName": "NotificareKit.NotificareEvent",
+                "usr": "s:13NotificareKit0A5EventV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareEvent",
+                "printedName": "NotificareKit.NotificareEvent",
+                "usr": "s:13NotificareKit0A5EventV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NotificareKit0A5EventV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13NotificareKit0A5EventV2eeoiySbAC_ACtFZ",
+            "moduleName": "NotificareKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Constructor",
@@ -17820,6 +18767,13 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -21413,6 +22367,38 @@
           },
           {
             "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareDoNotDisturb",
+                "printedName": "NotificareKit.NotificareDoNotDisturb",
+                "usr": "s:13NotificareKit0A12DoNotDisturbV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareDoNotDisturb",
+                "printedName": "NotificareKit.NotificareDoNotDisturb",
+                "usr": "s:13NotificareKit0A12DoNotDisturbV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NotificareKit0A12DoNotDisturbV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13NotificareKit0A12DoNotDisturbV2eeoiySbAC_ACtFZ",
+            "moduleName": "NotificareKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "toJson",
             "printedName": "toJson()",
             "children": [
@@ -21513,6 +22499,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
@@ -32975,308 +33968,308 @@
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 1274,
+      "offset": 1324,
       "length": 31,
       "value": "\"re.notifica.notification.None\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 1327,
+      "offset": 1377,
       "length": 32,
       "value": "\"re.notifica.notification.Alert\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 1388,
+      "offset": 1438,
       "length": 39,
       "value": "\"re.notifica.notification.InAppBrowser\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 1451,
+      "offset": 1501,
       "length": 34,
       "value": "\"re.notifica.notification.WebView\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 1505,
+      "offset": 1555,
       "length": 30,
       "value": "\"re.notifica.notification.URL\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 1563,
+      "offset": 1613,
       "length": 38,
       "value": "\"re.notifica.notification.URLResolver\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 1627,
+      "offset": 1677,
       "length": 36,
       "value": "\"re.notifica.notification.URLScheme\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 1685,
+      "offset": 1735,
       "length": 32,
       "value": "\"re.notifica.notification.Image\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 1739,
+      "offset": 1789,
       "length": 32,
       "value": "\"re.notifica.notification.Video\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 1791,
+      "offset": 1841,
       "length": 30,
       "value": "\"re.notifica.notification.Map\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 1842,
+      "offset": 1892,
       "length": 31,
       "value": "\"re.notifica.notification.Rate\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 1898,
+      "offset": 1948,
       "length": 35,
       "value": "\"re.notifica.notification.Passbook\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 1955,
+      "offset": 2005,
       "length": 32,
       "value": "\"re.notifica.notification.Store\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 1274,
+      "offset": 1324,
       "length": 31,
       "value": "\"re.notifica.notification.None\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 1327,
+      "offset": 1377,
       "length": 32,
       "value": "\"re.notifica.notification.Alert\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 1388,
+      "offset": 1438,
       "length": 39,
       "value": "\"re.notifica.notification.InAppBrowser\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 1451,
+      "offset": 1501,
       "length": 34,
       "value": "\"re.notifica.notification.WebView\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 1505,
+      "offset": 1555,
       "length": 30,
       "value": "\"re.notifica.notification.URL\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 1563,
+      "offset": 1613,
       "length": 38,
       "value": "\"re.notifica.notification.URLResolver\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 1627,
+      "offset": 1677,
       "length": 36,
       "value": "\"re.notifica.notification.URLScheme\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 1685,
+      "offset": 1735,
       "length": 32,
       "value": "\"re.notifica.notification.Image\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 1739,
+      "offset": 1789,
       "length": 32,
       "value": "\"re.notifica.notification.Video\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 1791,
+      "offset": 1841,
       "length": 30,
       "value": "\"re.notifica.notification.Map\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 1842,
+      "offset": 1892,
       "length": 31,
       "value": "\"re.notifica.notification.Rate\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 1898,
+      "offset": 1948,
       "length": 35,
       "value": "\"re.notifica.notification.Passbook\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 1955,
+      "offset": 2005,
       "length": 32,
       "value": "\"re.notifica.notification.Store\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 2959,
+      "offset": 3070,
       "length": 24,
       "value": "\"re.notifica.action.App\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 3011,
+      "offset": 3122,
       "length": 28,
       "value": "\"re.notifica.action.Browser\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 3068,
+      "offset": 3179,
       "length": 29,
       "value": "\"re.notifica.action.Callback\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 3124,
+      "offset": 3235,
       "length": 27,
       "value": "\"re.notifica.action.Custom\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 3176,
+      "offset": 3287,
       "length": 25,
       "value": "\"re.notifica.action.Mail\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 3225,
+      "offset": 3336,
       "length": 24,
       "value": "\"re.notifica.action.SMS\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 3279,
+      "offset": 3390,
       "length": 30,
       "value": "\"re.notifica.action.Telephone\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 3342,
+      "offset": 3453,
       "length": 33,
       "value": "\"re.notifica.action.InAppBrowser\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 3583,
+      "offset": 3694,
       "length": 28,
       "value": "\"re.notifica.action.WebView\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 2959,
+      "offset": 3070,
       "length": 24,
       "value": "\"re.notifica.action.App\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 3011,
+      "offset": 3122,
       "length": 28,
       "value": "\"re.notifica.action.Browser\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 3068,
+      "offset": 3179,
       "length": 29,
       "value": "\"re.notifica.action.Callback\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 3124,
+      "offset": 3235,
       "length": 27,
       "value": "\"re.notifica.action.Custom\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 3176,
+      "offset": 3287,
       "length": 25,
       "value": "\"re.notifica.action.Mail\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 3225,
+      "offset": 3336,
       "length": 24,
       "value": "\"re.notifica.action.SMS\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 3279,
+      "offset": 3390,
       "length": 30,
       "value": "\"re.notifica.action.Telephone\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 3342,
+      "offset": 3453,
       "length": 33,
       "value": "\"re.notifica.action.InAppBrowser\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareNotification.swift",
       "kind": "StringLiteral",
-      "offset": 3583,
+      "offset": 3694,
       "length": 28,
       "value": "\"re.notifica.action.WebView\""
     },
@@ -33444,56 +34437,56 @@
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareEvent.swift",
       "kind": "StringLiteral",
-      "offset": 580,
+      "offset": 630,
       "length": 10,
       "value": "\"deviceID\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareEvent.swift",
       "kind": "StringLiteral",
-      "offset": 616,
+      "offset": 666,
       "length": 11,
       "value": "\"sessionID\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareEvent.swift",
       "kind": "StringLiteral",
-      "offset": 658,
+      "offset": 708,
       "length": 14,
       "value": "\"notification\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareEvent.swift",
       "kind": "StringLiteral",
-      "offset": 695,
+      "offset": 745,
       "length": 8,
       "value": "\"userID\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareEvent.swift",
       "kind": "StringLiteral",
-      "offset": 580,
+      "offset": 630,
       "length": 10,
       "value": "\"deviceID\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareEvent.swift",
       "kind": "StringLiteral",
-      "offset": 616,
+      "offset": 666,
       "length": 11,
       "value": "\"sessionID\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareEvent.swift",
       "kind": "StringLiteral",
-      "offset": 658,
+      "offset": 708,
       "length": 14,
       "value": "\"notification\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareKit\/Sources\/Models\/NotificareEvent.swift",
       "kind": "StringLiteral",
-      "offset": 695,
+      "offset": 745,
       "length": 8,
       "value": "\"userID\""
     },

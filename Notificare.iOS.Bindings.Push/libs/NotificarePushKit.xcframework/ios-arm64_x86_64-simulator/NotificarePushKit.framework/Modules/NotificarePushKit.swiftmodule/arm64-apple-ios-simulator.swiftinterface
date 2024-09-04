@@ -19,7 +19,7 @@ public protocol NotificarePush : AnyObject, NotificarePushKit.NotificarePushUIAp
   var presentationOptions: UserNotifications.UNNotificationPresentationOptions { get set }
   var hasRemoteNotificationsEnabled: Swift.Bool { get }
   var transport: NotificarePushKit.NotificareTransport? { get }
-  var subscriptionId: Swift.String? { get }
+  var subscription: NotificarePushKit.NotificarePushSubscription? { get }
   var allowedUI: Swift.Bool { get }
   func enableRemoteNotifications(_ completion: @escaping NotificareKit.NotificareCallback<Swift.Bool>)
   #if compiler(>=5.3) && $AsyncAwait
@@ -76,11 +76,14 @@ public protocol NotificarePushUNUserNotificationCenterDelegate {
   func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification) async -> UserNotifications.UNNotificationPresentationOptions
   #endif
 }
-public struct NotificareSystemNotification : Swift.Codable {
+public struct NotificareSystemNotification : Swift.Codable, Swift.Equatable {
   public let id: Swift.String
   public let type: Swift.String
-  public let extra: [Swift.String : Any]
+  @NotificareKit.NotificareExtraEquatable public var extra: [Swift.String : Any] {
+    get
+  }
   public init(id: Swift.String, type: Swift.String, extra: [Swift.String : Any])
+  public static func == (a: NotificarePushKit.NotificareSystemNotification, b: NotificarePushKit.NotificareSystemNotification) -> Swift.Bool
 }
 @available(macOS 10.15, iOS 13.0, watchOS 6.0, tvOS 13.0, *)
 extension NotificarePushKit.NotificareSystemNotification : Swift.Identifiable {
@@ -105,7 +108,7 @@ public enum NotificareTransport : Swift.String, Swift.Codable {
 }
 public protocol NotificarePushDelegate : AnyObject {
   func notificare(_ notificarePush: any NotificarePushKit.NotificarePush, didFailToRegisterForRemoteNotificationsWithError error: any Swift.Error)
-  func notificare(_ notificarePush: any NotificarePushKit.NotificarePush, didChangeSubscriptionId subscriptionId: Swift.String?)
+  func notificare(_ notificarePush: any NotificarePushKit.NotificarePush, didChangeSubscription subscription: NotificarePushKit.NotificarePushSubscription?)
   func notificare(_ notificarePush: any NotificarePushKit.NotificarePush, didChangeNotificationSettings allowedUI: Swift.Bool)
   func notificare(_ notificarePush: any NotificarePushKit.NotificarePush, didReceiveUnknownNotification userInfo: [Swift.AnyHashable : Any])
   func notificare(_ notificarePush: any NotificarePushKit.NotificarePush, didReceiveNotification notification: NotificareKit.NotificareNotification, deliveryMechanism: NotificarePushKit.NotificareNotificationDeliveryMechanism)
@@ -118,7 +121,7 @@ public protocol NotificarePushDelegate : AnyObject {
 }
 extension NotificarePushKit.NotificarePushDelegate {
   public func notificare(_: any NotificarePushKit.NotificarePush, didFailToRegisterForRemoteNotificationsWithError _: any Swift.Error)
-  public func notificare(_: any NotificarePushKit.NotificarePush, didChangeSubscriptionId _: Swift.String?)
+  public func notificare(_: any NotificarePushKit.NotificarePush, didChangeSubscription _: NotificarePushKit.NotificarePushSubscription?)
   public func notificare(_: any NotificarePushKit.NotificarePush, didChangeNotificationSettings _: Swift.Bool)
   public func notificare(_: any NotificarePushKit.NotificarePush, didReceiveUnknownNotification _: [Swift.AnyHashable : Any])
   public func notificare(_: any NotificarePushKit.NotificarePush, didReceiveNotification _: NotificareKit.NotificareNotification, deliveryMechanism _: NotificarePushKit.NotificareNotificationDeliveryMechanism)
@@ -140,6 +143,16 @@ public enum NotificareNotificationDeliveryMechanism : Swift.String, Swift.Codabl
   public var rawValue: Swift.String {
     get
   }
+}
+public struct NotificarePushSubscription : Swift.Codable {
+  public let token: Swift.String
+  public init(token: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension NotificarePushKit.NotificarePushSubscription {
+  public func toJson() throws -> [Swift.String : Any]
+  public static func fromJson(json: [Swift.String : Any]) throws -> NotificarePushKit.NotificarePushSubscription
 }
 extension NotificareKit.NotificareEventsModule {
   #if compiler(>=5.3) && $AsyncAwait

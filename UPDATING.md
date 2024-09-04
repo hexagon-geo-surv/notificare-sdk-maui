@@ -16,7 +16,7 @@ To update all the Android libs go into this subfolder and execute
 
 When upgrading Notificare SDKs often also the transitive dependencies update. To get a list of the dependencies you can execute
 
-`gradlew -q dependencies:dependencies --configuration download`
+`tools/gradle> gradlew -q dependencies:dependencies --configuration download`
 
 This will show you the dependency tree. The MAUI SDK wrapper only generates bindings for Notificare itself. Any transitive dependencies are consumed through NuGet packages and matching or compatible packages have to be configured.
 

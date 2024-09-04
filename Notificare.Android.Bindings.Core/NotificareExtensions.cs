@@ -1,8 +1,7 @@
 ﻿using Java.Lang;
 using Kotlin.Coroutines;
-using RE.Notifica;
 
-namespace Notificare.Android.Bindings.Core;
+namespace RE.Notifica;
 
 /// <summary>
 /// This class contains extensions to use the Android Binding library more conveniently.
@@ -14,7 +13,7 @@ public class NotificareExtensions
     /// </summary>
     /// <param name="suspend">A lambda accepting the <see cref="INotificareCallback"/> to pass to the async function in the SDK.</param>
     /// <returns>A task, which completes when the asynchronous operation completed.</returns>
-    private async Task<Java.Lang.Object?> AwaitCallback(Action<INotificareCallback> suspend)
+    public static async Task<Java.Lang.Object?> AwaitCallback(Action<INotificareCallback> suspend)
     {
         var x = new AwaitNotificareCallback();
         suspend(x);
@@ -25,7 +24,7 @@ public class NotificareExtensions
     /// </summary>
     /// <param name="suspend">A lambda accepting the <see cref="INotificareCallback"/> to pass to the async function in the SDK.</param>
     /// <returns>A task, which completes when the asynchronous operation completed.</returns>
-    private async Task<Java.Lang.Object?> AwaitSuspend(Action<IContinuation> suspend)
+    public static async Task<Java.Lang.Object?> AwaitSuspend(Action<IContinuation> suspend)
     {
         var x = new AwaitKotlinContinuation();
         suspend(x);

@@ -39,13 +39,14 @@ public protocol NotificareInbox : AnyObject {
   func clear() async throws
   #endif
 }
-public struct NotificareInboxItem : Swift.Codable {
+public struct NotificareInboxItem : Swift.Codable, Swift.Equatable {
   public let id: Swift.String
   public let notification: NotificareKit.NotificareNotification
   public let time: Foundation.Date
   public let opened: Swift.Bool
   public let expires: Foundation.Date?
   public init(id: Swift.String, notification: NotificareKit.NotificareNotification, time: Foundation.Date, opened: Swift.Bool, expires: Foundation.Date?)
+  public static func == (a: NotificareInboxKit.NotificareInboxItem, b: NotificareInboxKit.NotificareInboxItem) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }

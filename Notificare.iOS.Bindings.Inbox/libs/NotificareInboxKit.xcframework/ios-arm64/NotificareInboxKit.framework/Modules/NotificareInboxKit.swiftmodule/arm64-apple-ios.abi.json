@@ -1126,6 +1126,38 @@
           },
           {
             "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareInboxItem",
+                "printedName": "NotificareInboxKit.NotificareInboxItem",
+                "usr": "s:18NotificareInboxKit0aB4ItemV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareInboxItem",
+                "printedName": "NotificareInboxKit.NotificareInboxItem",
+                "usr": "s:18NotificareInboxKit0aB4ItemV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NotificareInboxKit0aB4ItemV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s18NotificareInboxKit0aB4ItemV2eeoiySbAC_ACtFZ",
+            "moduleName": "NotificareInboxKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "toJson",
             "printedName": "toJson()",
             "children": [
@@ -1225,6 +1257,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -2734,21 +2773,21 @@
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInboxKit\/Sources\/Internals\/NotificareInboxImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 17631,
+      "offset": 17744,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInboxKit\/Sources\/Internals\/NotificareInboxImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 17647,
+      "offset": 17760,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInboxKit\/Sources\/Internals\/NotificareInboxImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 18254,
+      "offset": 18367,
       "length": 1,
       "value": "0"
     },

@@ -18,11 +18,11 @@
 		</data>
 		<key>ios-arm64/NotificareInAppMessagingKit.framework/Modules/NotificareInAppMessagingKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		ELqy+BmV6frAquHWG8f7SAun2Cg=
+		wc2ENw+4InxYNVGxu2nlnC1ZNjI=
 		</data>
 		<key>ios-arm64/NotificareInAppMessagingKit.framework/Modules/NotificareInAppMessagingKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		DbNviDmV8dNforie0ESitRjLMN8=
+		ulMG+hlsAoHFf+my72e2Bg8y538=
 		</data>
 		<key>ios-arm64/NotificareInAppMessagingKit.framework/Modules/NotificareInAppMessagingKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>ios-arm64/NotificareInAppMessagingKit.framework/Modules/NotificareInAppMessagingKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		DbNviDmV8dNforie0ESitRjLMN8=
+		ulMG+hlsAoHFf+my72e2Bg8y538=
 		</data>
 		<key>ios-arm64/NotificareInAppMessagingKit.framework/Modules/module.modulemap</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>ios-arm64/NotificareInAppMessagingKit.framework/NotificareInAppMessagingKit</key>
 		<data>
-		0NzAlYLujQUMo8gFJ5WvIPJrSag=
+		GyUQPnLs8C3DywrZ8mu1yNVGTjo=
 		</data>
 		<key>ios-arm64/NotificareInAppMessagingKit.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>ios-arm64/dSYMs/NotificareInAppMessagingKit.framework.dSYM/Contents/Resources/DWARF/NotificareInAppMessagingKit</key>
 		<data>
-		txWtLFkD8ORlVYhq6dLfUecNjnA=
+		MbPwXgJJfwrrN80cYUAuMxcPI+4=
 		</data>
 		<key>ios-arm64/dSYMs/NotificareInAppMessagingKit.framework.dSYM/Contents/Resources/Relocations/aarch64/NotificareInAppMessagingKit.yml</key>
 		<data>
-		V2dakZPbF9zQ7AB7sCzAonotQrw=
+		VeC7tcZ2IxE5yJk1AHqg5AAXMlY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NotificareInAppMessagingKit.framework/Headers/NotificareInAppMessagingKit-Swift.h</key>
 		<data>
@@ -70,11 +70,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NotificareInAppMessagingKit.framework/Modules/NotificareInAppMessagingKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ELqy+BmV6frAquHWG8f7SAun2Cg=
+		wc2ENw+4InxYNVGxu2nlnC1ZNjI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NotificareInAppMessagingKit.framework/Modules/NotificareInAppMessagingKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		nN9U0BL9Ff1Dg5rGQ78Ta8hkPKg=
+		XqZ4Co6FiKAy7ojiyVxTVWSLO/8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NotificareInAppMessagingKit.framework/Modules/NotificareInAppMessagingKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -82,15 +82,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NotificareInAppMessagingKit.framework/Modules/NotificareInAppMessagingKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		nN9U0BL9Ff1Dg5rGQ78Ta8hkPKg=
+		XqZ4Co6FiKAy7ojiyVxTVWSLO/8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NotificareInAppMessagingKit.framework/Modules/NotificareInAppMessagingKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ELqy+BmV6frAquHWG8f7SAun2Cg=
+		wc2ENw+4InxYNVGxu2nlnC1ZNjI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NotificareInAppMessagingKit.framework/Modules/NotificareInAppMessagingKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		nceYl+rCneYIATqIsTzFo1SD+mI=
+		Q4WygZfobomKmchXYBwAU1MvZJY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NotificareInAppMessagingKit.framework/Modules/NotificareInAppMessagingKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NotificareInAppMessagingKit.framework/Modules/NotificareInAppMessagingKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		nceYl+rCneYIATqIsTzFo1SD+mI=
+		Q4WygZfobomKmchXYBwAU1MvZJY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NotificareInAppMessagingKit.framework/Modules/module.modulemap</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NotificareInAppMessagingKit.framework/NotificareInAppMessagingKit</key>
 		<data>
-		QwiYO+hJibbmwsbeLFIRzqUfPXo=
+		3DoWlHqMe0E73rcKno6bH5Ze1O4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NotificareInAppMessagingKit.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NotificareInAppMessagingKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		F87cO1jDQxWp9CgvIlSoe3U0h+0=
+		F5epLCBucTVcunv2XSLAFMF+Cy8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NotificareInAppMessagingKit.framework.dSYM/Contents/Info.plist</key>
 		<data>
@@ -122,15 +122,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NotificareInAppMessagingKit.framework.dSYM/Contents/Resources/DWARF/NotificareInAppMessagingKit</key>
 		<data>
-		nBOgP61lgOmNMU96MY6VOnA2Et8=
+		zXUllZwKooVv/fEpzxQrnHE9BL0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NotificareInAppMessagingKit.framework.dSYM/Contents/Resources/Relocations/aarch64/NotificareInAppMessagingKit.yml</key>
 		<data>
-		TWP2RZs3QdRBEeOk/yjc8aw6nVs=
+		NZ4j6X1iixbu/7was0uKCr4R1Ow=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NotificareInAppMessagingKit.framework.dSYM/Contents/Resources/Relocations/x86_64/NotificareInAppMessagingKit.yml</key>
 		<data>
-		bJJasDALe1nGaNXab3b8fOknuB4=
+		vcXvaJG7gQnUa0nk3eZRfJE+DxA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -172,22 +172,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ELqy+BmV6frAquHWG8f7SAun2Cg=
+			wc2ENw+4InxYNVGxu2nlnC1ZNjI=
 			</data>
 			<key>hash2</key>
 			<data>
-			5WSieJ7wIpDWNDn9hwoAjOATae5eQd+xjwJCHQVDkPw=
+			Zc0sCOLVW3/G3Gv50pLtkd+YJr89DayXkgOCf+x8ZM4=
 			</data>
 		</dict>
 		<key>ios-arm64/NotificareInAppMessagingKit.framework/Modules/NotificareInAppMessagingKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DbNviDmV8dNforie0ESitRjLMN8=
+			ulMG+hlsAoHFf+my72e2Bg8y538=
 			</data>
 			<key>hash2</key>
 			<data>
-			ELSgc31YZFEjHMvT/uaqYS85SaINtzn/hsvwiupGpgc=
+			832+DPuUgCWEEVdhEpodqUk9XNeqdA5Cn70CoSntdnw=
 			</data>
 		</dict>
 		<key>ios-arm64/NotificareInAppMessagingKit.framework/Modules/NotificareInAppMessagingKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -205,11 +205,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DbNviDmV8dNforie0ESitRjLMN8=
+			ulMG+hlsAoHFf+my72e2Bg8y538=
 			</data>
 			<key>hash2</key>
 			<data>
-			ELSgc31YZFEjHMvT/uaqYS85SaINtzn/hsvwiupGpgc=
+			832+DPuUgCWEEVdhEpodqUk9XNeqdA5Cn70CoSntdnw=
 			</data>
 		</dict>
 		<key>ios-arm64/NotificareInAppMessagingKit.framework/Modules/module.modulemap</key>
@@ -227,11 +227,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0NzAlYLujQUMo8gFJ5WvIPJrSag=
+			GyUQPnLs8C3DywrZ8mu1yNVGTjo=
 			</data>
 			<key>hash2</key>
 			<data>
-			LziJPAcy7FWDoFcz8H80TZS1nTPYbNfjM0ydV0hfyCQ=
+			hozSQD0k/El34B1KQOG+svTf07ruIUy+iP8XrCY91D0=
 			</data>
 		</dict>
 		<key>ios-arm64/NotificareInAppMessagingKit.framework/PrivacyInfo.xcprivacy</key>
@@ -260,22 +260,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			txWtLFkD8ORlVYhq6dLfUecNjnA=
+			MbPwXgJJfwrrN80cYUAuMxcPI+4=
 			</data>
 			<key>hash2</key>
 			<data>
-			EHrUk724IZyAlgymS4qQGsIL4qACmHiIwfBzm93zHOc=
+			8IfPEv+0RKuUNKyvB1sIaKwAGFD1Q6gXtGJg9yjNUy8=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/NotificareInAppMessagingKit.framework.dSYM/Contents/Resources/Relocations/aarch64/NotificareInAppMessagingKit.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			V2dakZPbF9zQ7AB7sCzAonotQrw=
+			VeC7tcZ2IxE5yJk1AHqg5AAXMlY=
 			</data>
 			<key>hash2</key>
 			<data>
-			70vn1BRBTVqZmJo7Uo5T0AxZjIhXE/oQNWKPBpn5/Ns=
+			eSBcsrWN3/OkVbUJzAJUoUaHeSTDE7dmrUXKWFn//tU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NotificareInAppMessagingKit.framework/Headers/NotificareInAppMessagingKit-Swift.h</key>
@@ -315,22 +315,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ELqy+BmV6frAquHWG8f7SAun2Cg=
+			wc2ENw+4InxYNVGxu2nlnC1ZNjI=
 			</data>
 			<key>hash2</key>
 			<data>
-			5WSieJ7wIpDWNDn9hwoAjOATae5eQd+xjwJCHQVDkPw=
+			Zc0sCOLVW3/G3Gv50pLtkd+YJr89DayXkgOCf+x8ZM4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NotificareInAppMessagingKit.framework/Modules/NotificareInAppMessagingKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nN9U0BL9Ff1Dg5rGQ78Ta8hkPKg=
+			XqZ4Co6FiKAy7ojiyVxTVWSLO/8=
 			</data>
 			<key>hash2</key>
 			<data>
-			OscAh2uvCDRFfRbtE2sDQ/oIlmg1oHWH2QzcVK6Z6S0=
+			Zd+wXSJLSx1ha9v73l5ph7jbDQSXmias5EkOhYRE4eQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NotificareInAppMessagingKit.framework/Modules/NotificareInAppMessagingKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -348,33 +348,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nN9U0BL9Ff1Dg5rGQ78Ta8hkPKg=
+			XqZ4Co6FiKAy7ojiyVxTVWSLO/8=
 			</data>
 			<key>hash2</key>
 			<data>
-			OscAh2uvCDRFfRbtE2sDQ/oIlmg1oHWH2QzcVK6Z6S0=
+			Zd+wXSJLSx1ha9v73l5ph7jbDQSXmias5EkOhYRE4eQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NotificareInAppMessagingKit.framework/Modules/NotificareInAppMessagingKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ELqy+BmV6frAquHWG8f7SAun2Cg=
+			wc2ENw+4InxYNVGxu2nlnC1ZNjI=
 			</data>
 			<key>hash2</key>
 			<data>
-			5WSieJ7wIpDWNDn9hwoAjOATae5eQd+xjwJCHQVDkPw=
+			Zc0sCOLVW3/G3Gv50pLtkd+YJr89DayXkgOCf+x8ZM4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NotificareInAppMessagingKit.framework/Modules/NotificareInAppMessagingKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nceYl+rCneYIATqIsTzFo1SD+mI=
+			Q4WygZfobomKmchXYBwAU1MvZJY=
 			</data>
 			<key>hash2</key>
 			<data>
-			o0KcB5Cvn3jmwgcaehel7mOEYayqCjtydU+4hA3RR74=
+			pPucDNg/7JI7tWXbW+y3j1dj+2VIUfsR9eF6sfcroPc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NotificareInAppMessagingKit.framework/Modules/NotificareInAppMessagingKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -392,11 +392,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nceYl+rCneYIATqIsTzFo1SD+mI=
+			Q4WygZfobomKmchXYBwAU1MvZJY=
 			</data>
 			<key>hash2</key>
 			<data>
-			o0KcB5Cvn3jmwgcaehel7mOEYayqCjtydU+4hA3RR74=
+			pPucDNg/7JI7tWXbW+y3j1dj+2VIUfsR9eF6sfcroPc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NotificareInAppMessagingKit.framework/Modules/module.modulemap</key>
@@ -414,11 +414,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QwiYO+hJibbmwsbeLFIRzqUfPXo=
+			3DoWlHqMe0E73rcKno6bH5Ze1O4=
 			</data>
 			<key>hash2</key>
 			<data>
-			OkrYnDEeZd2CbCSHshMeGw6Q0ynnNwl4mLa1K0fRTo0=
+			XxA/3O67JoMw5+glvY2cLOoHsCTbzwFgy5g+h8SAcyE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NotificareInAppMessagingKit.framework/PrivacyInfo.xcprivacy</key>
@@ -436,11 +436,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			F87cO1jDQxWp9CgvIlSoe3U0h+0=
+			F5epLCBucTVcunv2XSLAFMF+Cy8=
 			</data>
 			<key>hash2</key>
 			<data>
-			fsHgMqbxBhm8w7rlDqC05wnOJmmF5GVfV10seF5FU44=
+			syJtyueCtvcYpvf3wyUhbz++LZpPxwaIVl8/Ei4valY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NotificareInAppMessagingKit.framework.dSYM/Contents/Info.plist</key>
@@ -458,33 +458,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nBOgP61lgOmNMU96MY6VOnA2Et8=
+			zXUllZwKooVv/fEpzxQrnHE9BL0=
 			</data>
 			<key>hash2</key>
 			<data>
-			O4jJNu8KusO/KvKAd7Nz0tTA8bw+4IpzCaFZerPj8Go=
+			Sbx91AVnaOqjHqwDghFUqURLXx9zh1a8XuVIo3Pt57c=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NotificareInAppMessagingKit.framework.dSYM/Contents/Resources/Relocations/aarch64/NotificareInAppMessagingKit.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TWP2RZs3QdRBEeOk/yjc8aw6nVs=
+			NZ4j6X1iixbu/7was0uKCr4R1Ow=
 			</data>
 			<key>hash2</key>
 			<data>
-			tnUdimPVlvfaMkbIMiWu4HRnMq7YFa6KBB0rcHQCwGA=
+			Kr15SOPgTbNO92ctHaP9L8ZANBTHmEDjM0nzg4BsK3Y=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NotificareInAppMessagingKit.framework.dSYM/Contents/Resources/Relocations/x86_64/NotificareInAppMessagingKit.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bJJasDALe1nGaNXab3b8fOknuB4=
+			vcXvaJG7gQnUa0nk3eZRfJE+DxA=
 			</data>
 			<key>hash2</key>
 			<data>
-			S3n4RS+PNmkHSQnE0IB28Z0qev1bKJqpfE+hDf3uH4w=
+			8nCU5Kykhh5R4sevGX3AICczVOGALLogHPY0x6yC8rE=
 			</data>
 		</dict>
 	</dict>

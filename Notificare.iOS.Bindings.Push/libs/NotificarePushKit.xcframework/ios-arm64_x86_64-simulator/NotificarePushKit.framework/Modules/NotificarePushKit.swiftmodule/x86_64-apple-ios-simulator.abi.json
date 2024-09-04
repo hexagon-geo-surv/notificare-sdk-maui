@@ -588,27 +588,27 @@
           },
           {
             "kind": "Var",
-            "name": "subscriptionId",
-            "printedName": "subscriptionId",
+            "name": "subscription",
+            "printedName": "subscription",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.String?",
+                "printedName": "NotificarePushKit.NotificarePushSubscription?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "NotificarePushSubscription",
+                    "printedName": "NotificarePushKit.NotificarePushSubscription",
+                    "usr": "s:17NotificarePushKit0aB12SubscriptionV"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:17NotificarePushKit0aB0P14subscriptionIdSSSgvp",
-            "mangledName": "$s17NotificarePushKit0aB0P14subscriptionIdSSSgvp",
+            "usr": "s:17NotificarePushKit0aB0P12subscriptionAA0aB12SubscriptionVSgvp",
+            "mangledName": "$s17NotificarePushKit0aB0P12subscriptionAA0aB12SubscriptionVSgvp",
             "moduleName": "NotificarePushKit",
             "protocolReq": true,
             "accessors": [
@@ -620,21 +620,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.String?",
+                    "printedName": "NotificarePushKit.NotificarePushSubscription?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "NotificarePushSubscription",
+                        "printedName": "NotificarePushKit.NotificarePushSubscription",
+                        "usr": "s:17NotificarePushKit0aB12SubscriptionV"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17NotificarePushKit0aB0P14subscriptionIdSSSgvg",
-                "mangledName": "$s17NotificarePushKit0aB0P14subscriptionIdSSSgvg",
+                "usr": "s:17NotificarePushKit0aB0P12subscriptionAA0aB12SubscriptionVSgvg",
+                "mangledName": "$s17NotificarePushKit0aB0P12subscriptionAA0aB12SubscriptionVSgvg",
                 "moduleName": "NotificarePushKit",
                 "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePush>",
                 "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePush>",
@@ -1948,11 +1948,10 @@
             "mangledName": "$s17NotificarePushKit0A18SystemNotificationV5extraSDySSypGvp",
             "moduleName": "NotificarePushKit",
             "declAttributes": [
-              "HasStorage",
-              "AccessControl"
+              "SetterAccess",
+              "AccessControl",
+              "Custom"
             ],
-            "isLet": true,
-            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -2039,6 +2038,38 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareSystemNotification",
+                "printedName": "NotificarePushKit.NotificareSystemNotification",
+                "usr": "s:17NotificarePushKit0A18SystemNotificationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificareSystemNotification",
+                "printedName": "NotificarePushKit.NotificareSystemNotification",
+                "usr": "s:17NotificarePushKit0A18SystemNotificationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0A18SystemNotificationV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s17NotificarePushKit0A18SystemNotificationV2eeoiySbAC_ACtFZ",
+            "moduleName": "NotificarePushKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -2198,6 +2229,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -2511,7 +2549,7 @@
           {
             "kind": "Function",
             "name": "notificare",
-            "printedName": "notificare(_:didChangeSubscriptionId:)",
+            "printedName": "notificare(_:didChangeSubscription:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2527,21 +2565,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.String?",
+                "printedName": "NotificarePushKit.NotificarePushSubscription?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "NotificarePushSubscription",
+                    "printedName": "NotificarePushKit.NotificarePushSubscription",
+                    "usr": "s:17NotificarePushKit0aB12SubscriptionV"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:17NotificarePushKit0aB8DelegateP10notificare_23didChangeSubscriptionIdyAA0aB0_p_SSSgtF",
-            "mangledName": "$s17NotificarePushKit0aB8DelegateP10notificare_23didChangeSubscriptionIdyAA0aB0_p_SSSgtF",
+            "usr": "s:17NotificarePushKit0aB8DelegateP10notificare_21didChangeSubscriptionyAA0aB0_p_AA0abH0VSgtF",
+            "mangledName": "$s17NotificarePushKit0aB8DelegateP10notificare_21didChangeSubscriptionyAA0aB0_p_AA0abH0VSgtF",
             "moduleName": "NotificarePushKit",
             "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushDelegate>",
             "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushDelegate>",
@@ -2963,7 +3001,7 @@
           {
             "kind": "Function",
             "name": "notificare",
-            "printedName": "notificare(_:didChangeSubscriptionId:)",
+            "printedName": "notificare(_:didChangeSubscription:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2979,21 +3017,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.String?",
+                "printedName": "NotificarePushKit.NotificarePushSubscription?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "NotificarePushSubscription",
+                    "printedName": "NotificarePushKit.NotificarePushSubscription",
+                    "usr": "s:17NotificarePushKit0aB12SubscriptionV"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:17NotificarePushKit0aB8DelegatePAAE10notificare_23didChangeSubscriptionIdyAA0aB0_p_SSSgtF",
-            "mangledName": "$s17NotificarePushKit0aB8DelegatePAAE10notificare_23didChangeSubscriptionIdyAA0aB0_p_SSSgtF",
+            "usr": "s:17NotificarePushKit0aB8DelegatePAAE10notificare_21didChangeSubscriptionyAA0aB0_p_AA0abH0VSgtF",
+            "mangledName": "$s17NotificarePushKit0aB8DelegatePAAE10notificare_21didChangeSubscriptionyAA0aB0_p_AA0abH0VSgtF",
             "moduleName": "NotificarePushKit",
             "genericSig": "<τ_0_0 where τ_0_0 : NotificarePushKit.NotificarePushDelegate>",
             "sugared_genericSig": "<Self where Self : NotificarePushKit.NotificarePushDelegate>",
@@ -3744,6 +3782,254 @@
         "moduleName": "NotificarePushKit"
       },
       {
+        "kind": "TypeDecl",
+        "name": "NotificarePushSubscription",
+        "printedName": "NotificarePushSubscription",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17NotificarePushKit0aB12SubscriptionV5tokenSSvp",
+            "mangledName": "$s17NotificarePushKit0aB12SubscriptionV5tokenSSvp",
+            "moduleName": "NotificarePushKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17NotificarePushKit0aB12SubscriptionV5tokenSSvg",
+                "mangledName": "$s17NotificarePushKit0aB12SubscriptionV5tokenSSvg",
+                "moduleName": "NotificarePushKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificarePushSubscription",
+                "printedName": "NotificarePushKit.NotificarePushSubscription",
+                "usr": "s:17NotificarePushKit0aB12SubscriptionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17NotificarePushKit0aB12SubscriptionV5tokenACSS_tcfc",
+            "mangledName": "$s17NotificarePushKit0aB12SubscriptionV5tokenACSS_tcfc",
+            "moduleName": "NotificarePushKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificarePushSubscription",
+                "printedName": "NotificarePushKit.NotificarePushSubscription",
+                "usr": "s:17NotificarePushKit0aB12SubscriptionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17NotificarePushKit0aB12SubscriptionV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s17NotificarePushKit0aB12SubscriptionV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "NotificarePushKit",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB12SubscriptionV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s17NotificarePushKit0aB12SubscriptionV6encode2toys7Encoder_p_tKF",
+            "moduleName": "NotificarePushKit",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toJson",
+            "printedName": "toJson()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB12SubscriptionV6toJsonSDySSypGyKF",
+            "mangledName": "$s17NotificarePushKit0aB12SubscriptionV6toJsonSDySSypGyKF",
+            "moduleName": "NotificarePushKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fromJson",
+            "printedName": "fromJson(json:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificarePushSubscription",
+                "printedName": "NotificarePushKit.NotificarePushSubscription",
+                "usr": "s:17NotificarePushKit0aB12SubscriptionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17NotificarePushKit0aB12SubscriptionV8fromJson4jsonACSDySSypG_tKFZ",
+            "mangledName": "$s17NotificarePushKit0aB12SubscriptionV8fromJson4jsonACSDySSypG_tKFZ",
+            "moduleName": "NotificarePushKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17NotificarePushKit0aB12SubscriptionV",
+        "mangledName": "$s17NotificarePushKit0aB12SubscriptionV",
+        "moduleName": "NotificarePushKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareKit",
+        "printedName": "NotificareKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit"
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -3945,21 +4231,21 @@
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/LocalStorage.swift",
       "kind": "StringLiteral",
-      "offset": 365,
-      "length": 48,
-      "value": "\"re.notifica.push.local_storage.subscription_id\""
+      "offset": 363,
+      "length": 45,
+      "value": "\"re.notifica.push.local_storage.subscription\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/LocalStorage.swift",
       "kind": "StringLiteral",
-      "offset": 439,
+      "offset": 434,
       "length": 43,
       "value": "\"re.notifica.push.local_storage.allowed_ui\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/LocalStorage.swift",
       "kind": "StringLiteral",
-      "offset": 516,
+      "offset": 511,
       "length": 51,
       "value": "\"re.notifica.push.local_storage.first_registration\""
     },
@@ -3980,42 +4266,42 @@
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/LocalStorage.swift",
       "kind": "StringLiteral",
-      "offset": 365,
-      "length": 48,
-      "value": "\"re.notifica.push.local_storage.subscription_id\""
+      "offset": 363,
+      "length": 45,
+      "value": "\"re.notifica.push.local_storage.subscription\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/LocalStorage.swift",
       "kind": "StringLiteral",
-      "offset": 439,
+      "offset": 434,
       "length": 43,
       "value": "\"re.notifica.push.local_storage.allowed_ui\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/LocalStorage.swift",
       "kind": "StringLiteral",
-      "offset": 516,
+      "offset": 511,
       "length": 51,
       "value": "\"re.notifica.push.local_storage.first_registration\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/NotificarePushImpl.swift",
       "kind": "Array",
-      "offset": 3670,
+      "offset": 3750,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/NotificarePush.swift",
       "kind": "Array",
-      "offset": 2211,
+      "offset": 2229,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/NotificarePush.swift",
       "kind": "Array",
-      "offset": 2490,
+      "offset": 2508,
       "length": 2,
       "value": "[]"
     },

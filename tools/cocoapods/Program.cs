@@ -1,6 +1,6 @@
 ﻿using System.IO.Compression;
 
-var version = "4.0.0-beta.1";
+var version = "4.0.0-beta.2";
 var url = $"https://cdn.notifica.re/libs/ios/{version}/cocoapods.zip";
 
 using var client = new HttpClient();

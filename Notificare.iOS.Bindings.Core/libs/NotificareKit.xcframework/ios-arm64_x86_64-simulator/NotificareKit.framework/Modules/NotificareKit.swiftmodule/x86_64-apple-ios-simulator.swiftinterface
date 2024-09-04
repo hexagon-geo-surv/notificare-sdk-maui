@@ -169,7 +169,7 @@ public enum NotificareInternals {
   }
 }
 extension NotificareKit.NotificareInternals.PushAPI.Models {
-  public struct Application : Swift.Decodable {
+  public struct Application : Swift.Decodable, Swift.Equatable {
     public let _id: Swift.String
     public let name: Swift.String
     public let category: Swift.String
@@ -179,17 +179,19 @@ extension NotificareKit.NotificareInternals.PushAPI.Models {
     public let regionConfig: NotificareKit.NotificareApplication.RegionConfig?
     public let userDataFields: [NotificareKit.NotificareApplication.UserDataField]
     public let actionCategories: [NotificareKit.NotificareInternals.PushAPI.Models.Application.ActionCategory]
-    public struct ActionCategory : Swift.Decodable {
+    public struct ActionCategory : Swift.Decodable, Swift.Equatable {
       public let name: Swift.String
       public let description: Swift.String?
       public let type: Swift.String
       public let actions: [NotificareKit.NotificareInternals.PushAPI.Models.Notification.Action]
+      public static func == (a: NotificareKit.NotificareInternals.PushAPI.Models.Application.ActionCategory, b: NotificareKit.NotificareInternals.PushAPI.Models.Application.ActionCategory) -> Swift.Bool
       public init(from decoder: any Swift.Decoder) throws
     }
     public func toModel() -> NotificareKit.NotificareApplication
+    public static func == (a: NotificareKit.NotificareInternals.PushAPI.Models.Application, b: NotificareKit.NotificareInternals.PushAPI.Models.Application) -> Swift.Bool
     public init(from decoder: any Swift.Decoder) throws
   }
-  public struct Notification : Swift.Decodable {
+  public struct Notification : Swift.Equatable {
     public let _id: Swift.String
     public let type: Swift.String
     public let time: Foundation.Date
@@ -199,10 +201,11 @@ extension NotificareKit.NotificareInternals.PushAPI.Models {
     public let content: [NotificareKit.NotificareNotification.Content]
     public let actions: [NotificareKit.NotificareInternals.PushAPI.Models.Notification.Action]
     public let attachments: [NotificareKit.NotificareNotification.Attachment]
-    public let extra: [Swift.String : Any]
+    @NotificareKit.NotificareExtraEquatable public var extra: [Swift.String : Any] {
+      get
+    }
     public let targetContentIdentifier: Swift.String?
-    public init(from decoder: any Swift.Decoder) throws
-    public struct Action : Swift.Decodable {
+    public struct Action : Swift.Decodable, Swift.Equatable {
       public let type: Swift.String
       public let label: Swift.String?
       public let target: Swift.String?
@@ -211,14 +214,20 @@ extension NotificareKit.NotificareInternals.PushAPI.Models {
       public let destructive: Swift.Bool?
       public let icon: NotificareKit.NotificareNotification.Action.Icon?
       public func toModel() -> NotificareKit.NotificareNotification.Action?
+      public static func == (a: NotificareKit.NotificareInternals.PushAPI.Models.Notification.Action, b: NotificareKit.NotificareInternals.PushAPI.Models.Notification.Action) -> Swift.Bool
       public init(from decoder: any Swift.Decoder) throws
     }
     public func toModel() -> NotificareKit.NotificareNotification
+    public static func == (a: NotificareKit.NotificareInternals.PushAPI.Models.Notification, b: NotificareKit.NotificareInternals.PushAPI.Models.Notification) -> Swift.Bool
   }
 }
-public struct NotificareDynamicLink : Swift.Codable {
+extension NotificareKit.NotificareInternals.PushAPI.Models.Notification : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct NotificareDynamicLink : Swift.Codable, Swift.Equatable {
   public let target: Swift.String
   public init(target: Swift.String)
+  public static func == (a: NotificareKit.NotificareDynamicLink, b: NotificareKit.NotificareDynamicLink) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -246,6 +255,9 @@ public protocol NotificareModule {
   func migrate()
   func configure()
   #if compiler(>=5.3) && $AsyncAwait
+  func clearStorage() async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
   func launch() async throws
   #endif
   #if compiler(>=5.3) && $AsyncAwait
@@ -258,6 +270,9 @@ public protocol NotificareModule {
 extension NotificareKit.NotificareModule {
   public func migrate()
   public func configure()
+  #if compiler(>=5.3) && $AsyncAwait
+  public func clearStorage() async throws
+  #endif
   #if compiler(>=5.3) && $AsyncAwait
   public func launch() async throws
   #endif
@@ -282,7 +297,7 @@ public enum NotificareError : Swift.Error {
   case serviceUnavailable(service: Swift.String)
   case invalidArgument(message: Swift.String)
 }
-public struct NotificareApplication : Swift.Codable {
+public struct NotificareApplication : Swift.Codable, Swift.Equatable {
   public let id: Swift.String
   public let name: Swift.String
   public let category: Swift.String
@@ -310,37 +325,42 @@ public struct NotificareApplication : Swift.Codable {
       get
     }
   }
-  public struct InboxConfig : Swift.Codable {
+  public struct InboxConfig : Swift.Codable, Swift.Equatable {
     public let useInbox: Swift.Bool
     public let useUserInbox: Swift.Bool
     public let autoBadge: Swift.Bool
     public init(useInbox: Swift.Bool, useUserInbox: Swift.Bool, autoBadge: Swift.Bool)
+    public static func == (a: NotificareKit.NotificareApplication.InboxConfig, b: NotificareKit.NotificareApplication.InboxConfig) -> Swift.Bool
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
-  public struct RegionConfig : Swift.Codable {
+  public struct RegionConfig : Swift.Codable, Swift.Equatable {
     public let proximityUUID: Swift.String?
     public init(proximityUUID: Swift.String?)
+    public static func == (a: NotificareKit.NotificareApplication.RegionConfig, b: NotificareKit.NotificareApplication.RegionConfig) -> Swift.Bool
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
-  public struct UserDataField : Swift.Codable {
+  public struct UserDataField : Swift.Codable, Swift.Equatable {
     public let type: Swift.String
     public let key: Swift.String
     public let label: Swift.String
     public init(type: Swift.String, key: Swift.String, label: Swift.String)
+    public static func == (a: NotificareKit.NotificareApplication.UserDataField, b: NotificareKit.NotificareApplication.UserDataField) -> Swift.Bool
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
-  public struct ActionCategory : Swift.Codable {
+  public struct ActionCategory : Swift.Codable, Swift.Equatable {
     public let name: Swift.String
     public let description: Swift.String?
     public let type: Swift.String
     public let actions: [NotificareKit.NotificareNotification.Action]
     public init(name: Swift.String, description: Swift.String?, type: Swift.String, actions: [NotificareKit.NotificareNotification.Action])
+    public static func == (a: NotificareKit.NotificareApplication.ActionCategory, b: NotificareKit.NotificareApplication.ActionCategory) -> Swift.Bool
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
+  public static func == (a: NotificareKit.NotificareApplication, b: NotificareKit.NotificareApplication) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -408,7 +428,7 @@ extension NotificareKit.NotificareNetworkError : Foundation.LocalizedError {
   @objc override dynamic public init()
   @objc deinit
 }
-public struct NotificareNotification : Swift.Codable {
+public struct NotificareNotification : Swift.Codable, Swift.Equatable {
   public let partial: Swift.Bool
   public let id: Swift.String
   public let type: Swift.String
@@ -419,7 +439,9 @@ public struct NotificareNotification : Swift.Codable {
   public let content: [NotificareKit.NotificareNotification.Content]
   public let actions: [NotificareKit.NotificareNotification.Action]
   public let attachments: [NotificareKit.NotificareNotification.Attachment]
-  public let extra: [Swift.String : Any]
+  @NotificareKit.NotificareExtraEquatable public var extra: [Swift.String : Any] {
+    get
+  }
   public let targetContentIdentifier: Swift.String?
   public init(partial: Swift.Bool, id: Swift.String, type: Swift.String, time: Foundation.Date, title: Swift.String?, subtitle: Swift.String?, message: Swift.String, content: [NotificareKit.NotificareNotification.Content], actions: [NotificareKit.NotificareNotification.Action], attachments: [NotificareKit.NotificareNotification.Attachment], extra: [Swift.String : Any], targetContentIdentifier: Swift.String?)
   public enum NotificationType : Swift.String {
@@ -442,12 +464,15 @@ public struct NotificareNotification : Swift.Codable {
       get
     }
   }
-  public struct Content : Swift.Codable {
+  public struct Content : Swift.Codable, Swift.Equatable {
     public let type: Swift.String
-    public let data: Any
+    @NotificareKit.NotificareExtraEquatable public var data: Any {
+      get
+    }
     public init(type: Swift.String, data: Any)
+    public static func == (a: NotificareKit.NotificareNotification.Content, b: NotificareKit.NotificareNotification.Content) -> Swift.Bool
   }
-  public struct Action : Swift.Codable {
+  public struct Action : Swift.Codable, Swift.Equatable {
     public let type: Swift.String
     public let label: Swift.String
     public let target: Swift.String?
@@ -473,24 +498,28 @@ public struct NotificareNotification : Swift.Codable {
         get
       }
     }
-    public struct Icon : Swift.Codable {
+    public struct Icon : Swift.Codable, Swift.Equatable {
       public let android: Swift.String?
       public let ios: Swift.String?
       public let web: Swift.String?
       public init(android: Swift.String?, ios: Swift.String?, web: Swift.String?)
+      public static func == (a: NotificareKit.NotificareNotification.Action.Icon, b: NotificareKit.NotificareNotification.Action.Icon) -> Swift.Bool
       public func encode(to encoder: any Swift.Encoder) throws
       public init(from decoder: any Swift.Decoder) throws
     }
+    public static func == (a: NotificareKit.NotificareNotification.Action, b: NotificareKit.NotificareNotification.Action) -> Swift.Bool
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
-  public struct Attachment : Swift.Codable {
+  public struct Attachment : Swift.Codable, Swift.Equatable {
     public let mimeType: Swift.String
     public let uri: Swift.String
     public init(mimeType: Swift.String, uri: Swift.String)
+    public static func == (a: NotificareKit.NotificareNotification.Attachment, b: NotificareKit.NotificareNotification.Attachment) -> Swift.Bool
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
+  public static func == (a: NotificareKit.NotificareNotification, b: NotificareKit.NotificareNotification) -> Swift.Bool
 }
 @available(macOS 10.15, iOS 13.0, watchOS 6.0, tvOS 13.0, *)
 extension NotificareKit.NotificareNotification : Swift.Identifiable {
@@ -587,19 +616,25 @@ extension NotificareKit._NotificareAnyEncodable {
   public init(arrayLiteral elements: Any...)
   public init(dictionaryLiteral elements: (Swift.AnyHashable, Any)...)
 }
-public struct NotificareTime {
+@propertyWrapper public struct NotificareExtraEquatable<T> : Swift.Equatable {
+  public var wrappedValue: T
+  public init(wrappedValue: T)
+  public static func == (lhs: NotificareKit.NotificareExtraEquatable<T>, rhs: NotificareKit.NotificareExtraEquatable<T>) -> Swift.Bool
+}
+public struct NotificareTime : Swift.Equatable {
   public let hours: Swift.Int
   public let minutes: Swift.Int
   public init(hours: Swift.Int, minutes: Swift.Int) throws
   public init(string: Swift.String) throws
   public func format() -> Swift.String
+  public static func == (a: NotificareKit.NotificareTime, b: NotificareKit.NotificareTime) -> Swift.Bool
 }
 extension NotificareKit.NotificareTime : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public typealias NotificareUserData = [Swift.String : Swift.String]
-public struct NotificareDevice : Swift.Codable {
+public struct NotificareDevice : Swift.Codable, Swift.Equatable {
   public let id: Swift.String
   public let userId: Swift.String?
   public let userName: Swift.String?
@@ -608,6 +643,7 @@ public struct NotificareDevice : Swift.Codable {
   public let userData: NotificareKit.NotificareUserData
   public let backgroundAppRefresh: Swift.Bool
   public init(id: Swift.String, userId: Swift.String? = nil, userName: Swift.String? = nil, timeZoneOffset: Swift.Float, dnd: NotificareKit.NotificareDoNotDisturb? = nil, userData: NotificareKit.NotificareUserData, backgroundAppRefresh: Swift.Bool)
+  public static func == (a: NotificareKit.NotificareDevice, b: NotificareKit.NotificareDevice) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -686,14 +722,17 @@ extension Swift.UnkeyedDecodingContainer {
   public mutating func decode(_ type: [Swift.String : Any].Type) throws -> [Swift.String : Any]
 }
 public typealias NotificareEventData = [Swift.String : Any]
-public struct NotificareEvent {
+public struct NotificareEvent : Swift.Equatable {
   public let type: Swift.String
   public let timestamp: Swift.Int64
   public let deviceId: Swift.String
   public let sessionId: Swift.String?
   public let notificationId: Swift.String?
   public let userId: Swift.String?
-  public let data: NotificareKit.NotificareEventData?
+  @NotificareKit.NotificareExtraEquatable public var data: NotificareKit.NotificareEventData? {
+    get
+  }
+  public static func == (a: NotificareKit.NotificareEvent, b: NotificareKit.NotificareEvent) -> Swift.Bool
 }
 extension NotificareKit.NotificareEvent : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
@@ -846,10 +885,11 @@ extension NotificareKit.NotificareAnyCodable : Swift.ExpressibleByDictionaryLite
   public typealias Key = Swift.AnyHashable
   public typealias Value = Any
 }
-public struct NotificareDoNotDisturb : Swift.Codable {
+public struct NotificareDoNotDisturb : Swift.Codable, Swift.Equatable {
   public let start: NotificareKit.NotificareTime
   public let end: NotificareKit.NotificareTime
   public init(start: NotificareKit.NotificareTime, end: NotificareKit.NotificareTime)
+  public static func == (a: NotificareKit.NotificareDoNotDisturb, b: NotificareKit.NotificareDoNotDisturb) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }

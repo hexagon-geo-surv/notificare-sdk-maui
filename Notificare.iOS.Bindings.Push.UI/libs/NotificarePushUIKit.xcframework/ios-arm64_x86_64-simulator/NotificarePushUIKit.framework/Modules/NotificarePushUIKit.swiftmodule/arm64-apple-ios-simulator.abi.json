@@ -16,6 +16,13 @@
       },
       {
         "kind": "Import",
+        "name": "NotificareUtilitiesKit",
+        "printedName": "NotificareUtilitiesKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushUIKit"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -668,6 +675,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareUtilitiesKit",
+        "printedName": "NotificareUtilitiesKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushUIKit"
       },
       {
         "kind": "Import",
@@ -1786,6 +1800,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareUtilitiesKit",
+        "printedName": "NotificareUtilitiesKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushUIKit"
       },
       {
         "kind": "Import",
@@ -3209,6 +3230,13 @@
       },
       {
         "kind": "Import",
+        "name": "NotificareUtilitiesKit",
+        "printedName": "NotificareUtilitiesKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushUIKit"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -4540,6 +4568,13 @@
       },
       {
         "kind": "Import",
+        "name": "NotificareUtilitiesKit",
+        "printedName": "NotificareUtilitiesKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushUIKit"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -5386,6 +5421,13 @@
       },
       {
         "kind": "Import",
+        "name": "NotificareUtilitiesKit",
+        "printedName": "NotificareUtilitiesKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushUIKit"
+      },
+      {
+        "kind": "Import",
         "name": "StoreKit",
         "printedName": "StoreKit",
         "declKind": "Import",
@@ -5407,6 +5449,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareUtilitiesKit",
+        "printedName": "NotificareUtilitiesKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushUIKit"
       },
       {
         "kind": "Import",
@@ -6398,6 +6447,23 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificarePushUIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareUtilitiesKit",
+        "printedName": "NotificareUtilitiesKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushUIKit"
+      },
+      {
+        "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
         "declKind": "Import",
@@ -6431,6 +6497,13 @@
         "kind": "Import",
         "name": "NotificareKit",
         "printedName": "NotificareKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushUIKit"
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareUtilitiesKit",
+        "printedName": "NotificareUtilitiesKit",
         "declKind": "Import",
         "moduleName": "NotificarePushUIKit"
       },
@@ -6627,6 +6700,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareUtilitiesKit",
+        "printedName": "NotificareUtilitiesKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushUIKit"
       },
       {
         "kind": "Import",
@@ -6980,6 +7060,13 @@
         "kind": "Import",
         "name": "NotificareKit",
         "printedName": "NotificareKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushUIKit"
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareUtilitiesKit",
+        "printedName": "NotificareUtilitiesKit",
         "declKind": "Import",
         "moduleName": "NotificarePushUIKit"
       },
@@ -7371,8 +7458,8 @@
       },
       {
         "kind": "Import",
-        "name": "NotificareKit",
-        "printedName": "NotificareKit",
+        "name": "NotificareUtilitiesKit",
+        "printedName": "NotificareUtilitiesKit",
         "declKind": "Import",
         "moduleName": "NotificarePushUIKit",
         "declAttributes": [
@@ -7393,6 +7480,13 @@
         "kind": "Import",
         "name": "NotificareKit",
         "printedName": "NotificareKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushUIKit"
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareUtilitiesKit",
+        "printedName": "NotificareUtilitiesKit",
         "declKind": "Import",
         "moduleName": "NotificarePushUIKit"
       },
@@ -7771,6 +7865,13 @@
       },
       {
         "kind": "Import",
+        "name": "NotificareUtilitiesKit",
+        "printedName": "NotificareUtilitiesKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushUIKit"
+      },
+      {
+        "kind": "Import",
         "name": "StoreKit",
         "printedName": "StoreKit",
         "declKind": "Import",
@@ -7917,7 +8018,7 @@
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushUIKit\/Sources\/Notification Handlers\/NotificareBaseNotificationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 399,
+      "offset": 429,
       "length": 5,
       "value": "false"
     },
@@ -7957,9 +8058,30 @@
       "value": "\"NotificarePushUIKit.NotificareInAppBrowserActionHandler\""
     },
     {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushUIKit\/Sources\/Internals\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 207,
+      "length": 21,
+      "value": "\"re.notifica.push.ui\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushUIKit\/Sources\/Internals\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 248,
+      "length": 18,
+      "value": "\"NotificarePushUI\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushUIKit\/Sources\/Internals\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 308,
+      "length": 18,
+      "value": "\"NotificarePushUI\""
+    },
+    {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushUIKit\/Sources\/Action Handlers\/NotificareCallbackActionHandler.swift",
       "kind": "StringLiteral",
-      "offset": 193,
+      "offset": 223,
       "length": 31,
       "value": "\"NotificarePushUIKit.NotificareCallbackActionHandler\""
     },
@@ -7973,35 +8095,35 @@
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushUIKit\/Sources\/Action Handlers\/NotificareSmsActionHandler.swift",
       "kind": "StringLiteral",
-      "offset": 114,
+      "offset": 144,
       "length": 26,
       "value": "\"NotificarePushUIKit.NotificareSmsActionHandler\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushUIKit\/Sources\/Internals\/LocalStorage.swift",
       "kind": "StringLiteral",
-      "offset": 176,
+      "offset": 185,
       "length": 52,
       "value": "\"re.notifica.push_ui.local_storage.reviewed_version\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushUIKit\/Sources\/Internals\/LocalStorage.swift",
       "kind": "StringLiteral",
-      "offset": 176,
+      "offset": 185,
       "length": 52,
       "value": "\"re.notifica.push_ui.local_storage.reviewed_version\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushUIKit\/Sources\/Action Handlers\/NotificareMailActionHandler.swift",
       "kind": "StringLiteral",
-      "offset": 114,
+      "offset": 144,
       "length": 27,
       "value": "\"NotificarePushUIKit.NotificareMailActionHandler\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushUIKit\/Sources\/Notification Handlers\/NotificareStoreController.swift",
       "kind": "StringLiteral",
-      "offset": 115,
+      "offset": 145,
       "length": 25,
       "value": "\"NotificarePushUIKit.NotificareStoreController\""
     }

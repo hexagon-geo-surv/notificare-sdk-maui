@@ -5,6 +5,7 @@ import CoreData
 import DeveloperToolsSupport
 import Foundation
 @_exported import NotificareKit
+import NotificareUtilitiesKit
 import Swift
 import SwiftUI
 import SystemConfiguration
@@ -12,7 +13,6 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-import os
 public typealias NotificareCallback<T> = (Swift.Result<T, any Swift.Error>) -> Swift.Void
 @_hasMissingDesignatedInitializers public class Notificare {
   public static let shared: NotificareKit.Notificare
@@ -91,10 +91,6 @@ extension NotificareKit.NotificareInternals {
     public enum Responses {
     }
   }
-}
-public enum NotificareIsoDateUtils {
-  public static func parse(_ date: Swift.String) -> Foundation.Date?
-  public static func format(_ date: Foundation.Date) -> Swift.String
 }
 public protocol NotificareEventsModule : AnyObject {
   func logNotificationOpen(_ id: Swift.String, _ completion: @escaping NotificareKit.NotificareCallback<Swift.Void>)
@@ -201,7 +197,7 @@ extension NotificareKit.NotificareInternals.PushAPI.Models {
     public let content: [NotificareKit.NotificareNotification.Content]
     public let actions: [NotificareKit.NotificareInternals.PushAPI.Models.Notification.Action]
     public let attachments: [NotificareKit.NotificareNotification.Attachment]
-    @NotificareKit.NotificareExtraEquatable public var extra: [Swift.String : Any] {
+    @NotificareUtilitiesKit.NotificareExtraEquatable public var extra: [Swift.String : Any] {
       get
     }
     public let targetContentIdentifier: Swift.String?
@@ -234,11 +230,6 @@ public struct NotificareDynamicLink : Swift.Codable, Swift.Equatable {
 extension NotificareKit.NotificareDynamicLink {
   public func toJson() throws -> [Swift.String : Any]
   public static func fromJson(json: [Swift.String : Any]) throws -> NotificareKit.NotificareDynamicLink
-}
-@propertyWrapper public struct EncodeNull<T> : Swift.Encodable where T : Swift.Encodable {
-  public let wrappedValue: T?
-  public init(wrappedValue: T?)
-  public func encode(to encoder: any Swift.Encoder) throws
 }
 public protocol NotificareDelegate : AnyObject {
   func notificare(_ notificare: NotificareKit.Notificare, onReady application: NotificareKit.NotificareApplication)
@@ -282,12 +273,6 @@ extension NotificareKit.NotificareModule {
   #if compiler(>=5.3) && $AsyncAwait
   public func unlaunch() async throws
   #endif
-}
-extension Foundation.URL {
-  public func appendingQueryComponent(name: Swift.String, value: Swift.String) -> Foundation.URL
-  public mutating func appendQueryComponent(name: Swift.String, value: Swift.String)
-  public func removingQueryComponent(name: Swift.String) -> Foundation.URL
-  public mutating func removeQueryComponent(name: Swift.String)
 }
 public enum NotificareError : Swift.Error {
   case notConfigured
@@ -388,12 +373,6 @@ extension NotificareKit.NotificareApplication.ActionCategory {
   public func toJson() throws -> [Swift.String : Any]
   public static func fromJson(json: [Swift.String : Any]) throws -> NotificareKit.NotificareApplication.ActionCategory
 }
-public enum NotificareLogger {
-  public static func debug(_ message: Swift.String, error: (any Swift.Error)? = nil, file: Swift.String = #file)
-  public static func info(_ message: Swift.String, error: (any Swift.Error)? = nil, file: Swift.String = #file)
-  public static func warning(_ message: Swift.String, error: (any Swift.Error)? = nil, file: Swift.String = #file)
-  public static func error(_ message: Swift.String, error: (any Swift.Error)? = nil, file: Swift.String = #file)
-}
 extension NotificareKit.Notificare {
   public func device() -> any NotificareKit.NotificareDeviceModule
   public func events() -> any NotificareKit.NotificareEventsModule
@@ -439,7 +418,7 @@ public struct NotificareNotification : Swift.Codable, Swift.Equatable {
   public let content: [NotificareKit.NotificareNotification.Content]
   public let actions: [NotificareKit.NotificareNotification.Action]
   public let attachments: [NotificareKit.NotificareNotification.Attachment]
-  @NotificareKit.NotificareExtraEquatable public var extra: [Swift.String : Any] {
+  @NotificareUtilitiesKit.NotificareExtraEquatable public var extra: [Swift.String : Any] {
     get
   }
   public let targetContentIdentifier: Swift.String?
@@ -466,7 +445,7 @@ public struct NotificareNotification : Swift.Codable, Swift.Equatable {
   }
   public struct Content : Swift.Codable, Swift.Equatable {
     public let type: Swift.String
-    @NotificareKit.NotificareExtraEquatable public var data: Any {
+    @NotificareUtilitiesKit.NotificareExtraEquatable public var data: Any {
       get
     }
     public init(type: Swift.String, data: Any)
@@ -553,74 +532,6 @@ extension NotificareKit.NotificareNotification.Attachment {
   public func toJson() throws -> [Swift.String : Any]
   public static func fromJson(json: [Swift.String : Any]) throws -> NotificareKit.NotificareNotification.Attachment
 }
-@frozen public struct NotificareAnyEncodable : Swift.Encodable {
-  public let value: Any
-  public init<T>(_ value: T?)
-}
-@usableFromInline
-internal protocol _NotificareAnyEncodable {
-  var value: Any { get }
-  init<T>(_ value: T?)
-}
-extension NotificareKit.NotificareAnyEncodable : NotificareKit._NotificareAnyEncodable {
-}
-extension NotificareKit._NotificareAnyEncodable {
-  public func encode(to encoder: any Swift.Encoder) throws
-}
-extension NotificareKit.NotificareAnyEncodable : Swift.Equatable {
-  public static func == (lhs: NotificareKit.NotificareAnyEncodable, rhs: NotificareKit.NotificareAnyEncodable) -> Swift.Bool
-}
-extension NotificareKit.NotificareAnyEncodable : Swift.CustomStringConvertible {
-  public var description: Swift.String {
-    get
-  }
-}
-extension NotificareKit.NotificareAnyEncodable : Swift.CustomDebugStringConvertible {
-  public var debugDescription: Swift.String {
-    get
-  }
-}
-extension NotificareKit.NotificareAnyEncodable : Swift.ExpressibleByNilLiteral {
-}
-extension NotificareKit.NotificareAnyEncodable : Swift.ExpressibleByBooleanLiteral {
-  public typealias BooleanLiteralType = Swift.Bool
-}
-extension NotificareKit.NotificareAnyEncodable : Swift.ExpressibleByIntegerLiteral {
-  public typealias IntegerLiteralType = Swift.Int
-}
-extension NotificareKit.NotificareAnyEncodable : Swift.ExpressibleByFloatLiteral {
-  public typealias FloatLiteralType = Swift.Double
-}
-extension NotificareKit.NotificareAnyEncodable : Swift.ExpressibleByStringLiteral {
-  public typealias ExtendedGraphemeClusterLiteralType = Swift.String
-  public typealias StringLiteralType = Swift.String
-  public typealias UnicodeScalarLiteralType = Swift.String
-}
-extension NotificareKit.NotificareAnyEncodable : Swift.ExpressibleByStringInterpolation {
-  public typealias StringInterpolation = Swift.DefaultStringInterpolation
-}
-extension NotificareKit.NotificareAnyEncodable : Swift.ExpressibleByArrayLiteral {
-  public typealias ArrayLiteralElement = Any
-}
-extension NotificareKit.NotificareAnyEncodable : Swift.ExpressibleByDictionaryLiteral {
-  public typealias Key = Swift.AnyHashable
-  public typealias Value = Any
-}
-extension NotificareKit._NotificareAnyEncodable {
-  public init(nilLiteral _: ())
-  public init(booleanLiteral value: Swift.Bool)
-  public init(integerLiteral value: Swift.Int)
-  public init(floatLiteral value: Swift.Double)
-  public init(extendedGraphemeClusterLiteral value: Swift.String)
-  public init(stringLiteral value: Swift.String)
-  public init(arrayLiteral elements: Any...)
-  public init(dictionaryLiteral elements: (Swift.AnyHashable, Any)...)
-}
-@propertyWrapper public struct NotificareExtraEquatable<T> : Swift.Equatable {
-  public var wrappedValue: T
-  public init(wrappedValue: T)
-  public static func == (lhs: NotificareKit.NotificareExtraEquatable<T>, rhs: NotificareKit.NotificareExtraEquatable<T>) -> Swift.Bool
-}
 public struct NotificareTime : Swift.Equatable {
   public let hours: Swift.Int
   public let minutes: Swift.Int
@@ -655,38 +566,8 @@ extension NotificareKit.NotificareDevice {
   public func toJson() throws -> [Swift.String : Any]
   public static func fromJson(json: [Swift.String : Any]) throws -> NotificareKit.NotificareDevice
 }
-public enum NotificareUtils {
-  public static var applicationName: Swift.String {
-    get
-  }
-  public static var applicationVersion: Swift.String {
-    get
-  }
-  public static var deviceString: Swift.String {
-    get
-  }
-  public static var deviceLanguage: Swift.String {
-    get
-  }
-  public static var deviceRegion: Swift.String {
-    get
-  }
-  public static var osVersion: Swift.String {
-    get
-  }
-  public static var timeZoneOffset: Swift.Float {
-    get
-  }
-  public static var userAgent: Swift.String {
-    get
-  }
+public enum ModuleUtils {
   public static func getEnabledPeerModules() -> [Swift.String]
-  public static let jsonDecoder: Foundation.JSONDecoder
-  public static let jsonEncoder: Foundation.JSONEncoder
-  public static func getSupportedUrlSchemes() -> [Swift.String]
-  public static var rootViewController: UIKit.UIViewController? {
-    get
-  }
 }
 public struct NotificareServicesInfo : Swift.Decodable {
   public let applicationKey: Swift.String
@@ -710,17 +591,6 @@ public struct NotificareServicesInfo : Swift.Decodable {
   public static func removeInterceptor(_ interceptor: any NotificareKit.NotificareAppDelegateInterceptor)
   @objc deinit
 }
-extension Swift.KeyedDecodingContainer {
-  public func decode(_ type: [Swift.String : Any].Type, forKey key: K) throws -> [Swift.String : Any]
-  public func decodeIfPresent(_ type: [Swift.String : Any].Type, forKey key: K) throws -> [Swift.String : Any]?
-  public func decode(_ type: [Any].Type, forKey key: K) throws -> [Any]
-  public func decodeIfPresent(_ type: [Any].Type, forKey key: K) throws -> [Any]?
-  public func decode(_: [Swift.String : Any].Type) throws -> [Swift.String : Any]
-}
-extension Swift.UnkeyedDecodingContainer {
-  public mutating func decode(_: [Any].Type) throws -> [Any]
-  public mutating func decode(_ type: [Swift.String : Any].Type) throws -> [Swift.String : Any]
-}
 public typealias NotificareEventData = [Swift.String : Any]
 public struct NotificareEvent : Swift.Equatable {
   public let type: Swift.String
@@ -729,7 +599,7 @@ public struct NotificareEvent : Swift.Equatable {
   public let sessionId: Swift.String?
   public let notificationId: Swift.String?
   public let userId: Swift.String?
-  @NotificareKit.NotificareExtraEquatable public var data: NotificareKit.NotificareEventData? {
+  @NotificareUtilitiesKit.NotificareExtraEquatable public var data: NotificareKit.NotificareEventData? {
     get
   }
   public static func == (a: NotificareKit.NotificareEvent, b: NotificareKit.NotificareEvent) -> Swift.Bool
@@ -843,48 +713,6 @@ extension NotificareKit.NotificareReachability {
     get
   }
 }
-@frozen public struct NotificareAnyCodable : Swift.Codable {
-  public let value: Any
-  public init<T>(_ value: T?)
-}
-extension NotificareKit.NotificareAnyCodable : NotificareKit._NotificareAnyEncodable, NotificareKit._NotificareAnyDecodable {
-}
-extension NotificareKit.NotificareAnyCodable : Swift.Equatable {
-  public static func == (lhs: NotificareKit.NotificareAnyCodable, rhs: NotificareKit.NotificareAnyCodable) -> Swift.Bool
-}
-extension NotificareKit.NotificareAnyCodable : Swift.CustomStringConvertible {
-  public var description: Swift.String {
-    get
-  }
-}
-extension NotificareKit.NotificareAnyCodable : Swift.CustomDebugStringConvertible {
-  public var debugDescription: Swift.String {
-    get
-  }
-}
-extension NotificareKit.NotificareAnyCodable : Swift.ExpressibleByNilLiteral {
-}
-extension NotificareKit.NotificareAnyCodable : Swift.ExpressibleByBooleanLiteral {
-  public typealias BooleanLiteralType = Swift.Bool
-}
-extension NotificareKit.NotificareAnyCodable : Swift.ExpressibleByIntegerLiteral {
-  public typealias IntegerLiteralType = Swift.Int
-}
-extension NotificareKit.NotificareAnyCodable : Swift.ExpressibleByFloatLiteral {
-  public typealias FloatLiteralType = Swift.Double
-}
-extension NotificareKit.NotificareAnyCodable : Swift.ExpressibleByStringLiteral {
-  public typealias ExtendedGraphemeClusterLiteralType = Swift.String
-  public typealias StringLiteralType = Swift.String
-  public typealias UnicodeScalarLiteralType = Swift.String
-}
-extension NotificareKit.NotificareAnyCodable : Swift.ExpressibleByArrayLiteral {
-  public typealias ArrayLiteralElement = Any
-}
-extension NotificareKit.NotificareAnyCodable : Swift.ExpressibleByDictionaryLiteral {
-  public typealias Key = Swift.AnyHashable
-  public typealias Value = Any
-}
 public struct NotificareDoNotDisturb : Swift.Codable, Swift.Equatable {
   public let start: NotificareKit.NotificareTime
   public let end: NotificareKit.NotificareTime
@@ -896,33 +724,6 @@ public struct NotificareDoNotDisturb : Swift.Codable, Swift.Equatable {
 extension NotificareKit.NotificareDoNotDisturb {
   public func toJson() throws -> [Swift.String : Any]
   public static func fromJson(json: [Swift.String : Any]) throws -> NotificareKit.NotificareDoNotDisturb
-}
-@frozen public struct NotificareAnyDecodable : Swift.Decodable {
-  public let value: Any
-  public init<T>(_ value: T?)
-}
-@usableFromInline
-internal protocol _NotificareAnyDecodable {
-  var value: Any { get }
-  init<T>(_ value: T?)
-}
-extension NotificareKit.NotificareAnyDecodable : NotificareKit._NotificareAnyDecodable {
-}
-extension NotificareKit._NotificareAnyDecodable {
-  public init(from decoder: any Swift.Decoder) throws
-}
-extension NotificareKit.NotificareAnyDecodable : Swift.Equatable {
-  public static func == (lhs: NotificareKit.NotificareAnyDecodable, rhs: NotificareKit.NotificareAnyDecodable) -> Swift.Bool
-}
-extension NotificareKit.NotificareAnyDecodable : Swift.CustomStringConvertible {
-  public var description: Swift.String {
-    get
-  }
-}
-extension NotificareKit.NotificareAnyDecodable : Swift.CustomDebugStringConvertible {
-  public var debugDescription: Swift.String {
-    get
-  }
 }
 extension Foundation.URLRequest {
   public mutating func setNotificareHeaders()
@@ -1015,16 +816,6 @@ public struct NotificareRequest {
 public protocol NotificareLoyaltyIntegration {
   var canPresentPasses: Swift.Bool { get }
   func present(notification: NotificareKit.NotificareNotification, in viewController: UIKit.UIViewController)
-}
-extension Swift.Dictionary {
-  public func mapKeys<Transformed>(_ transform: (Key) throws -> Transformed) rethrows -> [Transformed : Value] where Transformed : Swift.Hashable
-}
-extension Foundation.Data {
-  public func toHexString() -> Swift.String
-}
-extension UIKit.UIColor {
-  convenience public init(hexString: Swift.String, alpha: CoreFoundation.CGFloat = 1.0)
-  public func toHexString() -> Swift.String
 }
 public struct NotificareOptions : Swift.Decodable {
   public static let DEFAULT_DEBUG_LOGGING_ENABLED: Swift.Bool

@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/NotificarePushUIKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		q9ozKjiwqR97uHfl3Rm4Vm1e2i4=
+		TQfUj/EZ26179DXyfLx2Xfj/Tak=
 		</data>
 		<key>Modules/NotificarePushUIKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		gisCDtZA0qks+wM8Rg689Z/WDss=
+		QduTDdcylMfaWrtq72MscBe1Xq8=
 		</data>
 		<key>Modules/NotificarePushUIKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/NotificarePushUIKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gisCDtZA0qks+wM8Rg689Z/WDss=
+		QduTDdcylMfaWrtq72MscBe1Xq8=
 		</data>
 		<key>Modules/NotificarePushUIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6hxXHa5UdvMEvi0xMaEoGo7n+AI=
+		btKbSvvcKv8uGQh6NdNdi6afkKc=
 		</data>
 		<key>Modules/NotificarePushUIKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		q9ozKjiwqR97uHfl3Rm4Vm1e2i4=
+		TQfUj/EZ26179DXyfLx2Xfj/Tak=
 		</data>
 		<key>Modules/NotificarePushUIKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		dMu7RkyS/BovquiE1ddipB28mWw=
+		hIBSST6QgLNxcojpWIcLNNdCjrY=
 		</data>
 		<key>Modules/NotificarePushUIKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/NotificarePushUIKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		dMu7RkyS/BovquiE1ddipB28mWw=
+		hIBSST6QgLNxcojpWIcLNNdCjrY=
 		</data>
 		<key>Modules/NotificarePushUIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		riiRPQhV/FboImzAUIT0f51ELzE=
+		1MwDWK9GqyszGtMzAFnxDCmyJYc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,14 +85,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			h+t6rI0086YqaPh9o/BJB4ElKOWGzCKEWlYxzEzsq8Q=
+			aBWAsaZhsdtyKcYQXpOndeC2gGF+z+lB5pgxQzZ+qbE=
 			</data>
 		</dict>
 		<key>Modules/NotificarePushUIKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vFiucMG4jCgQGSIx2IzGpOQrBZRVJoZF5au20QG4rbg=
+			0wPJyqOwv6JtwXnNxxi4NvKDR1NG35YV5f9sRSgpO74=
 			</data>
 		</dict>
 		<key>Modules/NotificarePushUIKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -106,28 +106,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vFiucMG4jCgQGSIx2IzGpOQrBZRVJoZF5au20QG4rbg=
+			0wPJyqOwv6JtwXnNxxi4NvKDR1NG35YV5f9sRSgpO74=
 			</data>
 		</dict>
 		<key>Modules/NotificarePushUIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tIKP/QXN5r18fc2PNlmAtLN8s2lM3SbtUrNvT3hnIZo=
+			e2zw3ucondQd8+APBjLmIFIiPEyLbRhRtuRfSFMHr/s=
 			</data>
 		</dict>
 		<key>Modules/NotificarePushUIKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h+t6rI0086YqaPh9o/BJB4ElKOWGzCKEWlYxzEzsq8Q=
+			aBWAsaZhsdtyKcYQXpOndeC2gGF+z+lB5pgxQzZ+qbE=
 			</data>
 		</dict>
 		<key>Modules/NotificarePushUIKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VwGazoB5I3yE9fiEgJwXaaOu8t+wWj442pdXeE3LjtQ=
+			icJ1yHcIpt2gjMN3yKJt14IQBwoaSSBJrlUjKSUkPHs=
 			</data>
 		</dict>
 		<key>Modules/NotificarePushUIKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -141,14 +141,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VwGazoB5I3yE9fiEgJwXaaOu8t+wWj442pdXeE3LjtQ=
+			icJ1yHcIpt2gjMN3yKJt14IQBwoaSSBJrlUjKSUkPHs=
 			</data>
 		</dict>
 		<key>Modules/NotificarePushUIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h8xoVoU0YLiiHfp2zjPWJ7NnzAIQobEHOn7Ru2FavjU=
+			gJd3Ai4b2Nlp3Vf9PjEX7DEjczOQoU0qOIjCHOXGALg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

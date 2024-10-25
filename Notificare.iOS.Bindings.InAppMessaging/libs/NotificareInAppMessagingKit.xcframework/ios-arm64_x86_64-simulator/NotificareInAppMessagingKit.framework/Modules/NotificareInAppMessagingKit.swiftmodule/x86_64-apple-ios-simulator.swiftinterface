@@ -4,6 +4,7 @@
 import Foundation
 @_exported import NotificareInAppMessagingKit
 import NotificareKit
+import NotificareUtilitiesKit
 import Swift
 import UIKit
 import _Concurrency

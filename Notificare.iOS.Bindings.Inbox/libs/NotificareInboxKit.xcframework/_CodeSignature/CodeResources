@@ -14,11 +14,11 @@
 		</data>
 		<key>ios-arm64/NotificareInboxKit.framework/Modules/NotificareInboxKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		gn/9B2blGIQ6F9g0eKk42N4YiC8=
+		GZ7KyJkjkfS2pY3RtEuaRVysVsc=
 		</data>
 		<key>ios-arm64/NotificareInboxKit.framework/Modules/NotificareInboxKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		wKLzdfVejBrGql+ZPRBKFNWgiQk=
+		v68gVDTkKEXGZfcbgKcYaa1Fkfc=
 		</data>
 		<key>ios-arm64/NotificareInboxKit.framework/Modules/NotificareInboxKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>ios-arm64/NotificareInboxKit.framework/Modules/NotificareInboxKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		wKLzdfVejBrGql+ZPRBKFNWgiQk=
+		v68gVDTkKEXGZfcbgKcYaa1Fkfc=
 		</data>
 		<key>ios-arm64/NotificareInboxKit.framework/Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>ios-arm64/NotificareInboxKit.framework/NotificareInboxKit</key>
 		<data>
-		D5qSAb/qAi/WR4zL78wEWS9+V/I=
+		S4A5bFH6/5geHtOoKrIiLm174RI=
 		</data>
 		<key>ios-arm64/NotificareInboxKit.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>ios-arm64/dSYMs/NotificareInboxKit.framework.dSYM/Contents/Resources/DWARF/NotificareInboxKit</key>
 		<data>
-		tEnbybWToitTZfFy9YICZqIZcM4=
+		K+pFo7Ox1AMCMyffKslnkSzus5A=
 		</data>
 		<key>ios-arm64/dSYMs/NotificareInboxKit.framework.dSYM/Contents/Resources/Relocations/aarch64/NotificareInboxKit.yml</key>
 		<data>
-		KpKzkxCGmvI8n5lpw4rTutvDUvA=
+		PTj848DlI882hgxMaliuNkzNpK4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NotificareInboxKit.framework/Headers/NotificareInboxKit-Swift.h</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NotificareInboxKit.framework/Modules/NotificareInboxKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		gn/9B2blGIQ6F9g0eKk42N4YiC8=
+		GZ7KyJkjkfS2pY3RtEuaRVysVsc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NotificareInboxKit.framework/Modules/NotificareInboxKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		hJuTC9q7aSzuxi/49WvQ34f7bDQ=
+		5YEfiEwOqU4DcTkePDUE2SnaGdU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NotificareInboxKit.framework/Modules/NotificareInboxKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -86,15 +86,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NotificareInboxKit.framework/Modules/NotificareInboxKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hJuTC9q7aSzuxi/49WvQ34f7bDQ=
+		5YEfiEwOqU4DcTkePDUE2SnaGdU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NotificareInboxKit.framework/Modules/NotificareInboxKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		gn/9B2blGIQ6F9g0eKk42N4YiC8=
+		GZ7KyJkjkfS2pY3RtEuaRVysVsc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NotificareInboxKit.framework/Modules/NotificareInboxKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		pPQjNNE0s7mdSc0OETrHHx8mB8w=
+		me9DcccPFrS38QgsOYzKBFae6lU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NotificareInboxKit.framework/Modules/NotificareInboxKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NotificareInboxKit.framework/Modules/NotificareInboxKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		pPQjNNE0s7mdSc0OETrHHx8mB8w=
+		me9DcccPFrS38QgsOYzKBFae6lU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NotificareInboxKit.framework/Modules/module.modulemap</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NotificareInboxKit.framework/NotificareInboxKit</key>
 		<data>
-		zyAnSC8Qyp0siCyW+Wge+Q7QRM0=
+		cqWFlC0W7no1GFmxRxvQz5uGRJg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NotificareInboxKit.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NotificareInboxKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		49nTFee2YOkXDEibV1vZ5woXH74=
+		dm46vBuI3B637b+SnsR935XIbHM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NotificareInboxKit.framework.dSYM/Contents/Info.plist</key>
 		<data>
@@ -138,15 +138,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NotificareInboxKit.framework.dSYM/Contents/Resources/DWARF/NotificareInboxKit</key>
 		<data>
-		L3A8pjTM4Gr/Wl3sPBE4SGnEOMU=
+		rFpBX+BYoZksolEbaCrwnd3USKc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NotificareInboxKit.framework.dSYM/Contents/Resources/Relocations/aarch64/NotificareInboxKit.yml</key>
 		<data>
-		qPRkq/F+gT0PB2AscON9F2uWdAc=
+		NNXKqbIWOnzXbYhGtFsWEFSr/1I=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NotificareInboxKit.framework.dSYM/Contents/Resources/Relocations/x86_64/NotificareInboxKit.yml</key>
 		<data>
-		jzqX7Z89fJdniRGGlCP4G/oHh6g=
+		nnjuwS0e+0YiOOsTgzvROjrbdIE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -177,22 +177,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gn/9B2blGIQ6F9g0eKk42N4YiC8=
+			GZ7KyJkjkfS2pY3RtEuaRVysVsc=
 			</data>
 			<key>hash2</key>
 			<data>
-			vEt39ij9taXYw+c9guWKw2Jhgxw1VfemPVZ9+puMN24=
+			GIwI94r6ksISThp7kaCS/ejau1nLcEaI4YEtmOm/Baw=
 			</data>
 		</dict>
 		<key>ios-arm64/NotificareInboxKit.framework/Modules/NotificareInboxKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wKLzdfVejBrGql+ZPRBKFNWgiQk=
+			v68gVDTkKEXGZfcbgKcYaa1Fkfc=
 			</data>
 			<key>hash2</key>
 			<data>
-			wfqlFLjklWoDyFRL/Fuujd61DzJWpgJGZr0mCa1afYY=
+			5DcTBQ35xkYupHiMEMlPRuuvzlzc1oBs/YQ3wli4NpU=
 			</data>
 		</dict>
 		<key>ios-arm64/NotificareInboxKit.framework/Modules/NotificareInboxKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -210,11 +210,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wKLzdfVejBrGql+ZPRBKFNWgiQk=
+			v68gVDTkKEXGZfcbgKcYaa1Fkfc=
 			</data>
 			<key>hash2</key>
 			<data>
-			wfqlFLjklWoDyFRL/Fuujd61DzJWpgJGZr0mCa1afYY=
+			5DcTBQ35xkYupHiMEMlPRuuvzlzc1oBs/YQ3wli4NpU=
 			</data>
 		</dict>
 		<key>ios-arm64/NotificareInboxKit.framework/Modules/module.modulemap</key>
@@ -265,11 +265,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			D5qSAb/qAi/WR4zL78wEWS9+V/I=
+			S4A5bFH6/5geHtOoKrIiLm174RI=
 			</data>
 			<key>hash2</key>
 			<data>
-			sJBZV2kwn/Q7bqw5wnI1+4DpqWFnMrUnYIUGTrahIok=
+			6heSzp3qoSH/rwzbZQFT5ucneYwpNZew/W8vErqlNho=
 			</data>
 		</dict>
 		<key>ios-arm64/NotificareInboxKit.framework/PrivacyInfo.xcprivacy</key>
@@ -298,22 +298,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tEnbybWToitTZfFy9YICZqIZcM4=
+			K+pFo7Ox1AMCMyffKslnkSzus5A=
 			</data>
 			<key>hash2</key>
 			<data>
-			6JQS24Dcd15Bfzd0xXYrMza6O7NFbM1QCSpnPrl3MRE=
+			GREzHGBtFiDq5zKz1GfpiXvoveJ4NkBYwKltwbVxOcw=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/NotificareInboxKit.framework.dSYM/Contents/Resources/Relocations/aarch64/NotificareInboxKit.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KpKzkxCGmvI8n5lpw4rTutvDUvA=
+			PTj848DlI882hgxMaliuNkzNpK4=
 			</data>
 			<key>hash2</key>
 			<data>
-			pSYnnZroJyKDui3HOhVlpcBW+TKSs4pWbrrbFijdLgU=
+			SwCch0noInGTOyTtfLRxU25eUHz0alGo+8bs68G2dvA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NotificareInboxKit.framework/Headers/NotificareInboxKit-Swift.h</key>
@@ -342,22 +342,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gn/9B2blGIQ6F9g0eKk42N4YiC8=
+			GZ7KyJkjkfS2pY3RtEuaRVysVsc=
 			</data>
 			<key>hash2</key>
 			<data>
-			vEt39ij9taXYw+c9guWKw2Jhgxw1VfemPVZ9+puMN24=
+			GIwI94r6ksISThp7kaCS/ejau1nLcEaI4YEtmOm/Baw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NotificareInboxKit.framework/Modules/NotificareInboxKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hJuTC9q7aSzuxi/49WvQ34f7bDQ=
+			5YEfiEwOqU4DcTkePDUE2SnaGdU=
 			</data>
 			<key>hash2</key>
 			<data>
-			voKzG/I4n40NpFJn2mvsc1HEY7zV1xL210LMmgh9pws=
+			06hpRgQrX3ES3UcngEoOiKxCSc1io9l6Adgs9U2YPGU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NotificareInboxKit.framework/Modules/NotificareInboxKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -375,33 +375,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hJuTC9q7aSzuxi/49WvQ34f7bDQ=
+			5YEfiEwOqU4DcTkePDUE2SnaGdU=
 			</data>
 			<key>hash2</key>
 			<data>
-			voKzG/I4n40NpFJn2mvsc1HEY7zV1xL210LMmgh9pws=
+			06hpRgQrX3ES3UcngEoOiKxCSc1io9l6Adgs9U2YPGU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NotificareInboxKit.framework/Modules/NotificareInboxKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gn/9B2blGIQ6F9g0eKk42N4YiC8=
+			GZ7KyJkjkfS2pY3RtEuaRVysVsc=
 			</data>
 			<key>hash2</key>
 			<data>
-			vEt39ij9taXYw+c9guWKw2Jhgxw1VfemPVZ9+puMN24=
+			GIwI94r6ksISThp7kaCS/ejau1nLcEaI4YEtmOm/Baw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NotificareInboxKit.framework/Modules/NotificareInboxKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pPQjNNE0s7mdSc0OETrHHx8mB8w=
+			me9DcccPFrS38QgsOYzKBFae6lU=
 			</data>
 			<key>hash2</key>
 			<data>
-			BNGr7ACfbvdzSBRIMsxVzEtvdLsL8VGr5olKzdbByqc=
+			CAegoFdlXGcyJOuZ8BtNJ50wKguuEOOEiLrwiJvSFnI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NotificareInboxKit.framework/Modules/NotificareInboxKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -419,11 +419,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pPQjNNE0s7mdSc0OETrHHx8mB8w=
+			me9DcccPFrS38QgsOYzKBFae6lU=
 			</data>
 			<key>hash2</key>
 			<data>
-			BNGr7ACfbvdzSBRIMsxVzEtvdLsL8VGr5olKzdbByqc=
+			CAegoFdlXGcyJOuZ8BtNJ50wKguuEOOEiLrwiJvSFnI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NotificareInboxKit.framework/Modules/module.modulemap</key>
@@ -474,11 +474,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zyAnSC8Qyp0siCyW+Wge+Q7QRM0=
+			cqWFlC0W7no1GFmxRxvQz5uGRJg=
 			</data>
 			<key>hash2</key>
 			<data>
-			pvWSL71N9OthqTyCU3YLB9sTuLOzjT/AxRUEATFmH/s=
+			q54Oam00aa0oeRJP1qRptyoxOaUzGmXt5nFUzs3XA/4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NotificareInboxKit.framework/PrivacyInfo.xcprivacy</key>
@@ -496,11 +496,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			49nTFee2YOkXDEibV1vZ5woXH74=
+			dm46vBuI3B637b+SnsR935XIbHM=
 			</data>
 			<key>hash2</key>
 			<data>
-			FpxlpE8FjHIWcJSeWfyWkN7dBVxMZuKwWLsojjoUJS8=
+			2w9SOrrLXG8oCyi+d4MYBxAkI0Hd8qjO4p+oumFAVeY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NotificareInboxKit.framework.dSYM/Contents/Info.plist</key>
@@ -518,33 +518,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			L3A8pjTM4Gr/Wl3sPBE4SGnEOMU=
+			rFpBX+BYoZksolEbaCrwnd3USKc=
 			</data>
 			<key>hash2</key>
 			<data>
-			fgjj2+1k42kV3AdCfdEZzpr94L0CaxST4usXCZkp3KA=
+			b8i2V0QaxXFn9d+nYmdOAT9l0z0N81C+FD+Qw+MjC+g=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NotificareInboxKit.framework.dSYM/Contents/Resources/Relocations/aarch64/NotificareInboxKit.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qPRkq/F+gT0PB2AscON9F2uWdAc=
+			NNXKqbIWOnzXbYhGtFsWEFSr/1I=
 			</data>
 			<key>hash2</key>
 			<data>
-			ntzuU8ojvBLtKNzks55ruj6ftc0rbgISV8e1GyTOjbk=
+			gN33skLcuTSc+hiQOlTRvV1JcF4wGdd+sNHFN2G1MuU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NotificareInboxKit.framework.dSYM/Contents/Resources/Relocations/x86_64/NotificareInboxKit.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jzqX7Z89fJdniRGGlCP4G/oHh6g=
+			nnjuwS0e+0YiOOsTgzvROjrbdIE=
 			</data>
 			<key>hash2</key>
 			<data>
-			piPXaDB0PMcJ8Xi69tIzFyGs26l3KF5wfQ8u0IcWu14=
+			HGogp6CQBw24z3nvlac6P538qHGimLiREJp4JWuTmIc=
 			</data>
 		</dict>
 	</dict>

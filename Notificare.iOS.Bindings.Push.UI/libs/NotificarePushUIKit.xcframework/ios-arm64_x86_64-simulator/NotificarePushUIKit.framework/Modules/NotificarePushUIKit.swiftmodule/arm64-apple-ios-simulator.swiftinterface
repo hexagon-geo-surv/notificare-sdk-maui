@@ -10,6 +10,7 @@ import MessageUI
 import MobileCoreServices
 import NotificareKit
 @_exported import NotificarePushUIKit
+import NotificareUtilitiesKit
 import SafariServices
 import StoreKit
 import Swift

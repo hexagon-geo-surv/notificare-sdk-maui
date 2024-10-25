@@ -359,7 +359,6 @@ SWIFT_CLASS("_TtC13NotificareKit18NotificareSwizzler")
 
 
 
-
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -723,7 +722,6 @@ SWIFT_CLASS_NAMED("NotificareCoreDataEvent")
 SWIFT_CLASS("_TtC13NotificareKit18NotificareSwizzler")
 @interface NotificareSwizzler : NSProxy
 @end
-
 
 
 

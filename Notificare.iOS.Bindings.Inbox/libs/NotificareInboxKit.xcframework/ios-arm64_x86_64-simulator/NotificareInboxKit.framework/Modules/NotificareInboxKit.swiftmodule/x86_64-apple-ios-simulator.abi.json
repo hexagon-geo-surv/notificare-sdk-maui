@@ -774,6 +774,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "NotificareUtilitiesKit",
+        "printedName": "NotificareUtilitiesKit",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit"
+      },
+      {
         "kind": "TypeDecl",
         "name": "NotificareInboxItem",
         "printedName": "NotificareInboxItem",
@@ -1325,6 +1332,13 @@
       },
       {
         "kind": "Import",
+        "name": "NotificareUtilitiesKit",
+        "printedName": "NotificareUtilitiesKit",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit"
+      },
+      {
+        "kind": "Import",
         "name": "NotificareKit",
         "printedName": "NotificareKit",
         "declKind": "Import",
@@ -1349,6 +1363,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareUtilitiesKit",
+        "printedName": "NotificareUtilitiesKit",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit"
       },
       {
         "kind": "Import",
@@ -1557,6 +1578,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareUtilitiesKit",
+        "printedName": "NotificareUtilitiesKit",
+        "declKind": "Import",
+        "moduleName": "NotificareInboxKit"
       },
       {
         "kind": "Import",
@@ -2766,28 +2804,28 @@
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInboxKit\/Sources\/Internals\/NotificareInboxImpl.swift",
       "kind": "Array",
-      "offset": 2251,
+      "offset": 2191,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInboxKit\/Sources\/Internals\/NotificareInboxImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 17744,
+      "offset": 17581,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInboxKit\/Sources\/Internals\/NotificareInboxImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 17760,
+      "offset": 17597,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInboxKit\/Sources\/Internals\/NotificareInboxImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 18367,
+      "offset": 18204,
       "length": 1,
       "value": "0"
     },
@@ -2804,6 +2842,27 @@
       "offset": 170,
       "length": 47,
       "value": "\"re.notifica.inbox.local_storage.current_badge\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInboxKit\/Sources\/Internals\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 207,
+      "length": 19,
+      "value": "\"re.notifica.inbox\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInboxKit\/Sources\/Internals\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 246,
+      "length": 17,
+      "value": "\"NotificareInbox\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInboxKit\/Sources\/Internals\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 305,
+      "length": 17,
+      "value": "\"NotificareInbox\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInboxKit\/Sources\/Internals\/Database\/InboxDatabase.swift",

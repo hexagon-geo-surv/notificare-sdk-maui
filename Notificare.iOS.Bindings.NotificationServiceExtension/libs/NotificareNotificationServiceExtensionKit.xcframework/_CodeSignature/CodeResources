@@ -50,7 +50,7 @@
 		</data>
 		<key>ios-arm64/dSYMs/NotificareNotificationServiceExtensionKit.framework.dSYM/Contents/Resources/DWARF/NotificareNotificationServiceExtensionKit</key>
 		<data>
-		DytNPJOUSmkVZtHU70kIBu0dWMs=
+		3JF3XZW6EpMMZ04wGWW9QZcNL9s=
 		</data>
 		<key>ios-arm64/dSYMs/NotificareNotificationServiceExtensionKit.framework.dSYM/Contents/Resources/Relocations/aarch64/NotificareNotificationServiceExtensionKit.yml</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NotificareNotificationServiceExtensionKit.framework.dSYM/Contents/Resources/DWARF/NotificareNotificationServiceExtensionKit</key>
 		<data>
-		7ngpl7YfqacJ3WA0v9NhqHNVghI=
+		kqEi8ffr6sGgTXAq+hqntter8sY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NotificareNotificationServiceExtensionKit.framework.dSYM/Contents/Resources/Relocations/aarch64/NotificareNotificationServiceExtensionKit.yml</key>
 		<data>
@@ -260,11 +260,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DytNPJOUSmkVZtHU70kIBu0dWMs=
+			3JF3XZW6EpMMZ04wGWW9QZcNL9s=
 			</data>
 			<key>hash2</key>
 			<data>
-			pLl4iBIy5c+NBjuF8mb+hH6wWy9J4u9vMohdJ+XtuRU=
+			ZwCOQ7DVCHjHVE5KaFfiqJs7Pijb4qQhtKcPoIIGTVQ=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/NotificareNotificationServiceExtensionKit.framework.dSYM/Contents/Resources/Relocations/aarch64/NotificareNotificationServiceExtensionKit.yml</key>
@@ -458,11 +458,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7ngpl7YfqacJ3WA0v9NhqHNVghI=
+			kqEi8ffr6sGgTXAq+hqntter8sY=
 			</data>
 			<key>hash2</key>
 			<data>
-			5sO4iVVlGFumyoUqFfZ7fFGHo2QI/OUiy5oV4khO1r0=
+			sdpq/JF+K/h3GU5s1JQPH+65HCQhLo7IEWrB5K36rKY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NotificareNotificationServiceExtensionKit.framework.dSYM/Contents/Resources/Relocations/aarch64/NotificareNotificationServiceExtensionKit.yml</key>

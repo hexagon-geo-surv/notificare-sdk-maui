@@ -5,7 +5,7 @@ plugins {
     id("org.jetbrains.kotlin.android")
 }
 
-val notificareVersion = "4.0.0-beta.2"
+val notificareVersion = "4.0.0"
 
 android {
     namespace = "re.notifica"

@@ -410,8 +410,8 @@
       },
       {
         "kind": "Import",
-        "name": "NotificareKit",
-        "printedName": "NotificareKit",
+        "name": "NotificareUtilitiesKit",
+        "printedName": "NotificareUtilitiesKit",
         "declKind": "Import",
         "moduleName": "NotificareInAppMessagingKit",
         "declAttributes": [
@@ -3364,6 +3364,23 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "NotificareUtilitiesKit",
+        "printedName": "NotificareUtilitiesKit",
+        "declKind": "Import",
+        "moduleName": "NotificareInAppMessagingKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificareInAppMessagingKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "NotificareInAppMessaging",
         "printedName": "NotificareInAppMessaging",
@@ -5435,42 +5452,42 @@
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInAppMessagingKit\/Sources\/Models\/NotificareInAppMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1538,
+      "offset": 1547,
       "length": 33,
       "value": "\"re.notifica.inappmessage.Banner\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInAppMessagingKit\/Sources\/Models\/NotificareInAppMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1592,
+      "offset": 1601,
       "length": 31,
       "value": "\"re.notifica.inappmessage.Card\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInAppMessagingKit\/Sources\/Models\/NotificareInAppMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1650,
+      "offset": 1659,
       "length": 37,
       "value": "\"re.notifica.inappmessage.Fullscreen\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInAppMessagingKit\/Sources\/Models\/NotificareInAppMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1538,
+      "offset": 1547,
       "length": 33,
       "value": "\"re.notifica.inappmessage.Banner\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInAppMessagingKit\/Sources\/Models\/NotificareInAppMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1592,
+      "offset": 1601,
       "length": 31,
       "value": "\"re.notifica.inappmessage.Card\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInAppMessagingKit\/Sources\/Models\/NotificareInAppMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1650,
+      "offset": 1659,
       "length": 37,
       "value": "\"re.notifica.inappmessage.Fullscreen\""
     },
@@ -5554,9 +5571,30 @@
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInAppMessagingKit\/Sources\/Internals\/NotificareInAppMessagingImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 1503,
+      "offset": 1600,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInAppMessagingKit\/Sources\/Internals\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 207,
+      "length": 17,
+      "value": "\"re.notifica.iam\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInAppMessagingKit\/Sources\/Internals\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 244,
+      "length": 26,
+      "value": "\"NotificareInAppMessaging\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInAppMessagingKit\/Sources\/Internals\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 312,
+      "length": 26,
+      "value": "\"NotificareInAppMessaging\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificareInAppMessagingKit\/Sources\/UI\/NotificareInAppMessagingCardView.swift",

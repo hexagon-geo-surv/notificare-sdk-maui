@@ -16,8 +16,25 @@
       },
       {
         "kind": "Import",
-        "name": "NotificareKit",
-        "printedName": "NotificareKit",
+        "name": "NotificareUtilitiesKit",
+        "printedName": "NotificareUtilitiesKit",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NotificarePushKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NotificareUtilitiesKit",
+        "printedName": "NotificareUtilitiesKit",
         "declKind": "Import",
         "moduleName": "NotificarePushKit"
       },
@@ -1817,8 +1834,8 @@
       },
       {
         "kind": "Import",
-        "name": "NotificareKit",
-        "printedName": "NotificareKit",
+        "name": "NotificareUtilitiesKit",
+        "printedName": "NotificareUtilitiesKit",
         "declKind": "Import",
         "moduleName": "NotificarePushKit",
         "declAttributes": [
@@ -3776,8 +3793,8 @@
       },
       {
         "kind": "Import",
-        "name": "NotificareKit",
-        "printedName": "NotificareKit",
+        "name": "NotificareUtilitiesKit",
+        "printedName": "NotificareUtilitiesKit",
         "declKind": "Import",
         "moduleName": "NotificarePushKit"
       },
@@ -4215,79 +4232,100 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 207,
+      "length": 18,
+      "value": "\"re.notifica.push\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 245,
+      "length": 16,
+      "value": "\"NotificarePush\""
+    },
+    {
+      "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 303,
+      "length": 16,
+      "value": "\"NotificarePush\""
+    },
+    {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/LocalStorage.swift",
       "kind": "StringLiteral",
-      "offset": 205,
+      "offset": 214,
       "length": 61,
       "value": "\"re.notifica.push.local_storage.remote_notifications_enabled\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/LocalStorage.swift",
       "kind": "StringLiteral",
-      "offset": 292,
+      "offset": 301,
       "length": 42,
       "value": "\"re.notifica.push.local_storage.transport\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/LocalStorage.swift",
       "kind": "StringLiteral",
-      "offset": 363,
+      "offset": 372,
       "length": 45,
       "value": "\"re.notifica.push.local_storage.subscription\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/LocalStorage.swift",
       "kind": "StringLiteral",
-      "offset": 434,
+      "offset": 443,
       "length": 43,
       "value": "\"re.notifica.push.local_storage.allowed_ui\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/LocalStorage.swift",
       "kind": "StringLiteral",
-      "offset": 511,
+      "offset": 520,
       "length": 51,
       "value": "\"re.notifica.push.local_storage.first_registration\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/LocalStorage.swift",
       "kind": "StringLiteral",
-      "offset": 205,
+      "offset": 214,
       "length": 61,
       "value": "\"re.notifica.push.local_storage.remote_notifications_enabled\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/LocalStorage.swift",
       "kind": "StringLiteral",
-      "offset": 292,
+      "offset": 301,
       "length": 42,
       "value": "\"re.notifica.push.local_storage.transport\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/LocalStorage.swift",
       "kind": "StringLiteral",
-      "offset": 363,
+      "offset": 372,
       "length": 45,
       "value": "\"re.notifica.push.local_storage.subscription\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/LocalStorage.swift",
       "kind": "StringLiteral",
-      "offset": 434,
+      "offset": 443,
       "length": 43,
       "value": "\"re.notifica.push.local_storage.allowed_ui\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/LocalStorage.swift",
       "kind": "StringLiteral",
-      "offset": 511,
+      "offset": 520,
       "length": 51,
       "value": "\"re.notifica.push.local_storage.first_registration\""
     },
     {
       "filePath": "\/Users\/hpinhal\/Developer\/notificare\/notificare-sdk-ios\/NotificarePushKit\/Sources\/Internals\/NotificarePushImpl.swift",
       "kind": "Array",
-      "offset": 3750,
+      "offset": 3807,
       "length": 2,
       "value": "[]"
     },

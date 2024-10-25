@@ -5,6 +5,7 @@ import Foundation
 import MobileCoreServices
 import NotificareKit
 @_exported import NotificarePushKit
+import NotificareUtilitiesKit
 import NotificationCenter
 import Swift
 import UIKit
@@ -79,7 +80,7 @@ public protocol NotificarePushUNUserNotificationCenterDelegate {
 public struct NotificareSystemNotification : Swift.Codable, Swift.Equatable {
   public let id: Swift.String
   public let type: Swift.String
-  @NotificareKit.NotificareExtraEquatable public var extra: [Swift.String : Any] {
+  @NotificareUtilitiesKit.NotificareExtraEquatable public var extra: [Swift.String : Any] {
     get
   }
   public init(id: Swift.String, type: Swift.String, extra: [Swift.String : Any])

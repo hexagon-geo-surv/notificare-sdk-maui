@@ -30,7 +30,4 @@
 		<PackageReference Include="Xamarin.AndroidX.Collection" Version="1.4.2" />
 		<PackageReference Include="Xamarin.AndroidX.Collection.Ktx" Version="1.4.2" />
 	</ItemGroup>
-	<ItemGroup>
-		<ProjectReference Include="..\Notificare.Android.Bindings.Utilities\Notificare.Android.Bindings.Utilities.csproj" />
-	</ItemGroup>  
 </Project>

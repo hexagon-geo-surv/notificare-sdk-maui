@@ -1,0 +1,6 @@
+framework module NotificareUtilitiesKit {
+  umbrella header "NotificareUtilitiesKit.h"
+  export *
+
+  module * { export * }
+}

@@ -34,6 +34,7 @@ task("download") {
     }
 
     val libs = mapOf(
+        "notificare-utilities-$notificareVersion.aar" to "Notificare.Android.Bindings.Utilities",
         "notificare-$notificareVersion.aar" to "Notificare.Android.Bindings.Core",
         "notificare-inbox-$notificareVersion.aar" to "Notificare.Android.Bindings.Inbox",
         "notificare-in-app-messaging-$notificareVersion.aar" to "Notificare.Android.Bindings.InAppMessaging",

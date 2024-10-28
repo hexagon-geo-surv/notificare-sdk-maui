@@ -12,6 +12,7 @@ using var zip = new ZipArchive(new MemoryStream(data), ZipArchiveMode.Read);
 var mapping = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
 {
     ["NotificareKit.xcframework"] = "Notificare.iOS.Bindings.Core",
+    ["NotificareUtilitiesKit.xcframework"] = "Notificare.iOS.Bindings.Utilities",
     ["NotificareInAppMessagingKit.xcframework"] = "Notificare.iOS.Bindings.InAppMessaging",
     ["NotificareInboxKit.xcframework"] = "Notificare.iOS.Bindings.Inbox",
     ["NotificareNotificationServiceExtensionKit.xcframework"] = "Notificare.iOS.Bindings.NotificationServiceExtension",

@@ -50,12 +50,21 @@ foreach (var entry in zip.Entries)
         continue;
     }
 
+    // Skipping all .swiftmodule files, they are not needed during runtime
+    // and cause problems due to MAX_PATH exceeding in windows.
+    // https://github.com/xamarin/xamarin-macios/issues/21111#issuecomment-2334333870
+    if(entry.FullName.Contains(".swiftmodule/"))
+    {
+        continue;
+    }
+
     var kitName = entry.FullName.Substring(RootFolder.Length, endOfKitName - RootFolder.Length);
 
     if (mapping.TryGetValue(kitName, out var libName))
     {
         var relativePath = entry.FullName.Substring(RootFolder.Length + kitName.Length + 1);
         var path = Path.Combine(repositoryRoot.FullName, libName, "libs", kitName, relativePath);
+
         Console.WriteLine($"Extracting {entry.FullName} to {path}");
 
         var dir = Path.GetDirectoryName(path)!;

@@ -21,3 +21,20 @@ jobs:
           name: nupkgs
           path: |
             **/*.nupkg
+
+  sharpie:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8'
+      - run: brew install --cask objectivesharpie
+      - run: dotnet run --sharpie
+        working-directory: tools/cocoapods
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: iosbindings
+          path: |
+            **/sharpie/*.cs

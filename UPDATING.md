@@ -39,3 +39,18 @@ As of today, the Notificare SDK for iOS does not need any 3rd party libraries to
 To find this out, search for [`import` on the iOS SDK project](https://github.com/search?q=repo%3ANotificare%2Fnotificare-sdk-ios+import&type=code) and then inspect which Frameworks are imported into the different projects. Filtering by paths can help to limit the search. 
 
 Then in the respective MAUI csproj files add the Frameworks and Kits to the `Frameworks` tag.
+
+### Updating C# bindings
+
+To update the C# glue code for the iOS bindings we use Objective Sharpie. The easiest way to get the updated files is:
+
+#### On a mac
+
+Install Objective sharpie via `brew install --cask objectivesharpie` or https://learn.microsoft.com/en-us/previous-versions/xamarin/cross-platform/macios/binding/objective-sharpie/get-started?context=xamarin%2Fios
+
+In `tools\cocoapod` execute `dotnet run --sharpie`.
+
+#### Other platforms
+
+Simply create a pull request on GitHub, GitHub Actions will execute Objective Sharpie and make the new C# files available as artifact on the build.
+Download the artifacts and update the files before merging the updated packages.

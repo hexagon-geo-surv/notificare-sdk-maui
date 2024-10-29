@@ -1,13 +1,5 @@
-﻿using System.IO.Compression;
-
-var version = "4.0.0";
-var url = $"https://cdn.notifica.re/libs/ios/{version}/cocoapods.zip";
-
-using var client = new HttpClient();
-Console.WriteLine($"Downloading {url}");
-var data = await client.GetByteArrayAsync(url);
-
-using var zip = new ZipArchive(new MemoryStream(data), ZipArchiveMode.Read);
+﻿using System.Diagnostics;
+using System.IO.Compression;
 
 var mapping = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
 {
@@ -26,6 +18,64 @@ while (!File.Exists(Path.Combine(repositoryRoot.FullName, "Notificare.sln")))
 {
     repositoryRoot = repositoryRoot.Parent ?? throw new InvalidOperationException("Could not find repository root");
 }
+
+
+if(args.Contains("--sharpie"))
+{
+    foreach(var m in mapping)
+    {
+        var frameworkName = m.Key.Replace(".xcframework", ".framework");
+        var workingDirectory = Path.Combine(repositoryRoot.FullName, m.Value);
+        using var cmd = new Process();
+        cmd.StartInfo.FileName = "sharpie";
+        var headerPath = $"libs/{m.Key}/ios-arm64/{frameworkName}/Headers";
+        var headerFiles = Directory.GetFiles(Path.Combine(workingDirectory, headerPath), "*.h").Select(f => headerPath + "/" + Path.GetFileName(f)).ToArray();
+        cmd.StartInfo.Arguments = $"bind -sdk=iphoneos18.0 -output=sharpie --namespace={m.Value} --scope={headerPath} {string.Join(" ", headerFiles)} -c -I{headerPath} -arch arm64";
+        cmd.StartInfo.RedirectStandardOutput = true;
+        cmd.StartInfo.RedirectStandardError = true;
+        cmd.OutputDataReceived += (_, e) =>
+        {
+            if (!string.IsNullOrEmpty(e.Data))
+            {
+                Console.WriteLine(e.Data);
+            }
+        };
+
+        cmd.ErrorDataReceived += (_, e) =>
+        {
+            if (!string.IsNullOrEmpty(e.Data))
+            {
+                Console.WriteLine(e.Data);
+            }
+        };
+        cmd.StartInfo.CreateNoWindow = true;
+        cmd.StartInfo.UseShellExecute = false;
+        cmd.StartInfo.WorkingDirectory = workingDirectory;
+        Console.WriteLine($"Running: {cmd.StartInfo.FileName} {cmd.StartInfo.Arguments} in {cmd.StartInfo.WorkingDirectory}");
+        cmd.Start();
+        cmd.BeginOutputReadLine();
+        cmd.BeginErrorReadLine();
+        cmd.WaitForExit();
+        Console.WriteLine($"Finished: {cmd.StartInfo.FileName} {cmd.StartInfo.Arguments} with exit code {cmd.ExitCode}");
+        if(cmd.ExitCode != 0)
+        {
+            Environment.Exit(cmd.ExitCode);
+        }
+    }
+    return;
+}
+
+
+
+var version = "4.0.0";
+var url = $"https://cdn.notifica.re/libs/ios/{version}/cocoapods.zip";
+
+using var client = new HttpClient();
+Console.WriteLine($"Downloading {url}");
+var data = await client.GetByteArrayAsync(url);
+
+using var zip = new ZipArchive(new MemoryStream(data), ZipArchiveMode.Read);
+
 
 foreach (var m in mapping)
 {
@@ -72,3 +122,4 @@ foreach (var entry in zip.Entries)
         entry.ExtractToFile(path);
     }
 }
+

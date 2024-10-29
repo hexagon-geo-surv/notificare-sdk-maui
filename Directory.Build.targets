@@ -1,2 +1,5 @@
 <Project>
+    <ItemGroup>
+        <Compile Remove="**/sharpie/*.cs" />
+    </ItemGroup>
 </Project>

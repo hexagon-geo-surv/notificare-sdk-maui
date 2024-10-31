@@ -6,18 +6,44 @@ on:
   pull_request:
 
 jobs:
-  build:
+  # build:
+  #   runs-on: macos-latest
+  #   steps:
+  #     - uses: actions/checkout@v4
+  #     - uses: actions/setup-dotnet@v4
+  #       with:
+  #         dotnet-version: '8'
+  #     - run: dotnet workload restore
+  #     - run: dotnet build --configuration Release
+  #     - run: dotnet pack --configuration Release
+  #     - uses: actions/upload-artifact@v4
+  #       with:
+  #         name: nupkgs
+  #         path: |
+  #           **/*.nupkg
+
+  bindings:
     runs-on: macos-latest
+    env:
+      IGNORE_OPENJDK: "1"
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with: 
+          repository: dotnet/runtimelab
+          ref: feature/swift-bindings
+          path: dotnet-runtimelab
       - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8'
-      - run: dotnet workload restore
-      - run: dotnet build --configuration Release
-      - run: dotnet pack --configuration Release
+      - run: ./build.sh
+        working-directory: dotnet-runtimelab
+      - run: dotnet run
+        working-directory: tools/cocoapods
+      - run: dotnet run --swift
+        working-directory: tools/cocoapods
       - uses: actions/upload-artifact@v4
         with:
-          name: nupkgs
+          name: iosbindings
           path: |
-            **/*.nupkg
+            temp/bindings/**
